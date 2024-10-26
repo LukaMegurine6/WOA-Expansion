@@ -1,5 +1,5 @@
 /**
- * Woa Elusive's Campaign plugin - by LukaM47 Thanks Anthony Fuller !
+ * Woa Expansion plugin - by MLuka47 Thanks Anthony Fuller !
  *
  *
  * @licence Public Domain
@@ -6033,5 +6033,5 @@ module.exports = function ElusivesChallenges(controller) {
     }
 
 
-    log(LogLevel.INFO, "[Elusive's WoA Challenges] Challenge for Woa Elusive's Campaign is loaded... (Plugin Started)")
+    log(LogLevel.INFO, "[WOA Expansion] Challenge for WOA Expansion is loaded... (Plugin Started)")
 }

@@ -2696,5 +2696,5 @@ module.exports = function MissionPlugin(controller) {
     orderedETs.push("d27ecffd-895a-4727-a5cc-72253ed56500")
     orderedETs.push("d27ecffd-895a-4727-a7bb-62153ed56575")
     orderedETs.push("a47bdffd-895a-4727-a5cc-72253ed56500")
-    log(LogLevel.INFO, "[ElusivesCampaign] Plugin is loaded and contracts should be on mission screen!")
+    log(LogLevel.INFO, "[WOA Expansion] Welcome to the world of assassination, new contents now available !")
 }

@@ -4,8 +4,8 @@
 	"name": "WOA Expansion",
 	"description": "Add more missions, Special assignment and Elusives Target.",
 	"authors": ["MLuka47"],
-	"peacockPlugins": ["Elusives_Campaign.plugin.js",
-                       "ElusivesChallenges.plugin.js"
+	"peacockPlugins": ["WOA_Expansion.plugin.js",
+                       "WOAExpansionChallenges.plugin.js"
 	],
 	"updateCheck": "https://github.com/LukaMegurine6/WOA-Expansionreleases/latest/download/updates.json",
 	"contentFolders": ["content"],
