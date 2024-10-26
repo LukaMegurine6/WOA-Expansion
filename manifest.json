@@ -1,16 +1,30 @@
 ﻿{
-	"version": "1.5.1",
+	"version": "1.5.2",
 	"id": "MLuka47.Expansion",
 	"name": "WOA Expansion",
 	"description": "Add more missions, Special assignment and Elusives Target.",
 	"authors": ["MLuka47"],
-	"peacockPlugins": ["WOA_Expansion.plugin.js",
-                       "WOAExpansionChallenges.plugin.js"
-	],
+	"peacockPlugins": ["WOA_Expansion.plugin.js"],
 	"updateCheck": "https://github.com/LukaMegurine6/WOA-Expansion/releases/download/1.5.0/updates.json",
 	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
 	"loadAfter": ["riisikumi.flashbang"],
+	"options": [
+		{
+			"name": "Add WOA Expansion in Campaign",
+			"tooltip": "Add WOA Custom campaign category",
+			"type": "checkbox",
+			"peacockPlugins": ["WOAExpansionCampaign.plugin.js"]
+		},
+		{
+			"name": "Add WOA Expansion with Challenges",
+			"tooltip": "Add WOA Custom challenges in certain missions",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"peacockPlugins": ["WOAExpansionChallenges.plugin.js"]
+		}
+
+	],
     "localisation": {
 		"english": {
 			"UI_CONTRACT_THE_IMPOSTORS_TITLE": "The Impostors",
