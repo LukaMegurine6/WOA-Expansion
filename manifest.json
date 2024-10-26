@@ -7,7 +7,7 @@
 	"peacockPlugins": ["WOA_Expansion.plugin.js",
                        "WOAExpansionChallenges.plugin.js"
 	],
-	"updateCheck": "https://github.com/LukaMegurine6/WOA-Expansionreleases/latest/download/updates.json",
+	"updateCheck": "https://github.com/LukaMegurine6/WOA-Expansion/releases/download/1.5.0/updates.json",
 	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
 	"loadAfter": ["riisikumi.flashbang"],
