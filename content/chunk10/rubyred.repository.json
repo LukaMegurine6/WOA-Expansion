@@ -1,0 +1,13 @@
+{
+        "b2f85b96-13cf-456d-a2f4-2c96f6831ad4": {
+        "ID_": "b2f85b96-13cf-456d-a2f4-2c96f6831ad4",
+        "Image": "images/RubyRed.jpg",
+        "Name": "Ruby Red",
+        "Outfit": "d59b5895-35df-43f8-901a-a2defe06cf35",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "UI_CONTRACT_RUBY_TARGET_BIO",
+        "Tile": "images/actors/default_target.png"
+    }
+}

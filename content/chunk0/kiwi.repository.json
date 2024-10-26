@@ -1,0 +1,183 @@
+{
+        "3f5d9a9d-5a51-437a-a4c5-c2eae28a4eed": {
+        "ID_": "3f5d9a9d-5a51-437a-a4c5-c2eae28a4eed",
+        "Image": "images/actors/Kiwi/Ext/MainTarget.jpg",
+        "Name": "Anthony Martinez Jr.",
+        "Outfit": "f725f212-82a4-475b-9754-087e0f1821ab",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "UI_MARTINEZJR_BIO",
+        "Tile": "images/actors/default_target.png"
+    },"db1fd81e-e145-4e78-8713-4a1c9ab6b762": {
+        "ID_": "db1fd81e-e145-4e78-8713-4a1c9ab6b762",
+        "Image": "images/actors/Kiwi/Ext/Dimitri Belikof.jpg",
+        "Name": "Dimitri Belikof",
+        "Outfit": "48c124de-3ebf-4c25-8cf4-63c93631f871",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"e72659bc-cd97-4c61-8878-486bfe4b6d5d": {
+        "ID_": "e72659bc-cd97-4c61-8878-486bfe4b6d5d",
+        "Image": "images/actors/Kiwi/Ext/Dewey Thompson.jpg",
+        "Name": "Dewey Thompson",
+        "Outfit": "dc2e18d2-77a8-49b9-826b-29bcab18c7b2",
+        "OutfitVariationIndex": 2.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },   "40bd1a54-a8d3-418b-84ee-859a69310c6c": {
+        "ID_": "40bd1a54-a8d3-418b-84ee-859a69310c6c",
+        "Image": "images/actors/Kiwi/Ext/Robert Erford.jpg",
+        "Name": "Robert Erford",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 3.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"ba4bb15d-11f1-47ba-b50b-b5974b673607": {
+        "ID_": "ba4bb15d-11f1-47ba-b50b-b5974b673607",
+        "Image": "images/actors/Kiwi/Ext/Eric Dalian.jpg",
+        "Name": "Eric Dalian",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"85568cd4-a486-4ef0-ba97-819956492ac8": {
+        "ID_": "85568cd4-a486-4ef0-ba97-819956492ac8",
+        "Image": "images/actors/Kiwi/Ext/Xian Feng.jpg",
+        "Name": "Xian Feng",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"6a241fdf-ebd5-4739-b7d4-ea4b6c23b853": {
+        "ID_": "6a241fdf-ebd5-4739-b7d4-ea4b6c23b853",
+        "Image": "images/actors/Kiwi/Ext/Parker Hatzi.jpg",
+        "Name": "Parker Hatzi",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"5d06df48-9408-433d-b6b7-2baee2d099b9": {
+        "ID_": "5d06df48-9408-433d-b6b7-2baee2d099b9",
+        "Image": "images/actors/Kiwi/Ext/Hermione Graffer.jpg",
+        "Name": "Hermione Graffer",
+        "Outfit": "59d52e11-75a0-4185-8632-20009afdc6bb",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"99e5a669-6523-4830-833f-66632ad4fcc0": {
+        "ID_": "99e5a669-6523-4830-833f-66632ad4fcc0",
+        "Image": "images/actors/Kiwi/Ext/Jackson Jenkins.jpg",
+        "Name": "Jackson Jenkins",
+        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"075a7a54-933c-4433-a1c0-57345b1ffa5e": {
+        "ID_": "075a7a54-933c-4433-a1c0-57345b1ffa5e",
+        "Image": "images/actors/Kiwi/Ext/Jensen Peng.jpg",
+        "Name": "Jensen Peng",
+        "Outfit": "e77b5340-41d3-448a-84d3-a4f7f6426634",
+        "OutfitVariationIndex": 2.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"13ef06eb-92d9-490a-8508-0ac5d94de987": {
+        "ID_": "13ef06eb-92d9-490a-8508-0ac5d94de987",
+        "Image": "images/actors/Kiwi/Ext/Kane O'Brien.jpg",
+        "Name": "Kane O'Brien",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 3.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"44d082c3-81a7-408e-a57e-6826f750a100": {
+        "ID_": "44d082c3-81a7-408e-a57e-6826f750a100",
+        "Image": "images/actors/Kiwi/Ext/Liberty Ross.jpg",
+        "Name": "Liberty Ross",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"9a442a7b-3f8f-4109-9611-fc716b381ae1": {
+        "ID_": "9a442a7b-3f8f-4109-9611-fc716b381ae1",
+        "Image": "images/actors/Kiwi/Ext/Marshall Garcia.jpg",
+        "Name": "Marshall Garcia",
+        "Outfit": "e77b5340-41d3-448a-84d3-a4f7f6426634",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"06e3cbd5-6f4a-4745-94ae-f0313522f9fb": {
+        "ID_": "06e3cbd5-6f4a-4745-94ae-f0313522f9fb",
+        "Image": "images/actors/Kiwi/Ext/Victor Matthews.jpg",
+        "Name": "Victor Matthews",
+        "Outfit": "e77b5340-41d3-448a-84d3-a4f7f6426634",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"4a2e0057-1bb0-4aab-b8db-a2e9ac574f91": {
+        "ID_": "4a2e0057-1bb0-4aab-b8db-a2e9ac574f91",
+        "Image": "images/actors/Kiwi/Ext/Charles Mitchell.jpg",
+        "Name": "Charles Mitchell",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 2.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"b2cb7911-b9cc-4888-8302-c3c83239f2a8": {
+        "ID_": "b2cb7911-b9cc-4888-8302-c3c83239f2a8",
+        "Image": "images/actors/Kiwi/Ext/Xavier Quinn.jpg",
+        "Name": "Xavier Quinn",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"2edb861e-b009-4c7b-83bd-86fe25c11377": {
+        "ID_": "2edb861e-b009-4c7b-83bd-86fe25c11377",
+        "Image": "images/actors/Kiwi/Ext/Rick Redan.jpg",
+        "Name": "Rick Redan",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"a6bdd5ba-dfd7-4a99-b791-ed3b8638e6bd": {
+        "ID_": "a6bdd5ba-dfd7-4a99-b791-ed3b8638e6bd",
+        "Image": "images/actors/Kiwi/Ext/Terence Arnarld.jpg",
+        "Name": "Terence Arnarld",
+        "Outfit": "c8b15811-d180-4dab-b2cc-f8af42d16a07",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    }
+}

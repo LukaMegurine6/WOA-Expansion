@@ -1,0 +1,13 @@
+{
+        "ceacf6ef-d2b9-47d2-908c-a99f267893b8": {
+        "ID_": "ceacf6ef-d2b9-47d2-908c-a99f267893b8",
+        "Image": "images/SatoruShimaka.jpg",
+        "Name": "Satoru Shimaka",
+        "Outfit": "998b3a27-9b40-46b4-8d05-7a54493f209c",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "UI_CONTRACT_SAKURE_TARGET_DESC",
+        "Tile": "images/actors/default_target.png"
+    }
+}

@@ -1,0 +1,13 @@
+{
+        "a7930fae-37ac-45f1-977f-4e9ef8d37434": {
+        "ID_": "a7930fae-37ac-45f1-977f-4e9ef8d37434",
+        "Image": "images/ThomasCross.jpg",
+        "Name": "Thomas Cross",
+        "Outfit": "c236ee00-cd6e-405c-839a-3c1400bada8e",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    }
+}

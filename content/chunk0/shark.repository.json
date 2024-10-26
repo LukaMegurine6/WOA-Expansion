@@ -1,0 +1,13 @@
+{
+        "9cbc5232-e58d-4fcb-8ab7-5982dbd3f800": {
+        "ID_": "9cbc5232-e58d-4fcb-8ab7-5982dbd3f800",
+        "Image": "images/EmanuelKnepp.jpg",
+        "Name": "Emanuel Knepp",
+        "Outfit": "3326ce37-0267-4a62-964f-62b85a1b09a3",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "UI_CONTRACT_SHARK_DESC_TARGET",
+        "Tile": "images/actors/default_target.png"
+    }
+}
