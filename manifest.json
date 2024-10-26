@@ -1,5 +1,5 @@
 ﻿{
-	"version": "1.5.2",
+	"version": "1.5.3",
 	"id": "MLuka47.Expansion",
 	"name": "WOA Expansion",
 	"description": "Add more missions, Special assignment and Elusives Target.",
@@ -22,6 +22,12 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"peacockPlugins": ["WOAExpansionChallenges.plugin.js"]
+		},
+		{
+			"name": "Add Contract creation for H2 Special Assignment",
+			"tooltip": "Add Contract creation for H2 Special Assignment",
+			"type": "checkbox",
+			"peacockPlugins": ["FinalContractCreation.plugin.js"]
 		}
 
 	],
