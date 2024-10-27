@@ -6005,7 +6005,7 @@ const assassinationChallenges = [{
         "HideProgression": false,
         "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
         "Icon": "challenge_category_assassination",
-        "LocationId": "LOCATION_PARIS",
+        "LocationId": "LOCATION_PARENT_PARIS",
         "ParentLocationId": "LOCATION_PARENT_PARIS",
         "Type": "contract",
         "DifficultyLevels": [],
