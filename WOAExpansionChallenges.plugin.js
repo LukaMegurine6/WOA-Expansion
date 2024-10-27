@@ -5990,6 +5990,48 @@ const assassinationChallenges = [{
         "InclusionData": {
             "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
         }
+    },
+    {
+        "Id": "a0f5ce66-67d7-417e-98cd-8c2d00f62b16",
+        "Name": "UI_CHALLENGES_BENKO_GIFT_STABBED_NAME",
+        "ImageName": "images/challenges/paris/award.jpg",
+        "Description": "UI_CHALLENGES_BENKO_GIFT_STABBED_DESC",
+        "Rewards": {
+            "MasteryXP": 2000
+        },
+        "Drops": [],
+        "IsPlayable": true,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+        "Icon": "challenge_category_assassination",
+        "LocationId": "LOCATION_PARIS",
+        "ParentLocationId": "LOCATION_PARENT_PARIS",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+            "Scope": "hit",
+            "States": {
+                "Start": {
+                    "Kill": {
+                        "Condition": {
+                            "$eq": [
+                                "$Value.SetPieceId",
+                                "1a29d28c-be03-4149-b49c-b0c38d060772"
+                            ]
+                        },
+                        "Transition": "Success"
+                    }
+                }
+            }
+        },
+        "Tags": ["story", "medium", "assassination"],
+        "InclusionData": {
+            "ContractIds": ["d27ecffd-955a-4727-a5cc-72253ed56500"]
+        }
     }
 
 ]
