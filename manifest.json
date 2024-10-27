@@ -444,7 +444,7 @@
 		{
 			"type": "entity",
 			"partition": "paris",
-			"path": "[assembly:/_pro/scenes/missions/paris/lawyer_paris].entitytype"
+			"path": "[assembly:/_pro/scenes/missions/paris/lawyer_paris.brick].entitytype"
 		}
 	],
 	"dependencies": [
