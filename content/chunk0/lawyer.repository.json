@@ -9,5 +9,16 @@
         "Description": "Unknown",
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
+    },"30ec8436-bf90-41e6-9023-9cd7e3a03e58": {
+        "ID_": "30ec8436-bf90-41e6-9023-9cd7e3a03e58",
+        "Image": "images/ThomasCross.jpg",
+        "Name": "Athena Savalas",
+        "Outfit": "b12eac83-e681-466e-bb5c-d9b2303f433b",
+        "OutfitVariationIndex": 4.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
     }
+
 }

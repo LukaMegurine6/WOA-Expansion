@@ -1,5 +1,5 @@
 ﻿{
-	"version": "1.5.3",
+	"version": "1.5.5",
 	"id": "MLuka47.Expansion",
 	"name": "WOA Expansion",
 	"description": "Add more missions, Special assignment and Elusives Target.",
@@ -435,11 +435,22 @@
 			"type": "entity",
 			"partition": "dugong",
 			"path": "[assembly:/_pro/scenes/missions/rocky/tod_sunset.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "paris",
+			"path": "[assembly:/_pro/scenes/missions/paris/tod_night.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "paris",
+			"path": "[assembly:/_pro/scenes/missions/paris/lawyer_paris].entitytype"
 		}
 	],
 	"dependencies": [
 				"00EE8C5068C25C17",
 				"001E12406DFDFF48",
+				"00EF1FEE94CE20D3",
 				
 				{
 					"runtimeID": "0012089E3884BAD4",
@@ -534,6 +545,26 @@
 				{
 					"runtimeID": "00EDA063CFA42085",
 					"toChunk": 28,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "006E84BC5BC64329",
+					"toChunk": 27,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "0002F45C6C6EB0AA",
+					"toChunk": 27,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "004F0A2816E63C6C",
+					"toChunk": 27,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "007819101E83DDAC",
+					"toChunk": 27,
 					"portFromChunk1": false
 				}
 

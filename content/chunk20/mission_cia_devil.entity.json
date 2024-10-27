@@ -97,6 +97,7 @@
 			},
 			"events": {
 				"OnDead": {
+					"SetTrue": ["cafe2c60580034b6"],
 					"SetFalse": ["feed8ef3a4b4fcef", "feede43c8edf54b9"]
 				},
 				"OnPacified": { "SetFalse": ["feede43c8edf54b9"] },
@@ -11344,6 +11345,46 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafe546be39083bd": {
+			"parent": "feedd92d26a9418d",
+			"name": "Diana Speak",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe3aa872f47a56": {
+			"parent": "cafe546be39083bd",
+			"name": "DianaSpeak when Anthony is dead ",
+			"factory": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pHandlerSpeak": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/paris/3000_elusive/3000_whiterussian/3000_whiterussian_handler/dr3637_diana.sweetdialog?/dr3637_diana_diana_et_006.sweetdialogitem].pc_dialogevent",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafef878da1f49e1": {
+			"parent": "cafe546be39083bd",
+			"name": "Gary Busey is dead proxy",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2c60580034b6"
+				}
+			},
+			"events": { "OnTrue": { "Trigger": ["cafe3aa872f47a56"] } }
+		},
+		"cafe2c60580034b6": {
+			"parent": "feed183e15efc060",
+			"name": "Dead",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],

@@ -2029,23 +2029,16 @@ module.exports = function ElusivesAddCampaign(controller) {
                     "Difficulty": "easy",
                     "Bricks": [
                         "assembly:/_pro/scenes/missions/paris/difficulty_easy_paris_peacock.brick",
-                        "assembly:/_pro/scenes/missions/paris/tod_night.brick",
-                        "assembly:/_pro/scenes/missions/paris/lawyer_paris.brick"
                     ]
                 },
                 {
                     "Difficulty": "normal",
-                    "Bricks": [
-                        "assembly:/_pro/scenes/missions/paris/tod_night.brick",
-                        "assembly:/_pro/scenes/missions/paris/lawyer_paris.brick"
-                    ]
+                    "Bricks": []
                 },
                 {
                     "Difficulty": "hard",
                     "Bricks": [
                         "assembly:/_pro/scenes/missions/paris/difficulty_pro1_paris_fashionshow.brick",
-                        "assembly:/_pro/scenes/missions/paris/tod_night.brick",
-                        "assembly:/_pro/scenes/missions/paris/lawyer_paris.brick"
                     ]
                 }
             ],
@@ -2069,7 +2062,10 @@ module.exports = function ElusivesAddCampaign(controller) {
             }
         ],
             "GameChangers": [],
-            "Bricks": []
+            "Bricks": [
+                "assembly:/_pro/scenes/missions/paris/tod_night.brick",
+                "assembly:/_pro/scenes/missions/paris/lawyer_paris.brick"
+            ]
         },
         "Metadata": {
             "Title": "UI_CONTRACT_BENKO_TITLE",
