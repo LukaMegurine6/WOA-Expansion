@@ -2006,7 +2006,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": { "type": "float32", "value": 45.0 },
+				"m_fActTimeout": { "type": "float32", "value": 35.0 },
 				"m_Color": { "type": "SColorRGB", "value": "#ff0000" },
 				"m_AlignRotation": {
 					"type": "ZActBehaviorEntity.ERotationAlignment",
@@ -2015,7 +2015,7 @@
 				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": null,
+					"value": "feedf7a9a7a45c14",
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2627,7 +2627,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": { "type": "float32", "value": 40 },
+				"m_fActTimeout": { "type": "float32", "value": 43 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "cafea4fb5678cf9e",
@@ -2673,7 +2673,7 @@
 					"postInit": true
 				}
 			},
-			"events": { "OnStart": { "Start": ["cafee42b70576122"] } }
+			"events": { "OnActTimeout": { "Start": ["cafee42b70576122"] } }
 		},
 		"cafe51629f395f3a": {
 			"parent": "cafed2d5b96c8276",

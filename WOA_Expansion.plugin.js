@@ -1989,14 +1989,14 @@ const contracts = [
                     "BriefingText": {
                         "$loc": {
                             "key": "UI_CONTRACT_GENERAL_OBJ_KILL",
-                            "data": "$($repository f65fff84-6cad-4a11-9a0a-b89430c03397).Name"
+                            "data": "$($repository 03eb967c-ebcf-4567-aa46-a3faf1e160da).Name"
                         }
                     },
                     "HUDTemplate": {
                         "display": {
                             "$loc": {
                                 "key": "UI_CONTRACT_GENERAL_OBJ_KILL",
-                                "data": "$($repository f65fff84-6cad-4a11-9a0a-b89430c03397).Name"
+                                "data": "$($repository 03eb967c-ebcf-4567-aa46-a3faf1e160da).Name"
                             }
                         }
                     },
@@ -2005,7 +2005,7 @@ const contracts = [
                         "Scope": "Hit",
                         "Context": {
                             "Targets": [
-                                "f65fff84-6cad-4a11-9a0a-b89430c03397"
+                                "03eb967c-ebcf-4567-aa46-a3faf1e160da"
                             ]
                         },
                         "States": {
@@ -2015,10 +2015,50 @@ const contracts = [
                                         "Condition": {
                                             "$eq": [
                                                 "$Value.RepositoryId",
-                                                "f65fff84-6cad-4a11-9a0a-b89430c03397"
+                                                "03eb967c-ebcf-4567-aa46-a3faf1e160da"
                                             ]
                                         },
                                         "Transition": "Success"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "_comment": "----- Do not eliminate Athena Savalas -----",
+                    "Id": "d5331a6d-4d91-4949-884f-eb981048a137",
+                    "Category": "secondary",
+                    "ObjectiveType": "custom",
+                    "ForceShowOnLoadingScreen": true,
+                    "Image": "images/Savalas.jpg",
+                    "BriefingName": "$loc UI_CONTRACT_NOTELIMINATE_SAVALAS",
+                    "BriefingText": "$loc UI_CONTRACT_NOTELIMINATE_SAVALAS",
+                    "LongBriefingText": "$loc UI_CONTRACT_NOTELIMINATE_SAVALAS",
+                    "HUDTemplate": {
+                        "display": "$loc UI_CONTRACT_NOTELIMINATE_SAVALAS",
+                        "iconType": 17
+                    },
+                    "Type": "statemachine",
+                    "ExcludeFromScoring": false,
+                    "Definition": {
+                        "Scope": "session",
+                        "States": {
+                            "Start": {
+                                "ContractEnd": { "Transition": "Success" },
+                                "Kill": [
+                                    {
+                                        "Condition": {
+                                            "$and": [
+                                                {
+                                                    "$eq": [
+                                                        "$Value.RepositoryId",
+                                                        "30ec8436-bf90-41e6-9023-9cd7e3a03e58"
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "Transition": "Failure"
                                     }
                                 ]
                             }

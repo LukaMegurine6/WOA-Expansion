@@ -153,7 +153,8 @@
 			"UI_GOOD_OLD_DAYS_CAMPAIGN": "The Elusives",
 			"UI_CONTRACT_SHARK_TITLE" : "The Informant",
 			"UI_CONTRACT_SHARK_DESC" : "Emanuel Kneep is the militia's informant, who has been working with them for years. We don't know much about his life, except that he lost his parents at the age of 3 and quickly fell into a life of crime.\r According to our client, he obtained information through blackmail and manipulation. The client has lost his wife and is ready to put up the money to achieve his revenge.",
-			"UI_CONTRACT_SHARK_DESC_TARGET" : "Emanuel Knepp is clever enough to go unnoticed, so much so that we don't have much information to share with you.\r The customer told us about a man who will do anything to get what he wants, and doesn't hesitate to turn to pure crime."
+			"UI_CONTRACT_SHARK_DESC_TARGET" : "Emanuel Knepp is clever enough to go unnoticed, so much so that we don't have much information to share with you.\r The customer told us about a man who will do anything to get what he wants, and doesn't hesitate to turn to pure crime.",
+			"UI_CONTRACT_NOTELIMINATE_SAVALAS": "Do not eliminate Athena Savalas"
 
         },
 		"french": {
