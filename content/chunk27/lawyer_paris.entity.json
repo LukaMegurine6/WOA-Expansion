@@ -2098,12 +2098,6 @@
 			},
 			"events": { "OnTrue": { "Trigger": ["cafe2363b7645e3a"] } }
 		},
-		"cafef304f52b7617": {
-			"parent": "feedba852a90dcd1",
-			"name": "Athena Savalas",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
 		"cafefe8ba2aa9d7e": {
 			"parent": "feed1268ef709dbf",
 			"name": "Prof",
@@ -2115,31 +2109,6 @@
 			"name": "Prof_Agent47",
 			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint"
-		},
-		"cafeb7dc3199d009": {
-			"parent": "cafef304f52b7617",
-			"name": "Voice",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"cafe2d677abb3a54": {
-			"parent": "cafeb7dc3199d009",
-			"name": "CEO Athena Savalas",
-			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
-			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
-			"properties": {
-				"m_eVoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_ATHENASAVALAS"
-				},
-				"m_pResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/sound/sounddefinitions/athenasavalas.sdefs].pc_sdefs",
-						"flag": "5F"
-					}
-				}
-			}
 		},
 		"cafea32e4396d5cc": {
 			"parent": "feed1268ef709dbf",
@@ -2485,6 +2454,263 @@
 					"value": "cafe801851ab3b75"
 				}
 			}
+		},
+		"cafebfb7e8aac83a": {
+			"parent": "feedba852a90dcd1",
+			"name": "Athena Savalas",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe253859665dcd": {
+			"parent": "cafebfb7e8aac83a",
+			"name": "Voice",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe15d7ce6a57c0": {
+			"parent": "cafe253859665dcd",
+			"name": "CEO Athena Savalas",
+			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
+			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
+			"properties": {
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_ATHENASAVALAS"
+				},
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/sounddefinitions/athenasavalas.sdefs].pc_sdefs",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe088a73970198": {
+			"parent": "cafebfb7e8aac83a",
+			"name": "CHAR_Greedy_Unique_CEO_F_",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -53.193733 },
+						"position": {
+							"x": -252.07054,
+							"y": 20.08828,
+							"z": 15.464829
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "30ec8436-bf90-41e6-9023-9cd7e3a03e58"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "b12eac83-e681-466e-bb5c-d9b2303f433b"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Athena Savalas"
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_ATHENASAVALAS"
+				},
+				"m_fAttenuationScaling": {
+					"type": "float32",
+					"value": 2.0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe1366abfcc281": {
+			"parent": "cafe088a73970198",
+			"name": "ActorDeath",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe088a73970198"
+				}
+			},
+			"events": {
+				"OnDead": {
+					"SetTrue": ["cafe5c129a5c6dd4"],
+					"SetFalse": ["cafe869544838133"]
+				},
+				"OnAlive": {
+					"SetFalse": ["cafe5c129a5c6dd4"],
+					"SetTrue": ["cafe869544838133"]
+				},
+				"OnPacified": { "SetFalse": ["cafe869544838133"] }
+			}
+		},
+		"cafe869544838133": {
+			"parent": "cafe088a73970198",
+			"name": "CEO Is Conscious",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe5c129a5c6dd4": {
+			"parent": "cafe088a73970198",
+			"name": "CEO Is Dead",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafed2d5b96c8276": {
+			"parent": "cafe088a73970198",
+			"name": "DramaSituation",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea4fb5678cf9e"]
+				}
+			}
+		},
+		"cafea4fb5678cf9e": {
+			"parent": "cafed2d5b96c8276",
+			"name": "Savalas",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe088a73970198",
+					"postInit": true
+				}
+			}
+		},
+		"cafeda465b6288b5": {
+			"parent": "cafed2d5b96c8276",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed2d5b96c8276"
+				}
+			},
+			"events": { "OnStart": { "Start": ["cafee42b70576122"] } }
+		},
+		"cafee42b70576122": {
+			"parent": "cafed2d5b96c8276",
+			"name": "Act_FR_Stand_Tablet_Auction",
+			"factory": "0022DF7F48F420EF",
+			"blueprint": "004B4586E3998EDD",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -53.193733 },
+						"position": {
+							"x": -252.07054,
+							"y": 20.08828,
+							"z": 15.464829
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 40 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea4fb5678cf9e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["cafe51629f395f3a"] }
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"cafe626f2b88eaa9": {
+			"parent": "cafed2d5b96c8276",
+			"name": "Act_FR_Stand_Tough_ArmsCrossed",
+			"factory": "00A0C3F14EF64EA1",
+			"blueprint": "005163DE759431EA",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 91.93447 },
+						"position": {
+							"x": -247.58893,
+							"y": 39.748436,
+							"z": 15.448094
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 30 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea4fb5678cf9e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": { "OnStart": { "Start": ["cafee42b70576122"] } }
+		},
+		"cafe51629f395f3a": {
+			"parent": "cafed2d5b96c8276",
+			"name": "Act_FR_Stand_Look_Front_Focused",
+			"factory": "00E7255156B4DED0",
+			"blueprint": "00893E46E8B4B5F0",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -241.8053,
+							"y": 43.61886,
+							"z": 15.45177
+						}
+					}
+				},
+				"m_AlignRotation": {
+					"type": "ZActBehaviorEntity.ERotationAlignment",
+					"value": "RA_EXACT"
+				},
+				"m_bAlignPosition": { "type": "bool", "value": true },
+				"m_Color": { "type": "SColorRGB", "value": "#000000" },
+				"m_fActTimeout": { "type": "float32", "value": 20 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea4fb5678cf9e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": { "OnActTimeout": { "Start": ["cafe626f2b88eaa9"] } }
 		}
 	},
 	"propertyOverrides": [],

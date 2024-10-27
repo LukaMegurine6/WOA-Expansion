@@ -21,7 +21,7 @@
         "Tile": "images/actors/default_target.png"
     },"03eb967c-ebcf-4567-aa46-a3faf1e160da": {
         "ID_": "03eb967c-ebcf-4567-aa46-a3faf1e160da",
-        "Image": "images/ThomasCross.jpg",
+        "Image": "images/Morgan.jpg",
         "Name": "Ken Morgan",
         "Outfit": "ea7bea33-e436-485b-bfb0-4d5a6ae9f694",
         "OutfitVariationIndex": 0.0,
