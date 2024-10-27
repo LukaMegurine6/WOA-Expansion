@@ -5992,7 +5992,7 @@ const assassinationChallenges = [{
         }
     },
     {
-        "Id": "a0f5ce66-67d7-417e-98cd-8c2d00f62b16",
+        "Id": "a8b5ce66-67d7-417e-98cd-8c2d00f62b16",
         "Name": "UI_CHALLENGES_BENKO_GIFT_STABBED_NAME",
         "ImageName": "images/challenges/paris/award.jpg",
         "Description": "UI_CHALLENGES_BENKO_GIFT_STABBED_DESC",
