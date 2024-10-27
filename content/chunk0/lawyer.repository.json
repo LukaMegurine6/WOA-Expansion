@@ -14,7 +14,17 @@
         "Image": "images/ThomasCross.jpg",
         "Name": "Athena Savalas",
         "Outfit": "b12eac83-e681-466e-bb5c-d9b2303f433b",
-        "OutfitVariationIndex": 4.0,
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"03eb967c-ebcf-4567-aa46-a3faf1e160da": {
+        "ID_": "03eb967c-ebcf-4567-aa46-a3faf1e160da",
+        "Image": "images/ThomasCross.jpg",
+        "Name": "Ken Morgan",
+        "Outfit": "ea7bea33-e436-485b-bfb0-4d5a6ae9f694",
+        "OutfitVariationIndex": 0.0,
         "CharacterSetIndex": 0.0,
         "Description": "Unknown",
         "Description_LOC": "actor_description",
