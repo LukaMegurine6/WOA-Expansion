@@ -278,7 +278,8 @@
 			"UI_GOOD_OLD_DAYS_CAMPAIGN": "Les Élusives",
 			"UI_CONTRACT_SHARK_TITLE" : "L'informateur",
 			"UI_CONTRACT_SHARK_DESC" : "Emanuel Kneep est l'informateur de la milice, qui travaille avec eux depuis des années. On ne sait pas grand chose sur sa vie, à part qu'il a perdu ses parents à l'âge de 3 ans et qu'il est très vite tombé dans la criminalité.\r Selon notre client, il a obtenu des informations par le chantage et la manipulation. Le client a perdu sa femme et il est prêt à mettre l'argent pour accomplir sa vengeance.",
-			"UI_CONTRACT_SHARK_DESC_TARGET" : "Emanuel Knepp est assez malin pour passer inaperçu, à tel point que nous n'avons pas beaucoup d'informations à vous fournir.\r Le client nous a parlé d'un homme prêt à tout pour obtenir ce qu'il veut et n'hésite pas à basculer dans la criminalité."
+			"UI_CONTRACT_SHARK_DESC_TARGET" : "Emanuel Knepp est assez malin pour passer inaperçu, à tel point que nous n'avons pas beaucoup d'informations à vous fournir.\r Le client nous a parlé d'un homme prêt à tout pour obtenir ce qu'il veut et n'hésite pas à basculer dans la criminalité.",
+			"UI_CONTRACT_NOTELIMINATE_SAVALAS": "N'éliminez pas Athena Savalas"
 
 		},
 		"russian": {
