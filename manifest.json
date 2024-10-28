@@ -156,7 +156,8 @@
 			"UI_CONTRACT_SHARK_DESC_TARGET" : "Emanuel Knepp is clever enough to go unnoticed, so much so that we don't have much information to share with you.\r The customer told us about a man who will do anything to get what he wants, and doesn't hesitate to turn to pure crime.",
 			"UI_CONTRACT_NOTELIMINATE_SAVALAS": "Do not eliminate Athena Savalas",
 			"UI_CHALLENGES_BENKO_GIFT_STABBED_NAME": "Take a closer look",
-			"UI_CHALLENGES_BENKO_GIFT_STABBED_DESC": "Eliminate Thomas Cross with the bank's award."										 
+			"UI_CHALLENGES_BENKO_GIFT_STABBED_DESC": "Eliminate Thomas Cross with the bank's award.",
+			"UI_SAVALASBODYGUARD_SUIT": "Special unit suit"										 
 
 
 
@@ -285,7 +286,8 @@
 			"UI_CONTRACT_SHARK_DESC_TARGET" : "Emanuel Knepp est assez malin pour passer inaperçu, à tel point que nous n'avons pas beaucoup d'informations à vous fournir.\r Le client nous a parlé d'un homme prêt à tout pour obtenir ce qu'il veut et n'hésite pas à basculer dans la criminalité.",
 			"UI_CONTRACT_NOTELIMINATE_SAVALAS": "N'éliminez pas Athena Savalas",
 			"UI_CHALLENGES_BENKO_GIFT_STABBED_NAME": "Regardez de plus près",
-			"UI_CHALLENGES_BENKO_GIFT_STABBED_DESC": "Éliminez Thomas Cross avec le trophée qu'Athena Savalas à ramener."
+			"UI_CHALLENGES_BENKO_GIFT_STABBED_DESC": "Éliminez Thomas Cross avec le trophée qu'Athena Savalas à ramener.",
+			"UI_SAVALASBODYGUARD_SUIT": "Tenue d'unité spéciale"
 
 		},
 		"russian": {
@@ -608,6 +610,16 @@
 				},
 				{
 					"runtimeID": "00AC3509224DEA28",
+					"toChunk": 27,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "00370CCE063FC932",
+					"toChunk": 27,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "00A7A1436612A556",
 					"toChunk": 27,
 					"portFromChunk1": false
 				}
