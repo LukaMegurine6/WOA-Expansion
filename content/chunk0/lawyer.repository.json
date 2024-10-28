@@ -30,10 +30,11 @@
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
     },"579a3aac-1a09-4f92-aa7c-09d382be7ee7": {
-    "ID_": "579a3aac-1a09-4f92-aa7c-09d382be7ee7",
-    "Description": "UI_SAVALASBODYGUARD_SUIT",
-    "HeroDisguiseAvailable": true,
-    "Image": "images/Destinations/Paris/Bodyguard Savalas.jpg",
-    "Name": "UI_SAVALASBODYGUARD_SUIT"
+        "ID_": "579a3aac-1a09-4f92-aa7c-09d382be7ee7",
+        "Description": "UI_SAVALASBODYGUARD_SUIT",
+        "HeroDisguiseAvailable": true,
+        "Image": "images/Destinations/Paris/Bodyguard Savalas.jpg",
+        "Name": "UI_SAVALASBODYGUARD_SUIT"
+    }
 
 }
