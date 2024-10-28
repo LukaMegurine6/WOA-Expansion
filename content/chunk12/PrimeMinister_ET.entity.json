@@ -18,11 +18,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 85.46472
-						},
+						"rotation": { "x": 0, "y": 0, "z": 85.46472 },
 						"position": {
 							"x": -10.301173,
 							"y": -2.2299879,
@@ -38,10 +34,7 @@
 					"type": "ZGuid",
 					"value": "ceacf6ef-d2b9-47d2-908c-a99f267893b8"
 				},
-				"m_nOutfitCharset": {
-					"type": "int32",
-					"value": 1
-				},
+				"m_nOutfitCharset": { "type": "int32", "value": 1 },
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
 					"value": "998b3a27-9b40-46b4-8d05-7a54493f209c"
@@ -57,12 +50,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed3edfa169c387": {
@@ -70,26 +59,14 @@
 			"name": "ActorDeath",
 			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
 			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
-			"properties": {
-
-			},
+			"properties": {},
 			"events": {
 				"OnDead": {
-					"SetFalse": [
-						"feeddb54191c43cd",
-						"feedc1b34adf4ca1"
-					]
+					"SetFalse": ["feeddb54191c43cd", "feedc1b34adf4ca1"]
 				},
-				"OnPacified": {
-					"SetFalse": [
-						"feedc1b34adf4ca1"
-					]
-				},
+				"OnPacified": { "SetFalse": ["feedc1b34adf4ca1"] },
 				"OnAlive": {
-					"SetTrue": [
-						"feedc1b34adf4ca1",
-						"feeddb54191c43cd"
-					]
+					"SetTrue": ["feedc1b34adf4ca1", "feeddb54191c43cd"]
 				}
 			}
 		},
@@ -104,33 +81,21 @@
 			"name": "ActorProxy",
 			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
-			"properties": {
-
-			}
+			"properties": {}
 		},
 		"feeddb54191c43cd": {
 			"parent": "feedeefe4b3e30c6",
 			"name": "Alive",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": {
-					"type": "bool",
-					"value": true
-				}
-			}
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
 		},
 		"feedc1b34adf4ca1": {
 			"parent": "feedeefe4b3e30c6",
 			"name": "Conscious",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": {
-					"type": "bool",
-					"value": true
-				}
-			}
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
 		},
 		"feed82d4a225bbc3": {
 			"parent": "feeda369c9e795de",
@@ -189,10 +154,7 @@
 					"type": "ZString",
 					"value": "Wet_Civilian_Streets_M_"
 				},
-				"m_sTitle": {
-					"type": "ZString",
-					"value": "Civ Street M"
-				},
+				"m_sTitle": { "type": "ZString", "value": "Civ Street M" },
 				"m_rNameTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -213,16 +175,11 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_CIVMALECH01",
-						"eAVV_CIVMALECH02"
-					]
+					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02"]
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed8e5d96c4480e"
-					],
+					"value": ["feed8e5d96c4480e"],
 					"postInit": true
 				}
 			}
@@ -235,9 +192,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feede0a70ea5e0bc"
-					],
+					"value": ["feede0a70ea5e0bc"],
 					"postInit": true
 				}
 			}
@@ -250,9 +205,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feede0a70ea5e0bc"
-					],
+					"value": ["feede0a70ea5e0bc"],
 					"postInit": true
 				}
 			}
@@ -269,28 +222,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"feed712741125520": {
-			"parent": {
-				"ref": "feed8719eb832547",
-				"externalScene": null
-			},
-			"name": "HUSH",
-			"factory": "00D596358997173C",
-			"blueprint": "0068C9D23924E08B",
-			"properties": {
-				"m_pResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00460299421C52FD",
-						"flag": "5F"
-					}
-				},
-				"m_eVoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_HUSH"
-				}
-			}
-		},
 		"feedc7bf75aac97d": {
 			"parent": "feed98d4698b6fd6",
 			"name": "DramaSituation",
@@ -299,9 +230,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed943ca9220731"
-					]
+					"value": ["feed943ca9220731"]
 				}
 			}
 		},
@@ -329,13 +258,7 @@
 					"value": "feedc7bf75aac97d"
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"feed475de1e5c629"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["feed475de1e5c629"] } }
 		},
 		"feedc0a012a765a4": {
 			"parent": "feedc7bf75aac97d",
@@ -346,11 +269,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90.20273
-						},
+						"rotation": { "x": 0, "y": 0, "z": -90.20273 },
 						"position": {
 							"x": -21.41842,
 							"y": 18.981176,
@@ -358,14 +277,8 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 10
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 10 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_AlignRotation": {
 					"type": "ZActBehaviorEntity.ERotationAlignment",
 					"value": "RA_EXACT"
@@ -381,13 +294,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feed5812816e1273"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["feed5812816e1273"] } }
 		},
 		"feed899a70f6e2b3": {
 			"parent": "feedc7bf75aac97d",
@@ -398,11 +305,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -134.48376
-						},
+						"rotation": { "x": 0, "y": 0, "z": -134.48376 },
 						"position": {
 							"x": -49.19653,
 							"y": 50.425922,
@@ -410,14 +313,8 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 10
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 10 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_AlignRotation": {
 					"type": "ZActBehaviorEntity.ERotationAlignment",
 					"value": "RA_EXACT"
@@ -434,17 +331,9 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feed014c46848b6e"
-					]
-				}
+				"OnActTimeout": { "Start": ["feed014c46848b6e"] }
 			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"feed5812816e1273": {
 			"parent": "feedc7bf75aac97d",
@@ -455,11 +344,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90.20273
-						},
+						"rotation": { "x": 0, "y": 0, "z": -90.20273 },
 						"position": {
 							"x": -21.41842,
 							"y": 18.981176,
@@ -467,10 +352,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 12
-				},
+				"m_fActTimeout": { "type": "float32", "value": 12 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "feed943ca9220731",
@@ -483,17 +365,9 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feeda7ec443897a2"
-					]
-				}
+				"OnActTimeout": { "Start": ["feeda7ec443897a2"] }
 			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"feed475de1e5c629": {
 			"parent": "feedc7bf75aac97d",
@@ -504,11 +378,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 64.08291
-						},
+						"rotation": { "x": 0, "y": 0, "z": 64.08291 },
 						"position": {
 							"x": -47.016895,
 							"y": 2.7661724,
@@ -516,10 +386,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 10
-				},
+				"m_fActTimeout": { "type": "float32", "value": 10 },
 				"m_rRepositoryKeyToFind": {
 					"type": "SEntityTemplateReference",
 					"value": "feed3242d077be9b"
@@ -535,13 +402,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feed899a70f6e2b3"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["feed899a70f6e2b3"] } }
 		},
 		"feed1a5e1192b643": {
 			"parent": "feeda369c9e795de",
@@ -604,11 +465,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -73.7689
-						},
+						"rotation": { "x": 0, "y": 0, "z": -73.7689 },
 						"position": {
 							"x": -24.979164,
 							"y": 44.458157,
@@ -616,10 +473,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 13
-				},
+				"m_fActTimeout": { "type": "float32", "value": 13 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "feed943ca9220731",
@@ -631,13 +485,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feedc0a012a765a4"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["feedc0a012a765a4"] } }
 		},
 		"feed68c083f7239b": {
 			"parent": "feedc7bf75aac97d",
@@ -648,11 +496,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0.43968555
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0.43968555 },
 						"position": {
 							"x": -38.251717,
 							"y": 56.26469,
@@ -660,10 +504,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_MovementType": {
 					"type": "ZActBehaviorEntity.EMovementType",
 					"value": "MT_WALK"
@@ -680,17 +521,9 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feed475de1e5c629"
-					]
-				}
+				"OnActTimeout": { "Start": ["feed475de1e5c629"] }
 			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"feeda7ec443897a2": {
 			"parent": "feedc7bf75aac97d",
@@ -701,11 +534,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -103.984665
-						},
+						"rotation": { "x": 0, "y": 0, "z": -103.984665 },
 						"position": {
 							"x": -14.008846,
 							"y": 67.35385,
@@ -713,10 +542,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 10
-				},
+				"m_fActTimeout": { "type": "float32", "value": 10 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "feed943ca9220731",
@@ -728,46 +554,45 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feed68c083f7239b"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["feed68c083f7239b"] } }
 		},
 		"feeda369c9e795de": {
 			"parent": "fffffffffffffffe",
 			"name": "ET_PrimeMinister",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafef17250c01f77": {
+			"parent": "feed8719eb832547",
+			"name": "HUSH",
+			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
+			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
+			"properties": {
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/sounddefinitions/hush.sdefs].pc_sdefs",
+						"flag": "5F"
+					}
+				},
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_HUSH"
+				}
+			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
 		"00097AA87B144150"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

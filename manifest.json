@@ -1,4 +1,4 @@
-﻿{
+{
 	"version": "1.6.0",
 	"id": "MLuka47.Expansion",
 	"name": "WOA Expansion",
@@ -458,6 +458,8 @@
 	"dependencies": [
 				"00EE8C5068C25C17",
 				"001E12406DFDFF48",
+				"00460299421C52FD",
+				
 				
 				{
 					"runtimeID": "0012089E3884BAD4",
@@ -597,6 +599,11 @@
 				{
 					"runtimeID": "00F3440513868DBC",
 					"toChunk": 27,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "00FD0D1773C071C9",
+					"toChunk": 20,
 					"portFromChunk1": false
 				}
 
