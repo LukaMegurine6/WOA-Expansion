@@ -2711,6 +2711,125 @@
 				}
 			},
 			"events": { "OnActTimeout": { "Start": ["cafe626f2b88eaa9"] } }
+		},
+		"cafe32a9377caa04": {
+			"parent": "cafe868a515f068e",
+			"name": "TimerConditional 1",
+			"factory": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_nInterval": { "type": "int32", "value": 2000 },
+				"m_pCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe65896db42b2e",
+					"postInit": true
+				}
+			},
+			"events": { "TimeOut": { "Poll": ["cafead26814e97f1"] } }
+		},
+		"cafe868a515f068e": {
+			"parent": "feed1268ef709dbf",
+			"name": "TargetDeaths",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe907a35caa2b3": {
+			"parent": "cafe868a515f068e",
+			"name": "VB Cross down",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafe72d382ec1b0e": {
+			"parent": "cafe868a515f068e",
+			"name": "DianaSpeak Both down",
+			"factory": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pHandlerSpeak": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/miami/21000_flamingo/21000_handler/ds21005_alltargetsdown.sweetdialog?/ds21005_alltargetsdown_diana_001.sweetdialogitem].pc_dialogevent",
+						"flag": "5F"
+					}
+				},
+				"m_eMaxTension": {
+					"type": "EIntelTensionLevel",
+					"value": "eITL_Combat"
+				}
+			}
+		},
+		"cafef8e018b5c9f4": {
+			"parent": "cafe868a515f068e",
+			"name": "TimerConditional",
+			"factory": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe907a35caa2b3"
+				},
+				"m_nInterval": { "type": "int32", "value": 2000 },
+				"m_nRemaining": { "type": "int32", "value": 3000 }
+			},
+			"events": { "TimeOut": { "Poll": ["cafe032827b76995"] } }
+		},
+		"cafe7a7d47eb673d": {
+			"parent": "cafe868a515f068e",
+			"name": "ActorDeath",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed12141c1ac3a1"
+				}
+			},
+			"events": { "OnDead": { "SetTrue": ["cafe907a35caa2b3"] } }
+		},
+		"cafe9fa8674073d2": {
+			"parent": "cafe868a515f068e",
+			"name": "ActorDeath 1",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4413ea22b23a"
+				}
+			},
+			"events": { "OnDead": { "SetTrue": ["cafe65896db42b2e"] } }
+		},
+		"cafead26814e97f1": {
+			"parent": "cafe868a515f068e",
+			"name": "VB Poll Is Cross also dead",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe907a35caa2b3"
+				}
+			},
+			"events": { "PollTrue": { "Trigger": ["cafe72d382ec1b0e"] } }
+		},
+		"cafe65896db42b2e": {
+			"parent": "cafe868a515f068e",
+			"name": "VB Morgan Dead",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafe032827b76995": {
+			"parent": "cafe868a515f068e",
+			"name": "VB Poll Is Morgan also dead",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe65896db42b2e"
+				}
+			},
+			"events": { "PollTrue": { "Trigger": ["cafe72d382ec1b0e"] } }
 		}
 	},
 	"propertyOverrides": [],
