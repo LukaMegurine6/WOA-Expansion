@@ -2830,6 +2830,12 @@
 				}
 			},
 			"events": { "PollTrue": { "Trigger": ["cafe72d382ec1b0e"] } }
+		},
+		"cafe94b600f40da1": {
+			"parent": "cafefe8ba2aa9d7e",
+			"name": "Prof_Paris_Guard_CICADABodyguard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_paris_guard_cicadabodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_paris_guard_cicadabodyguard.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],
