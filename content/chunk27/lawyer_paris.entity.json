@@ -3220,7 +3220,7 @@
 				},
 				"m_aDisguisesFriskExempt": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": []
+					"value": ["cafe87c9f5e2e3c2"]
 				},
 				"m_bFrisk": { "type": "bool", "value": true },
 				"m_aReFriskZones": {
@@ -3230,7 +3230,7 @@
 				},
 				"m_aDisguisesAllowed": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
+					"value": ["cafe87c9f5e2e3c2"],
 					"postInit": true
 				},
 				"m_aWaypointActs": {
