@@ -2024,16 +2024,18 @@ module.exports = function ElusivesAddCampaign(controller) {
                     }
                 },
                 {
-                    "Id": "c6c864fe-287c-4345-8a04-03682a65498f",
+                    "Id": "c8c864fe-287c-4345-8a04-03682a65498f",
                     "IsHidden": true,
                     "Category": "primary",
                     "ObjectiveType": "custom",
+                    "ForceShowOnLoadingScreen": true,
                     "Image": "images/Savalas.jpg",
                     "BriefingName": "$loc UI_CONTRACT_USB_SAVALAS",
                     "BriefingText": "$loc UI_CONTRACT_USB_SAVALAS",
                     "LongBriefingText": "$loc UI_CONTRACT_USB_SAVALAS",
                     "HUDTemplate": {
-                        "display": "$loc UI_CONTRACT_USB_SAVALAS"
+                        "display": "$loc UI_CONTRACT_USB_SAVALAS",
+                        "iconType": 17
                     },
                     "Type": "statemachine",
                     "Definition": {
@@ -2122,7 +2124,10 @@ module.exports = function ElusivesAddCampaign(controller) {
                     "Id": "a7930fae-37ac-45f1-977f-4e9ef8d37434"
                 },
                 {
-                    "Id": "f65fff84-6cad-4a11-9a0a-b89430c03397"
+                    "Id": "03eb967c-ebcf-4567-aa46-a3faf1e160da"
+                },
+                {
+                    "Id": "c8c864fe-287c-4345-8a04-03682a65498f"
                 }
             ],
             "CreationTimestamp": "2024-05-11T21:33:17.090Z",
