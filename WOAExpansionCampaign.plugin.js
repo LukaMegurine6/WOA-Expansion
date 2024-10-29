@@ -2024,41 +2024,33 @@ module.exports = function ElusivesAddCampaign(controller) {
                     }
                 },
                 {
-                    "_comment": "----- Do not eliminate Athena Savalas -----",
-                    "Id": "d5331a6d-4d91-4949-884f-eb981048a137",
-                    "Category": "secondary",
+                    "Id": "c6c864fe-287c-4345-8a04-03682a65498f",
+                    "IsHidden": true,
+                    "Category": "primary",
                     "ObjectiveType": "custom",
-                    "ForceShowOnLoadingScreen": true,
                     "Image": "images/Savalas.jpg",
-                    "BriefingName": "$loc UI_CONTRACT_NOTELIMINATE_SAVALAS",
-                    "BriefingText": "$loc UI_CONTRACT_NOTELIMINATE_SAVALAS",
-                    "LongBriefingText": "$loc UI_CONTRACT_NOTELIMINATE_SAVALAS",
+                    "BriefingName": "$loc UI_CONTRACT_USB_SAVALAS",
+                    "BriefingText": "$loc UI_CONTRACT_USB_SAVALAS",
+                    "LongBriefingText": "$loc UI_CONTRACT_USB_SAVALAS",
                     "HUDTemplate": {
-                        "display": "$loc UI_CONTRACT_NOTELIMINATE_SAVALAS",
-                        "iconType": 17
+                        "display": "$loc UI_CONTRACT_USB_SAVALAS"
                     },
                     "Type": "statemachine",
-                    "ExcludeFromScoring": false,
                     "Definition": {
-                        "Scope": "session",
+                        "Context": {
+                            "Targets": ["6c05ffd3-a02b-45b6-9c05-ac3f6fcc0561"]
+                        },
                         "States": {
                             "Start": {
-                                "ContractEnd": { "Transition": "Success" },
-                                "Kill": [
-                                    {
-                                        "Condition": {
-                                            "$and": [
-                                                {
-                                                    "$eq": [
-                                                        "$Value.RepositoryId",
-                                                        "30ec8436-bf90-41e6-9023-9cd7e3a03e58"
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        "Transition": "Failure"
-                                    }
-                                ]
+                                "ItemPickedUp": {
+                                    "Condition": {
+                                        "$eq": [
+                                            "$Value.RepositoryId",
+                                            "6c05ffd3-a02b-45b6-9c05-ac3f6fcc0561"
+                                        ]
+                                    },
+                                    "Transition": "Success"
+                                }
                             }
                         }
                     }

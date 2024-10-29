@@ -2031,11 +2031,11 @@ const contracts = [
                     "Category": "primary",
                     "ObjectiveType": "custom",
                     "Image": "images/Savalas.jpg",
-                    "BriefingName": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE",
-                    "BriefingText": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_DESC",
-                    "LongBriefingText": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_DESC",
+                    "BriefingName": "$loc UI_CONTRACT_USB_SAVALAS",
+                    "BriefingText": "$loc UI_CONTRACT_USB_SAVALAS",
+                    "LongBriefingText": "$loc UI_CONTRACT_USB_SAVALAS",
                     "HUDTemplate": {
-                        "display": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE"
+                        "display": "$loc UI_CONTRACT_USB_SAVALAS"
                     },
                     "Type": "statemachine",
                     "Definition": {
