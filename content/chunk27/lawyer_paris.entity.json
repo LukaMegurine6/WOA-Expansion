@@ -3736,6 +3736,7 @@
 						}
 					}
 				},
+				"m_fActTimeout": { "type": "float32", "value": 20.0 },
 				"m_Color": { "type": "SColorRGB", "value": "#ffffff" },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
@@ -4458,11 +4459,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -79.93793 },
+						"rotation": { "x": 0, "y": 0, "z": 177.31868 },
 						"position": {
-							"x": -198.656,
-							"y": 71.05014,
-							"z": -1.5378661
+							"x": -193.58356,
+							"y": 67.24864,
+							"z": -1.5378656
 						}
 					}
 				},
@@ -4895,46 +4896,8 @@
 				}
 			}
 		},
-		"cafe682baf9f7241": {
-			"parent": "cafe088a73970198",
-			"name": "DramaSituation2",
-			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aRoles": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe3c871f02a0fc"]
-				}
-			}
-		},
-		"cafe3c871f02a0fc": {
-			"parent": "cafe682baf9f7241",
-			"name": "Savalas2",
-			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rActorProvider": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe088a73970198",
-					"postInit": true
-				}
-			}
-		},
-		"cafe49263df35df0": {
-			"parent": "cafe682baf9f7241",
-			"name": "DramaSituationProxy",
-			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rOriginalDrama": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe682baf9f7241"
-				}
-			},
-			"events": { "OnStart": { "Start": ["cafeab5eea9e46a1"] } }
-		},
 		"cafeab5eea9e46a1": {
-			"parent": "cafe682baf9f7241",
+			"parent": "cafed2d5b96c8276",
 			"name": "Act_FR_Stand_Tablet_Auction2",
 			"factory": "0022DF7F48F420EF",
 			"blueprint": "004B4586E3998EDD",
@@ -4953,7 +4916,7 @@
 				"m_fActTimeout": { "type": "float32", "value": 43 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -4968,7 +4931,7 @@
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"cafeff9253b004d1": {
-			"parent": "cafe682baf9f7241",
+			"parent": "cafed2d5b96c8276",
 			"name": "Act_FR_Stand_Tough_ArmsCrossed2",
 			"factory": "00A0C3F14EF64EA1",
 			"blueprint": "005163DE759431EA",
@@ -4987,7 +4950,7 @@
 				"m_fActTimeout": { "type": "float32", "value": 30 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -4999,7 +4962,7 @@
 			"events": { "OnActTimeout": { "Start": ["cafe583840a70607"] } }
 		},
 		"cafe9f3c5b44512a": {
-			"parent": "cafe682baf9f7241",
+			"parent": "cafed2d5b96c8276",
 			"name": "Act_FR_Stand_Look_Front_Focused2",
 			"factory": "00E7255156B4DED0",
 			"blueprint": "00893E46E8B4B5F0",
@@ -5024,7 +4987,7 @@
 				"m_fActTimeout": { "type": "float32", "value": 20 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -5036,7 +4999,7 @@
 			"events": { "OnActTimeout": { "Start": ["cafeff9253b004d1"] } }
 		},
 		"cafe583840a70607": {
-			"parent": "cafe682baf9f7241",
+			"parent": "cafed2d5b96c8276",
 			"name": "Act_FR_Stand_Phone_Read2",
 			"factory": "0071C7616B8BD153",
 			"blueprint": "00EDB9BC485BBDC3",
@@ -5054,7 +5017,7 @@
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc"
+					"value": "cafea4fb5678cf9e"
 				},
 				"m_fActTimeout": { "type": "float32", "value": 25 },
 				"m_eidParent": {
@@ -5069,7 +5032,7 @@
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"cafef1ac8de6339c": {
-			"parent": "cafe682baf9f7241",
+			"parent": "cafed2d5b96c8276",
 			"name": "Act_FR_Stand_Lean_Rail_Smoke_100cm2",
 			"factory": "007778693C672B8D",
 			"blueprint": "009A83F8C0DD9835",
@@ -5088,7 +5051,7 @@
 				"m_fActTimeout": { "type": "float32", "value": 20 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -5103,7 +5066,7 @@
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"cafe29f80a387abb": {
-			"parent": "cafe682baf9f7241",
+			"parent": "cafed2d5b96c8276",
 			"name": "Act_FR_Stand_Lean_Look_Through_Clock2",
 			"factory": "00539226C00F5ADB",
 			"blueprint": "00F10F1161CAF69F",
@@ -5123,10 +5086,11 @@
 						}
 					}
 				},
+				"m_fActTimeout": { "type": "float32", "value": 20.0 },
 				"m_Color": { "type": "SColorRGB", "value": "#ffffff" },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -5152,7 +5116,7 @@
 				},
 				"m_rActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				}
 			}
@@ -5202,13 +5166,13 @@
 				},
 				"m_rActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				}
 			}
 		},
 		"cafe1063c83dd70f": {
-			"parent": "cafe682baf9f7241",
+			"parent": "cafed2d5b96c8276",
 			"name": "Act_FR_Stand_ArmsCrossed_LookUp_Screen2",
 			"factory": "005F5CEAA71D60A6",
 			"blueprint": "00E19288F78607FB",
@@ -5237,7 +5201,7 @@
 				"m_bFastTransition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -5263,7 +5227,7 @@
 				},
 				"m_rActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc"
+					"value": "cafea4fb5678cf9e"
 				}
 			}
 		},
@@ -5283,7 +5247,7 @@
 			"events": { "OnTrue": { "Start": ["cafed9de1542afb2"] } }
 		},
 		"cafe9d0905b60ac6": {
-			"parent": "cafe682baf9f7241",
+			"parent": "cafed2d5b96c8276",
 			"name": "Act_FR_Stand_ArmsBack2",
 			"factory": "[assembly:/_pro/design/actor/acts/fr.template?/act_fr_stand_armsback.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/acts/fr.template?/act_fr_stand_armsback.entitytemplate].pc_entityblueprint",
@@ -5310,7 +5274,7 @@
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -5336,7 +5300,7 @@
 				},
 				"m_rActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				}
 			}
@@ -5357,7 +5321,7 @@
 			"events": { "OnTrue": { "Start": ["cafeaa6d3d79c74c"] } }
 		},
 		"cafede64a6721450": {
-			"parent": "cafe682baf9f7241",
+			"parent": "cafed2d5b96c8276",
 			"name": "Act_FR_Stand_Pace_Wait_Check_Mobile",
 			"factory": "00980644DD8EECA6",
 			"blueprint": "008A5F110B884C8C",
@@ -5380,7 +5344,7 @@
 				"m_fActTimeout": { "type": "float32", "value": 20 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe3c871f02a0fc",
+					"value": "cafea4fb5678cf9e",
 					"postInit": true
 				},
 				"m_eidParent": {
