@@ -2125,9 +2125,6 @@ module.exports = function ElusivesAddCampaign(controller) {
                 },
                 {
                     "Id": "03eb967c-ebcf-4567-aa46-a3faf1e160da"
-                },
-                {
-                    "Id": "c8c864fe-287c-4345-8a04-03682a65498f"
                 }
             ],
             "CreationTimestamp": "2024-05-11T21:33:17.090Z",
