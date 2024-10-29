@@ -155,6 +155,7 @@
 			"UI_CONTRACT_SHARK_DESC" : "Emanuel Kneep is the militia's informant, who has been working with them for years. We don't know much about his life, except that he lost his parents at the age of 3 and quickly fell into a life of crime.\r According to our client, he obtained information through blackmail and manipulation. The client has lost his wife and is ready to put up the money to achieve his revenge.",
 			"UI_CONTRACT_SHARK_DESC_TARGET" : "Emanuel Knepp is clever enough to go unnoticed, so much so that we don't have much information to share with you.\r The customer told us about a man who will do anything to get what he wants, and doesn't hesitate to turn to pure crime.",
 			"UI_CONTRACT_USB_SAVALAS": "Recover Athena's USB key",
+			"UI_CONTRACT_USB_SAVALAS_DESC": "In addition to your two targets, you must also retrieve the Athena's USB key keeps with her. The client needs this data.",
 			"UI_CHALLENGES_BENKO_GIFT_STABBED_NAME": "Take a closer look",
 			"UI_CHALLENGES_BENKO_GIFT_STABBED_DESC": "• Eliminate Thomas Cross with the bank's award.",
 			"UI_SAVALASBODYGUARD_SUIT": "Special unit suit"										 
@@ -285,6 +286,7 @@
 			"UI_CONTRACT_SHARK_DESC" : "Emanuel Kneep est l'informateur de la milice, qui travaille avec eux depuis des années. On ne sait pas grand chose sur sa vie, à part qu'il a perdu ses parents à l'âge de 3 ans et qu'il est très vite tombé dans la criminalité.\r Selon notre client, il a obtenu des informations par le chantage et la manipulation. Le client a perdu sa femme et il est prêt à mettre l'argent pour accomplir sa vengeance.",
 			"UI_CONTRACT_SHARK_DESC_TARGET" : "Emanuel Knepp est assez malin pour passer inaperçu, à tel point que nous n'avons pas beaucoup d'informations à vous fournir.\r Le client nous a parlé d'un homme prêt à tout pour obtenir ce qu'il veut et n'hésite pas à basculer dans la criminalité.",
 			"UI_CONTRACT_USB_SAVALAS": "Récuperez la clé usb d'Athena",
+			"UI_CONTRACT_USB_SAVALAS_DESC": "En plus de vos deux cibles, vous devez également récupérer la clé USB qu'Athena garde avec elle. Le client a besoin de ces données.",
 			"UI_CHALLENGES_BENKO_GIFT_STABBED_NAME": "Regardez de plus près",
 			"UI_CHALLENGES_BENKO_GIFT_STABBED_DESC": "• Assassinez Thomas Cross avec le trophée qu'Athena Savalas à ramener.",
 			"UI_SAVALASBODYGUARD_SUIT": "Tenue d'unité spéciale"
@@ -409,7 +411,12 @@
 			"UI_GOOD_OLD_DAYS_CAMPAIGN": "Элюзивы",
 			"UI_CONTRACT_SHARK_TITLE" : "Информатор",
 			"UI_CONTRACT_SHARK_DESC" : "Эманнуэль Кнепп является информатором группировки боевиков, и уже давно сотрудничает с ними. Нам мало что известно о его прошлом, кроме того что он потерял своих родителей в юном возрасте, и быстро скатился в криминал.\r По данным нашего клиента, информацию он получал с помощью хитрых схем шантажа и манипуляций. В ходе дальнейших действий боевиков клиент потерял свою жену, и готов на любые расходы ради мести.",
-            "UI_CONTRACT_SHARK_DESC_TARGET" : "Эммануэль Кнепп достаточно хитёр и скрытен, поэтому даже нам не удалось раздобыть достаточно информации.\r По словам клиента, этот человек не остановится ни перед чем для достижения своих целей, и не боится прибегать к преступным методам."
+            "UI_CONTRACT_SHARK_DESC_TARGET" : "Эммануэль Кнепп достаточно хитёр и скрытен, поэтому даже нам не удалось раздобыть достаточно информации.\r По словам клиента, этот человек не остановится ни перед чем для достижения своих целей, и не боится прибегать к преступным методам.",
+			"UI_CONTRACT_USB_SAVALAS": "Раздобыть ключ доступа Афины",
+			"UI_CONTRACT_USB_SAVALAS_DESC": "Помимо основных двух целей, вам необходимо раздобыть ключ доступа Афины, который она обычно носит с собой. Клиенту необходимы эти данные, Сорок Седьмой",
+			"UI_CHALLENGES_BENKO_GIFT_STABBED_NAME": "Взгляни-ка поближе",
+			"UI_CHALLENGES_BENKO_GIFT_STABBED_DESC": "• Устранить Томаса Кросса банковской наградой.",
+			"UI_SAVALASBODYGUARD_SUIT": "Униформа особого подразделения"
 
 
 
