@@ -2715,7 +2715,118 @@ const contracts = [
             "Release": "2.00.x"
         },
         "UserData": {}
+    },
+    {
+        "Data": {
+            "Objectives": [
+                {
+                    "Type": "statemachine",
+                    "Id": "331ea4f9-f631-4ad7-b445-a5bd6dd08ea7",
+                    "IsHidden": true,
+                    "BriefingText": {
+                        "$loc": {
+                            "key": "UI_CONTRACT_GENERAL_OBJ_KILL",
+                            "data": "$($repository 9cbc5232-e58d-4fcb-8ab7-5982dbd3f800).Name"
+                        }
+                    },
+                    "HUDTemplate": {
+                        "display": {
+                            "$loc": {
+                                "key": "UI_CONTRACT_GENERAL_OBJ_KILL",
+                                "data": "$($repository 9cbc5232-e58d-4fcb-8ab7-5982dbd3f800).Name"
+                            }
+                        }
+                    },
+                    "Category": "primary",
+                    "Definition": {
+                        "Scope": "Hit",
+                        "Context": {
+                            "Targets": [
+                                "9cbc5232-e58d-4fcb-8ab7-5982dbd3f800"
+                            ]
+                        },
+                        "States": {
+                            "Start": {
+                                "Kill": [
+                                    {
+                                        "Condition": {
+                                            "$eq": [
+                                                "$Value.RepositoryId",
+                                                "9cbc5232-e58d-4fcb-8ab7-5982dbd3f800"
+                                            ]
+                                        },
+                                        "Transition": "Success"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "VR": [
+                {
+                    "Quality": "base",
+                    "Bricks": [
+                        "assembly:/_pro/Scenes/Bricks/vr_setup.brick"
+                    ]
+                }
+            ],
+            "GameDifficulties": [
+                {
+                "Difficulty": "easy",
+                "Bricks": []
+                },
+                {
+                "Difficulty": "normal",
+                "Bricks": []
+                },
+                {
+                "Difficulty": "hard",
+                "Bricks": []
+                }
+            ],
+            "GameChangers": [],
+            "Bricks": [
+                "assembly:/_pro/scenes/missions/trapped/et_deer.brick",
+                "assembly:/_pro/scenes/missions/trapped/passenger_train.brick"
+            ],
+            "RandomBricks": {
+            "TimeOfDay": [
+                "assembly:/_pro/scenes/missions/trapped/tod_day.brick",
+                "assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick"
+            ]
+        },
+        },
+            "Metadata": {
+            "Title": "UI_CONTRACT_SHARK_TITLE",
+            "Description": "UI_CONTRACT_SHARK_DESC",
+            "Entitlements": [
+                "LOCATION_TRAPPED"
+            ],
+            "ScenePath": "assembly:/_pro/scenes/missions/trapped/scene_lynx.entity",
+            "Location": "LOCATION_TRAPPED_WOLVERINE",
+            "IsPublished": true,
+            "CreatorUserId": "fadb913c-e6bb-4283-a537-eb4d1150262e",
+            "GameVersion": "8.10.0.0",
+            "ServerVersion": "8.10.0.0",
+            "CodeName_Hint": "Deer",
+            "Type": "elusive",
+            "Subtype": "specialassignment",
+            "Season": 3,
+            "Id": "g47sbccd-895a-4727-a5cc-72253ed56500",
+            "PublicId": "194707810076",
+            "TileImage": "images/TheInformant.jpg",
+            "GroupObjectiveDisplayOrder": [
+                {
+                    "Id": "9cbc5232-e58d-4fcb-8ab7-5982dbd3f800"
+                }
+            ],
+            "CreationTimestamp": "2024-05-11T21:33:17.090Z",
+            "Release": "2.00.x"
+        },
+        "UserData": {}
     }
+
     
 ]
 module.exports = function MissionPlugin(controller) {
@@ -2726,5 +2837,6 @@ module.exports = function MissionPlugin(controller) {
     orderedETs.push("d27ecffd-895a-4727-a5cc-72253ed56500")
     orderedETs.push("d27ecffd-895a-4727-a7bb-62153ed56575")
     orderedETs.push("a47bdffd-895a-4727-a5cc-72253ed56500")
+    orderedETs.push("g47sbccd-895a-4727-a5cc-72253ed56500")
     log(LogLevel.INFO, "[WOA Expansion] Welcome to the world of assassination, new contents now available !")
 }

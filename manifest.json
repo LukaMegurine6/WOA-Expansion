@@ -462,6 +462,11 @@
 			"type": "entity",
 			"partition": "paris",
 			"path": "[assembly:/_pro/scenes/missions/paris/lawyer_paris.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "trapped",
+			"path": "[assembly:/_pro/scenes/missions/trapped/et_deer.brick].entitytype"
 		}
 	],
 	"dependencies": [
@@ -663,6 +668,16 @@
 				{
 					"runtimeID": "0014722CBF4A7E55",
 					"toChunk": 27,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "00BB63B184748685",
+					"toChunk": 7,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "00995C8E16F04ACE",
+					"toChunk": 7,
 					"portFromChunk1": false
 				}
 
