@@ -35,6 +35,35 @@
         "HeroDisguiseAvailable": true,
         "Image": "images/Destinations/Paris/Bodyguard Savalas.jpg",
         "Name": "UI_SAVALASBODYGUARD_SUIT"
+    },"1ac2236f-e1a7-493d-b497-02f3f8fac389": {
+        "ID_": "1ac2236f-e1a7-493d-b497-02f3f8fac389",
+        "Image": "images/Sandman.jpg",
+        "Name": "David Sandman",
+        "Outfit": "579a3aac-1a09-4f92-aa7c-09d382be7ee7",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"5e600de2-af75-4731-9845-bb9172e9496f": {
+        "ID_": "5e600de2-af75-4731-9845-bb9172e9496f",
+        "Image": "images/Tsumoto.jpg",
+        "Name": "Shigeru Tsumoto",
+        "Outfit": "579a3aac-1a09-4f92-aa7c-09d382be7ee7",
+        "OutfitVariationIndex": 2.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"    
+   },"2f7ab6f8-26fa-44b0-98cc-3e7f98c81164": {
+        "ID_": "2f7ab6f8-26fa-44b0-98cc-3e7f98c81164",
+        "Image": "images/Enoran.jpg",
+        "Name": "Michael Enoran",
+        "Outfit": "579a3aac-1a09-4f92-aa7c-09d382be7ee7",
+        "OutfitVariationIndex": 3.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
     }
-
-}
+}   

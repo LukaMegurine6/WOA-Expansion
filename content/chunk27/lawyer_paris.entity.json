@@ -3332,13 +3332,13 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Eric Dupond"
+					"value": "David Sandman"
 				},
 				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_nOutfitVariation": { "type": "int32", "value": 1 },
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "a32f37e7-ccce-4866-b773-bde021d79df4"
+					"value": "1ac2236f-e1a7-493d-b497-02f3f8fac389"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -5381,13 +5381,13 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Eric Dupond"
+					"value": "Shigeru Tsumoto"
 				},
 				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "a32f37e7-ccce-4866-b773-bde021d79df4"
+					"value": "5e600de2-af75-4731-9845-bb9172e9496f"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -5542,13 +5542,13 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Eric Dupond"
+					"value": "Michael Enoran"
 				},
 				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "a32f37e7-ccce-4866-b773-bde021d79df4"
+					"value": "2f7ab6f8-26fa-44b0-98cc-3e7f98c81164"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
