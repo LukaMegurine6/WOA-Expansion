@@ -178,7 +178,8 @@
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
-		"[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
