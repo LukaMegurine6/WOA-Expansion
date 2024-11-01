@@ -1,0 +1,13 @@
+{
+        "46b2a37f-bb3f-4ff7-9d3b-c4f1a53a5901": {
+        "ID_": "46b2a37f-bb3f-4ff7-9d3b-c4f1a53a5901",
+        "Image": "images/XiaoMing.jpg",
+        "Name": "Xiao Ming",
+        "Outfit": "9e4723ff-9aae-4671-b9b0-53b852ccfebe",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "UI_MARTINEZJR_BIO",
+        "Tile": "images/actors/default_target.png"
+    }
+}

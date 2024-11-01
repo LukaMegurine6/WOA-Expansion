@@ -2721,19 +2721,19 @@ const contracts = [
             "Objectives": [
                 {
                     "Type": "statemachine",
-                    "Id": "331ea4f9-f631-4ad7-b445-a5bd6dd08ea7",
+                    "Id": "373ea4f9-f631-4ad7-b445-a5bd6dd08ea7",
                     "IsHidden": true,
                     "BriefingText": {
                         "$loc": {
                             "key": "UI_CONTRACT_GENERAL_OBJ_KILL",
-                            "data": "$($repository 9cbc5232-e58d-4fcb-8ab7-5982dbd3f800).Name"
+                            "data": "$($repository 46b2a37f-bb3f-4ff7-9d3b-c4f1a53a5901).Name"
                         }
                     },
                     "HUDTemplate": {
                         "display": {
                             "$loc": {
                                 "key": "UI_CONTRACT_GENERAL_OBJ_KILL",
-                                "data": "$($repository 9cbc5232-e58d-4fcb-8ab7-5982dbd3f800).Name"
+                                "data": "$($repository 46b2a37f-bb3f-4ff7-9d3b-c4f1a53a5901).Name"
                             }
                         }
                     },
@@ -2742,7 +2742,7 @@ const contracts = [
                         "Scope": "Hit",
                         "Context": {
                             "Targets": [
-                                "9cbc5232-e58d-4fcb-8ab7-5982dbd3f800"
+                                "46b2a37f-bb3f-4ff7-9d3b-c4f1a53a5901"
                             ]
                         },
                         "States": {
@@ -2752,7 +2752,7 @@ const contracts = [
                                         "Condition": {
                                             "$eq": [
                                                 "$Value.RepositoryId",
-                                                "9cbc5232-e58d-4fcb-8ab7-5982dbd3f800"
+                                                "46b2a37f-bb3f-4ff7-9d3b-c4f1a53a5901"
                                             ]
                                         },
                                         "Transition": "Success"
@@ -2806,7 +2806,7 @@ const contracts = [
             
         },
             "Metadata": {
-            "Title": "UI_CONTRACT_SHARK_TITLE",
+            "Title": "UI_ET_URAL_OWL_TITLE",
             "Description": "UI_CONTRACT_SHARK_DESC",
             "Entitlements": [
                 "H1_LEGACY_STANDARD"
@@ -2823,10 +2823,10 @@ const contracts = [
             "Season": 1,
             "Id": "g47sbccd-895a-4727-a5cc-72253ed56500",
             "PublicId": "194707810076",
-            "TileImage": "images/TheInformant.jpg",
+            "TileImage": "images/TheAnalyst.jpg",
             "GroupObjectiveDisplayOrder": [
                 {
-                    "Id": "9cbc5232-e58d-4fcb-8ab7-5982dbd3f800"
+                    "Id": "46b2a37f-bb3f-4ff7-9d3b-c4f1a53a5901"
                 }
             ],
             "CreationTimestamp": "2024-05-11T21:33:17.090Z",
