@@ -1,6 +1,6 @@
 {
-	"tempHash": "00B538780A2E44CE",
-	"tbluHash": "00056386F40ACF00",
+	"tempHash": "008417C304847492",
+	"tbluHash": "00D442935DA5A1A1",
 	"rootEntity": "fffffffffffffffe",
 	"entities": {
 		"fffffffffffffffe": {
@@ -9,32 +9,20 @@
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
-		"cafe7948eb6a4157": {
+		"cafeabc098f066db": {
 			"parent": "fffffffffffffffe",
-			"name": "ET_deer",
+			"name": "ET_Ural_Owl",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"cafe538311eef3d9": {
-			"parent": "cafe7948eb6a4157",
-			"name": "NPCs",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"cafe5e02bab7cfc9": {
-			"parent": "cafe7948eb6a4157",
-			"name": "Props",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"cafe8fc3e2f75eef": {
-			"parent": "cafe7948eb6a4157",
+		"cafe6cfaaa561b55": {
+			"parent": "cafeabc098f066db",
 			"name": "Outfits",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"cafe518043960d44": {
-			"parent": "cafe8fc3e2f75eef",
+		"cafe7de34e03dc63": {
+			"parent": "cafe6cfaaa561b55",
 			"name": "Xiao Ming",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -126,60 +114,71 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafefe9664a7eca2"],
+					"value": ["cafee9283fd3d416"],
 					"postInit": true
 				}
 			}
 		},
-		"cafefc22bb003b7d": {
-			"parent": "cafe518043960d44",
+		"cafeb747317044b8": {
+			"parent": "cafe7de34e03dc63",
 			"name": "Keyword_Prof_Class_Default",
 			"factory": "007A51A2AFEC0D1A",
 			"blueprint": "00B0282A41C1CF2E",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe518043960d44"]
+					"value": ["cafe7de34e03dc63"]
 				}
 			}
 		},
-		"cafe5de53fc8735f": {
-			"parent": "cafe518043960d44",
+		"cafe336e21eb056e": {
+			"parent": "cafe7de34e03dc63",
 			"name": "KeywordEntity_FOLEY_OUTFIT_SUIT47",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe518043960d44"]
+					"value": ["cafe7de34e03dc63"]
 				}
 			}
 		},
-		"cafefe9664a7eca2": {
-			"parent": "cafe518043960d44",
+		"cafee9283fd3d416": {
+			"parent": "cafe7de34e03dc63",
 			"name": "CHARSET_Rat_Unique_XiaoMing_M",
 			"factory": "[assembly:/_pro/characters/templates/rat/char_rat_unique.template?/charset_rat_unique_xiaoming_m.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/rat/char_rat_unique.template?/charset_rat_unique_xiaoming_m.entitytemplate].pc_entityblueprint"
 		},
-		"cafef1681b6e4c33": {
-			"parent": "cafe518043960d44",
+		"cafe44d0b64302b9": {
+			"parent": "cafe7de34e03dc63",
 			"name": "Keyword_Prof_Class_Worker_Scientist",
 			"factory": "000A0D1C0181E721",
 			"blueprint": "0019C146AD50C6D1",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe518043960d44"]
+					"value": ["cafe7de34e03dc63"]
 				}
 			}
+		},
+		"cafe008f98dada42": {
+			"parent": "cafeabc098f066db",
+			"name": "NPCs",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],
-	"overrideDeletes": [],
+	"overrideDeletes": [
+		{
+			"ref": "8ddee5795caaaf9e",
+			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+		}
+	],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
-		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

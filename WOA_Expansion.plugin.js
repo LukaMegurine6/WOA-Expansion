@@ -2763,56 +2763,64 @@ const contracts = [
                     }
                 }
             ],
-            "VR": [
-                {
-                    "Quality": "base",
-                    "Bricks": [
-                        "assembly:/_pro/Scenes/Bricks/vr_setup.brick"
-                    ]
-                }
-            ],
             "GameDifficulties": [
-                {
+            {
                 "Difficulty": "easy",
-                "Bricks": []
-                },
-                {
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/hokkaido/difficulty_easy_hokkaido_snowcrane.brick"
+                ]
+            },
+            {
                 "Difficulty": "normal",
                 "Bricks": []
-                },
-                {
+            },
+            {
                 "Difficulty": "hard",
-                "Bricks": []
-                }
-            ],
+                "Bricks": [
+                    "assembly:/_pro/scenes/missions/hokkaido/difficulty_pro1_hokkaido_snowcrane.brick"
+                ]
+            }
+        ],
+        "VR": [
+            {
+                "Quality": "base",
+                "Bricks": [
+                    "assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+                    "assembly:/_pro/scenes/missions/hokkaido/vr_overrides_snowcrane.brick",
+                    "assembly:/_PRO/scenes/missions/hokkaido/vr_overrides_ps4perf.brick"
+                ]
+            },
+            {
+                "Quality": "better",
+                "Bricks": [
+                    "assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+                    "assembly:/_pro/scenes/missions/hokkaido/vr_overrides_snowcrane.brick"
+                ]
+            }
+        ],
             "GameChangers": [],
             "Bricks": [
-                "assembly:/_pro/scenes/missions/trapped/et_deer.brick",
-                "assembly:/_pro/scenes/missions/trapped/passenger_train.brick"
+                "assembly:/_pro/scenes/missions/hokkaido/et_ural_owl.brick",
+                "assembly:/_pro/scenes/missions/hokkaido/tod_bluenight.brick"
             ],
-            "RandomBricks": {
-            "TimeOfDay": [
-                "assembly:/_pro/scenes/missions/trapped/tod_day.brick",
-                "assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick"
-            ]
-        },
+            
         },
             "Metadata": {
             "Title": "UI_CONTRACT_SHARK_TITLE",
             "Description": "UI_CONTRACT_SHARK_DESC",
             "Entitlements": [
-                "LOCATION_TRAPPED"
+                "H1_LEGACY_STANDARD"
             ],
-            "ScenePath": "assembly:/_pro/scenes/missions/trapped/scene_lynx.entity",
-            "Location": "LOCATION_TRAPPED_WOLVERINE",
+            "ScenePath": "assembly:/_PRO/Scenes/Missions/Hokkaido/_Scene_Mission_SnowCrane.entity",
+            "Location": "LOCATION_HOKKAIDO",
             "IsPublished": true,
             "CreatorUserId": "fadb913c-e6bb-4283-a537-eb4d1150262e",
             "GameVersion": "8.10.0.0",
             "ServerVersion": "8.10.0.0",
-            "CodeName_Hint": "Deer",
+            "CodeName_Hint": "Ural Owl",
             "Type": "elusive",
             "Subtype": "specialassignment",
-            "Season": 3,
+            "Season": 1,
             "Id": "g47sbccd-895a-4727-a5cc-72253ed56500",
             "PublicId": "194707810076",
             "TileImage": "images/TheInformant.jpg",
@@ -2834,9 +2842,10 @@ module.exports = function MissionPlugin(controller) {
         controller.addMission(contract)
         controller.missionsInLocations[contract.Metadata.Location].push(contract.Metadata.Id)
     })
+    orderedETs.push("g47sbccd-895a-4727-a5cc-72253ed56500")
     orderedETs.push("d27ecffd-895a-4727-a5cc-72253ed56500")
     orderedETs.push("d27ecffd-895a-4727-a7bb-62153ed56575")
     orderedETs.push("a47bdffd-895a-4727-a5cc-72253ed56500")
-    orderedETs.push("g47sbccd-895a-4727-a5cc-72253ed56500")
+    
     log(LogLevel.INFO, "[WOA Expansion] Welcome to the world of assassination, new contents now available !")
 }

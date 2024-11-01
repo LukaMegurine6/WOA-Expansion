@@ -465,8 +465,13 @@
 		},
 		{
 			"type": "entity",
-			"partition": "trapped",
-			"path": "[assembly:/_pro/scenes/missions/trapped/et_deer.brick].entitytype"
+			"partition": "hokkaido",
+			"path": "[assembly:/_pro/scenes/missions/hokkaido/et_ural_owl.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "hokkaido",
+			"path": "[assembly:/_pro/scenes/missions/hokkaido/tod_bluenight.brick].entitytype"
 		}
 	],
 	"dependencies": [
@@ -672,12 +677,12 @@
 				},
 				{
 					"runtimeID": "00BB63B184748685",
-					"toChunk": 7,
+					"toChunk": 22,
 					"portFromChunk1": false
 				},
 				{
 					"runtimeID": "00995C8E16F04ACE",
-					"toChunk": 7,
+					"toChunk": 22,
 					"portFromChunk1": false
 				}
 
