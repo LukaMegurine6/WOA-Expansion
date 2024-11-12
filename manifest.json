@@ -160,7 +160,9 @@
 			"UI_CHALLENGES_BENKO_GIFT_STABBED_DESC": "• Eliminate Thomas Cross with the bank's award.",
 			"UI_SAVALASBODYGUARD_SUIT": "Special unit suit"	,
 			"UI_ET_URAL_OWL_TITLE": "The Analyst",
-			"firearms_hero_pistol_ica19_blacklillyv3_name": "ICA19 Black Lily V3"							 
+			"firearms_hero_pistol_ica19_blacklillyv3_name": "ICA19 Black Lily V3",
+			"UI_CHALLENGES_KIWI_47_LASTBULLET_NAME": "Last Bullet",
+			"UI_CHALLENGES_KIWI_47_LASTBULLET_DESC": "• Kill Anthony Martinez Jr. with your pistol."							 
 
 
 
@@ -293,7 +295,9 @@
 			"UI_CHALLENGES_BENKO_GIFT_STABBED_DESC": "• Assassinez Thomas Cross avec le trophée qu'Athena Savalas à ramener.",
 			"UI_SAVALASBODYGUARD_SUIT": "Tenue d'unité spéciale",
 			"UI_ET_URAL_OWL_TITLE": "L'Analyste",
-			"firearms_hero_pistol_ica19_blacklilly_name": "ICA19 Lys noir V3"
+			"firearms_hero_pistol_ica19_blacklillyv3_name": "ICA19 Lys noir V3",
+			"UI_CHALLENGES_KIWI_47_LASTBULLET_NAME": "Dernière balle",
+			"UI_CHALLENGES_KIWI_47_LASTBULLET_DESC": "• Abattez Anthony Martinez Jr. avec votre pistolet."
 
 		},
 		"russian": {

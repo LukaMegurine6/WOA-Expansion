@@ -6032,6 +6032,58 @@ const assassinationChallenges = [{
         "InclusionData": {
             "ContractIds": ["d27ecffd-955a-4727-a5cc-72253ed56500"]
         }
+    },
+    {
+        "Id": "8c87c589-38a3-4d26-a754-cdb80d3e327f",
+        "Name": "UI_CHALLENGES_KIWI_47_LASTBULLET_NAME",
+        "ImageName": "images/challenges/HB Kiwi/LastBullet.jpg",
+        "Description": "UI_CHALLENGES_KIWI_47_LASTBULLET_DESC",
+        "Rewards": {
+            "MasteryXP": 2000
+        },
+        "Drops": ["FIREARMS_HERO_PISTOL_BLACKLILLYV3"],
+        "IsPlayable": true,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+        "Icon": "challenge_category_assassination",
+        "LocationId": "LOCATION_PARENT_NEWZEALAND",
+        "ParentLocationId": "LOCATION_PARENT_NEWZEALAND",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+            "Scope": "session",
+            "States": {
+                "Start": {
+                    "Kill": {
+                        "Condition": {
+                            "$and": [
+                                {
+                                    "$eq": [
+                                        "$Value.RepositoryId",
+                                        "3f5d9a9d-5a51-437a-a4c5-c2eae28a4eed"
+                                    ]
+                                },
+                                {
+                                    "$eq": [
+                                        "$Value.KillItemCategory",
+                                        "pistol"
+                                    ]
+                                },
+                            ]
+                        },
+                        "Transition": "Success"
+                    }
+                }
+            }
+        },
+        "Tags": ["story", "easy", "assassination"],
+        "InclusionData": {
+            "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
+        }
     }
 
 ]
@@ -6048,7 +6100,9 @@ module.exports = function ElusivesChallenges(controller) {
     controller.challengeService.registerGroup(featChallenges, "LOCATION_PARENT_PARIS", "h3")
     controller.challengeService.registerGroup(assassinationChallenges, "LOCATION_PARENT_PARIS", "h3")
     controller.challengeService.registerGroup(featChallenges, "LOCATION_PARENT_COASTALTOWN", "h3")
-    controller.challengeService.registerGroup(assassinationChallenges, "LOCATION_PARENT_COASTALTOWN", "h3")
+    controller.challengeService.registerGroup(assassinationChallenges, "LOCATION_PARENT_COASTALTOWN", "h3"),
+    controller.challengeService.registerGroup(featChallenges, "LOCATION_PARENT_NEWZEALAND", "h3")
+    controller.challengeService.registerGroup(assassinationChallenges, "LOCATION_PARENT_NEWZEALAND", "h3")
 
     /**
      * For feats
