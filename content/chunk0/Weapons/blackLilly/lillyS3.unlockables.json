@@ -1,0 +1,39 @@
+{
+	"FIREARMS_HERO_PISTOL_BLACKLILLYV3": {
+		"Id": "FIREARMS_HERO_PISTOL_BLACKLILLYV3",
+		"Guid": "2cac067e-dde8-4f2a-b879-c811ab01ec5e",
+		"Type": "weapon",
+		"Subtype": "pistol",
+		"RMTPrice": 99,
+		"GamePrice": 99,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "rare",
+			"LoadoutSlot": "concealedweapon",
+			"RepositoryId": "56175129-c2bb-4b27-9883-67f62dcc80b9"
+		},
+		"Rarity": "rare"
+	},
+    "PACKAGE_STARTING_PACKAGE": {
+        "Properties": {
+            "Unlocks": [
+                "TOKEN_FIBERWIRE",
+                "PROP_TOOL_COIN",
+                "FIREARMS_HERO_PISTOL_TACTICAL_ICA_19",
+                "TOKEN_OUTFIT_HITMANSUIT",
+                "TOKEN_OUTFIT_PARIS_HERO_PARISSUIT",
+                "FIREARMS_SC_HERO_SNIPER_HM",
+                "EMOTE_GENERIC_KISS_01",
+                "EMOTE_GENERIC_SLOW_CLAP",
+                "EMOTE_GENERIC_POINT_EYES",
+                "EMOTE_GENERIC_SHAKEHEAD_03",
+                "FIREARMS_HERO_PISTOL_BLACKLILLYV3"
+            ]
+        }
+    }
+}

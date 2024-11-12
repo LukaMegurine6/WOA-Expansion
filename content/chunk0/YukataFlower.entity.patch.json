@@ -1,0 +1,21 @@
+{
+	"tempHash": "009E3B04F297EF82",
+	"tbluHash": "007A3A482FD8AF7C",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"3313144a8ce26023",
+				{
+					"SetPropertyValue": {
+						"property_name": "Texture2D_01",
+						"value": {
+							"resource": "009F469833527F03",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
