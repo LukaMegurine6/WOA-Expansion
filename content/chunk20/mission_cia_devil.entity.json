@@ -2268,77 +2268,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"feed718cf3a4e050": {
-			"parent": "feed4c97ee4c58ab",
-			"name": "Inside Trespass Rule",
-			"factory": "[modules:/ztrespassingruleentity.class].pc_entitytype",
-			"blueprint": "[modules:/ztrespassingruleentity.class].pc_entityblueprint",
-			"properties": {
-				"m_bDeepTrespassing": { "type": "bool", "value": true },
-				"m_Zones": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feeda88a307f4b5b"],
-					"postInit": true
-				},
-				"m_KeeperProfessions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed447472116afe",
-						"feed756a4ede5be5",
-						"feed72cb530577cb",
-						"feed5c67a919896a",
-						"feed9f7eb04d0ad0"
-					],
-					"postInit": true
-				},
-				"m_AllowedProfessions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
-					"postInit": true
-				},
-				"m_ExcludedFromDeepTrespassingProfessions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed756a4ede5be5"],
-					"postInit": true
-				}
-			}
-		},
-		"feedddabb13c1627": {
-			"parent": "feed4c97ee4c58ab",
-			"name": "Outside Trespass Rule",
-			"factory": "[modules:/ztrespassingruleentity.class].pc_entitytype",
-			"blueprint": "[modules:/ztrespassingruleentity.class].pc_entityblueprint",
-			"properties": {
-				"m_bDeepTrespassing": { "type": "bool", "value": true },
-				"m_Zones": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedbe23720ffda0"]
-				},
-				"m_KeeperProfessions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed5ebb776f4d6b",
-						"feed756a4ede5be5",
-						"feed72cb530577cb",
-						"feed5c67a919896a",
-						"feed447472116afe",
-						"feed9f7eb04d0ad0"
-					],
-					"postInit": true
-				},
-				"m_AllowedProfessions": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed447472116afe",
-						"feed9f7eb04d0ad0",
-						"feed756a4ede5be5",
-						"feed72cb530577cb",
-						"feed5c67a919896a"
-					],
-					"postInit": true
-				}
-			}
-		},
 		"feedf364c83a16c6": {
 			"parent": "feedd92d26a9418d",
 			"name": "Zone Setup",
@@ -11385,6 +11314,661 @@
 			"name": "Dead",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafe84fb0413b1d3": {
+			"parent": "fffffffffffffffe",
+			"name": "Outfits",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe20fc71c8fbbf": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "ItemKey_Melee_KitchenKnife_01",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e17172cc-bf70-4df6-9828-d9856b1a24fd"
+				}
+			}
+		},
+		"cafe8210bc2f8b6a": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "Keyword_DIALOGUE_GENERIC_TYPE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_generic_type.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_generic_type.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe34fa5196ee4f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9abda8b7e484": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "Prof_Global_Chef",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_global_chef.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_global_chef.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe34fa5196ee4f"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe483a5ee4751a": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "Keyword_DIALOGUE_NPC_CHEF",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_chef.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_chef.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_sKeyword": {
+					"type": "ZString",
+					"value": "DIALOGUE_NPC_CHEF"
+				},
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe34fa5196ee4f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9153083c0b69": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "ItemKey_Melee_Cleaver_01",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1bbf0ed5-0515-4599-a4c9-454ce59cff44"
+				}
+			}
+		},
+		"cafe2fd3d0059f7c": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "Keyword_Prof_Class_Worker_Kitchen",
+			"factory": "000B2108B2CD26DF",
+			"blueprint": "00FABEC02BAB7A0E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe34fa5196ee4f"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe9dcac24c1c51": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "Prof_NewZealandFood_Worker",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_theisland_worker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_theisland_worker.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe34fa5196ee4f"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe36bb5bcf62ce": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_MED",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_med.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_med.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe34fa5196ee4f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe34fa5196ee4f": {
+			"parent": "cafe84fb0413b1d3",
+			"name": "TheIsland_Worker_Kitchen_Chef_M_PRO99800",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BOOTS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "e4aeb186-bedd-41a1-b4c0-bb9c49bc7982"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_aAllowedWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe20fc71c8fbbf", "cafe9153083c0b69"]
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "TheIsland_Worker_Kitchen_Chef_M_PRO99800"
+				},
+				"m_sTitle": { "type": "ZString", "value": "Chef" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_theisland.sweetmenutext?/theisland_worker_kitchen_chef_m_pro99800_name_e4aeb186-bedd-41a1-b4c0-bb9c49bc7982.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_theisland.sweetmenutext?/theisland_worker_kitchen_chef_m_pro99800_description_e4aeb186-bedd-41a1-b4c0-bb9c49bc7982.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Chef"
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_JOB_CHEFM06",
+						"eAVV_JOB_CHEFM07",
+						"eAVV_JOB_CHEFM09"
+					]
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Worker"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeddd765ed9d64"],
+					"postInit": true
+				}
+			}
+		},
+		"cafeddd765ed9d64": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "CHARSET_Magpie_Worker_Chef_M",
+			"factory": "[assembly:/_pro/characters/templates/magpie/char_magpie_workers.template?/charset_magpie_worker_chef_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/magpie/char_magpie_workers.template?/charset_magpie_worker_chef_m.entitytemplate].pc_entityblueprint"
+		},
+		"cafe0e4fb23e544b": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "Prof_NewZealand_Worker_Chef",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_theisland_worker_chef.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_theisland_worker_chef.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe34fa5196ee4f"]
+				}
+			}
+		},
+		"cafe758d9ef8931a": {
+			"parent": "cafe34fa5196ee4f",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe34fa5196ee4f"]
+				}
+			}
+		},
+		"cafe20e432935733": {
+			"parent": "cafebf4b8602ebb5",
+			"name": "Keyword_FOLEY_VR_OUTFIT_CLOTHGLOVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebf4b8602ebb5",
+					"postInit": true
+				}
+			}
+		},
+		"cafee4fd8e291d8f": {
+			"parent": "cafebf4b8602ebb5",
+			"name": "Prof_NewZealandMansion_Worker",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafebf4b8602ebb5"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe283b7221d6e9": {
+			"parent": "cafebf4b8602ebb5",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafebf4b8602ebb5"],
+					"postInit": true
+				}
+			}
+		},
+		"cafebf4b8602ebb5": {
+			"parent": "cafe84fb0413b1d3",
+			"name": "Ancestral_Worker_MansionStaff_M_PRO176206",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "4115e440-fdf8-44d2-a3ba-a1bb2285e542"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Ancestral_Worker_MansionStaff_M_PRO176206"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bIsFemale": { "type": "bool", "value": false },
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_bAuthorityFigure": { "type": "bool", "value": true },
+				"m_bIsHitmanSuit": { "type": "bool", "value": false },
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Worker"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Mansion Staff"
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_ancestral.sweetmenutext?/ancestral_worker_mansionstaff_m_name_4115e440-fdf8-44d2-a3ba-a1bb2285e542.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_ancestral.sweetmenutext?/ancestral_worker_mansionstaff_m_description_4115e440-fdf8-44d2-a3ba-a1bb2285e542.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_CIVMALE11",
+						"eAVV_CIVMALE06",
+						"eAVV_CIVMALE07",
+						"eAVV_CIVMALE09",
+						"eAVV_CIVMALE10",
+						"eAVV_BULLDOG_MANSIONSTAFF_M06",
+						"eAVV_BULLDOG_MANSIONSTAFF_M07",
+						"eAVV_BULLDOG_MANSIONSTAFF_M08",
+						"eAVV_BULLDOG_MANSIONSTAFF_M09",
+						"eAVV_BULLDOG_MANSIONSTAFF_M11"
+					]
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_HouseStaff"
+				},
+				"m_aAnimationSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafefa9025735960"],
+					"postInit": true
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafec286cf25c8a9", "cafe79b4cdde0c12"],
+					"postInit": true
+				}
+			}
+		},
+		"cafefa9025735960": {
+			"parent": "cafebf4b8602ebb5",
+			"name": "AnimSet_Civ_Male",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/animset_civ_male.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/animset_civ_male.entitytemplate].pc_entityblueprint"
+		},
+		"cafe79b4cdde0c12": {
+			"parent": "cafebf4b8602ebb5",
+			"name": "CHARSET_Bulldog_Unique_Bramble_MansionStaff_M",
+			"factory": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_elusivetarget.template?/charset_bulldog_unique_bramble_mansionstaff_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_elusivetarget.template?/charset_bulldog_unique_bramble_mansionstaff_m.entitytemplate].pc_entityblueprint"
+		},
+		"cafec286cf25c8a9": {
+			"parent": "cafebf4b8602ebb5",
+			"name": "CHARSET_Bulldog_Worker_MansionStaff_M",
+			"factory": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/charset_bulldog_worker_mansionstaff_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/charset_bulldog_worker_mansionstaff_m.entitytemplate].pc_entityblueprint"
+		},
+		"cafef21366d924f7": {
+			"parent": "cafebf4b8602ebb5",
+			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_LIGHT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_light.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebf4b8602ebb5"
+				}
+			}
+		},
+		"cafe2d5764b7eb3a": {
+			"parent": "cafebf4b8602ebb5",
+			"name": "Prof_NewZealand_Worker_MansionStaff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_mansionstaff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_mansionstaff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafebf4b8602ebb5"]
+				}
+			}
+		},
+		"cafe349d040ead6b": {
+			"parent": "feedfae615c38981",
+			"name": "Prof_NewZealandMansion_Worker_MansionStaff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_mansionstaff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_mansionstaff.entitytemplate].pc_entityblueprint"
+		},
+		"cafe15b3ad5c9fdf": {
+			"parent": "feedfae615c38981",
+			"name": "Prof_NewZealand_Worker_Chef",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_theisland_worker_chef.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_theisland_worker_chef.entitytemplate].pc_entityblueprint"
+		},
+		"cafe2d1640825f0e": {
+			"parent": "cafe73b8d2791e5b",
+			"name": "ItemKey_Melee_KitchenKnife",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "d5ff993f-d5bc-4d1b-8d0c-44ccc480a604"
+				}
+			}
+		},
+		"cafe6cd17838bac5": {
+			"parent": "cafe73b8d2791e5b",
+			"name": "AnimSet_Civ_Female_Heel",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_heel.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_heel.entitytemplate].pc_entityblueprint"
+		},
+		"cafedcbaf9775709": {
+			"parent": "cafe73b8d2791e5b",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe73b8d2791e5b"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe1fe4cf64ae29": {
+			"parent": "cafe73b8d2791e5b",
+			"name": "Keyword_Prof_Class_Worker_Service",
+			"factory": "00F9D6858A5DDC26",
+			"blueprint": "000E44CD728EC628",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe73b8d2791e5b"],
+					"postInit": true
+				}
+			}
+		},
+		"cafeb251dc22e42e": {
+			"parent": "cafe73b8d2791e5b",
+			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_MED",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_med.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_med.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe73b8d2791e5b",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8de6ed78e12c": {
+			"parent": "cafe73b8d2791e5b",
+			"name": "Prof_NewZealand_WorkerF_MansionStaff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_mansionstaff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker_mansionstaff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe73b8d2791e5b"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe7b27961b8519": {
+			"parent": "cafe73b8d2791e5b",
+			"name": "ItemKey_Melee_KitchenKnife01",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "11864877-1136-4a01-9467-f49c6ccc96cc"
+				}
+			}
+		},
+		"cafe29f357aad9f8": {
+			"parent": "cafe73b8d2791e5b",
+			"name": "Prof_NewZealand_WorkerF",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_ancestral_worker.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe73b8d2791e5b"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe73b8d2791e5b": {
+			"parent": "cafe84fb0413b1d3",
+			"name": "Ancestral_Worker_MansionStaff_F_PRO176207",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_fHitPoints": { "type": "float32", "value": -1.0 },
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_bIsFemale": { "type": "bool", "value": true },
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianFemale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "f79fdc63-5f69-46c1-ad35-cee97bb8c250"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f76365f15c816405",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_aAllowedWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe2d1640825f0e"]
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Ancestral_Worker_MansionStaff_F_PRO176207"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Mansion Staff"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_ancestral.sweetmenutext?/ancestral_worker_mansionstaff_f_name_f79fdc63-5f69-46c1-ad35-cee97bb8c250.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_ancestral.sweetmenutext?/ancestral_worker_mansionstaff_f_description_f79fdc63-5f69-46c1-ad35-cee97bb8c250.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_CIVFEM10",
+						"eAVV_CIVFEM09",
+						"eAVV_CIVFEM05",
+						"eAVV_CIVFEM08",
+						"eAVV_BULLDOG_MANSIONSTAFF_F05",
+						"eAVV_BULLDOG_MANSIONSTAFF_F08",
+						"eAVV_BULLDOG_MANSIONSTAFF_F09",
+						"eAVV_BULLDOG_MANSIONSTAFF_F10"
+					]
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_HouseStaff"
+				},
+				"m_aAnimationSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe6cd17838bac5"]
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Worker"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe66ca9b0ec064"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe66ca9b0ec064": {
+			"parent": "cafe73b8d2791e5b",
+			"name": "CHARSET_Bulldog_Worker_MansionStaff_F",
+			"factory": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/charset_bulldog_worker_mansionstaff_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/charset_bulldog_worker_mansionstaff_f.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],
