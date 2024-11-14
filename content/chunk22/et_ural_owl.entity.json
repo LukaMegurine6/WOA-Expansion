@@ -1194,7 +1194,7 @@
 				},
 				"m_aWaypointActs": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
+					"value": ["cafe84a29d800594"],
 					"postInit": true
 				},
 				"m_aActors": {
