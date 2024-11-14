@@ -13838,6 +13838,532 @@
 				],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
+		},
+		"cafe1f824da7bd0d": {
+			"parent": "cafe4ea4d79702ab",
+			"name": "ItemKey_Melee_KitchenKnife",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e17172cc-bf70-4df6-9828-d9856b1a24fd"
+				}
+			}
+		},
+		"cafe715c38e95912": {
+			"parent": "cafe4ea4d79702ab",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4ea4d79702ab"],
+					"postInit": true
+				}
+			}
+		},
+		"cafeb0bf4c9fd23a": {
+			"parent": "cafe4ea4d79702ab",
+			"name": "ItemKey_Melee_Cleaver",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1bbf0ed5-0515-4599-a4c9-454ce59cff44"
+				}
+			}
+		},
+		"cafe03655da02d54": {
+			"parent": "cafe4ea4d79702ab",
+			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_LIGHT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_light.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4ea4d79702ab"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe4ea4d79702ab": {
+			"parent": "cafe84fb0413b1d3",
+			"name": "Sapienza_Worker_KitchenAssistant_F_HPA495",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianFemale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_SNEAKERS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "1499ddb8-c1f1-4c43-ad08-6edec06be1be"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f76365f15c816405",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Sapienza_Worker_KitchenAssistant_F_HPA495"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Kitchen Assistant"
+				},
+				"m_bIsFemale": { "type": "bool", "value": true },
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Chef"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_kitchenassistant_f_hpa495_name_881bfb98-bb50-47b7-870c-e7236db9320f.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_kitchenassistant_f_hpa495_description_881bfb98-bb50-47b7-870c-e7236db9320f.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_aAllowedWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe1f824da7bd0d", "cafeb0bf4c9fd23a"]
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_WAITERFEM01",
+						"eAVV_WAITERFEM02",
+						"eAVV_WAITERFEM03",
+						"eAVV_WAITERFEM04"
+					]
+				},
+				"m_aAnimationSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4163d886be4a"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe4163d886be4a": {
+			"parent": "cafe4ea4d79702ab",
+			"name": "CHARSET_MansionStaff_Female_Red",
+			"factory": "[assembly:/_pro/characters/templates/workers/service.template?/charset_mansionstaff_female_red.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/workers/service.template?/charset_mansionstaff_female_red.entitytemplate].pc_entityblueprint"
+		},
+		"cafedb83ef7e2d40": {
+			"parent": "cafe4ea4d79702ab",
+			"name": "Keyword_Prof_Class_Worker_Kitchen",
+			"factory": "000B2108B2CD26DF",
+			"blueprint": "00FABEC02BAB7A0E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4ea4d79702ab"]
+				}
+			}
+		},
+		"cafe6852a6f4b446": {
+			"parent": "cafe0555fb957a6a",
+			"name": "Act_FR_Stand_Lean_Back_Wall_Smoke",
+			"factory": "007B787E818BCD70",
+			"blueprint": "0085D1C04C5C5446",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 34.90394 },
+						"position": {
+							"x": 17.251877,
+							"y": -20.288902,
+							"z": -0.2000268
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": -1.0 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2ca5b149ea3a",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"cafeb904a33898f5": {
+			"parent": "cafea4cfdb635c1b",
+			"name": "Traitor",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafea6d04eb82dd1": {
+			"parent": "cafeb904a33898f5",
+			"name": "Unique_Traitor",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 34.90394 },
+						"position": {
+							"x": 17.251877,
+							"y": -20.288902,
+							"z": -0.2000268
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "45ce89bb-0689-4b63-9f5e-5db1723904bf"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "1499ddb8-c1f1-4c43-ad08-6edec06be1be"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed5ebb776f4d6b", "cafe349d040ead6b"],
+					"postInit": true
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Jane Paris"
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_WAITERFEM01"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe5c45e5d95b4e": {
+			"parent": "cafea6d04eb82dd1",
+			"name": "ActorDeath",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea6d04eb82dd1"
+				}
+			},
+			"events": {
+				"OnDead": {
+					"SetFalse": ["cafe73b2949f5162", "cafe909e27ac949e"]
+				},
+				"OnPacified": { "SetFalse": ["cafe909e27ac949e"] },
+				"OnAlive": {
+					"SetTrue": ["cafe909e27ac949e", "cafe73b2949f5162"]
+				}
+			}
+		},
+		"cafeb85bfe242c52": {
+			"parent": "cafea6d04eb82dd1",
+			"name": "Values",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafee0efb6970b2c": {
+			"parent": "cafea6d04eb82dd1",
+			"name": "ActorProxy",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea6d04eb82dd1"
+				}
+			}
+		},
+		"cafe73b2949f5162": {
+			"parent": "cafeb85bfe242c52",
+			"name": "Alive",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe909e27ac949e": {
+			"parent": "cafeb85bfe242c52",
+			"name": "Conscious",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe0555fb957a6a": {
+			"parent": "cafea6d04eb82dd1",
+			"name": "DramaSituation",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe2ca5b149ea3a"]
+				}
+			}
+		},
+		"cafe2ca5b149ea3a": {
+			"parent": "cafe0555fb957a6a",
+			"name": "UniqueTraitor",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea6d04eb82dd1",
+					"postInit": true
+				}
+			}
+		},
+		"cafee550ea206e21": {
+			"parent": "cafe0555fb957a6a",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe0555fb957a6a"
+				}
+			},
+			"events": { "OnStart": { "Start": ["cafe6852a6f4b446"] } }
+		},
+		"cafe254a00fbab04": {
+			"parent": "cafe9c33d2338ce8",
+			"name": "Vegetable_Sack_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/vegetable_sack_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/vegetable_sack_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -175.3313594410324
+						},
+						"position": {
+							"x": -0.02039100043475628,
+							"y": 0.022593999281525612,
+							"z": 0.5108360052108765
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9c33d2338ce8",
+					"postInit": true
+				}
+			}
+		},
+		"cafecbc32e5e9059": {
+			"parent": "cafe9c33d2338ce8",
+			"name": "Vegetable_Sack_A_00_10",
+			"factory": "[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/vegetable_sack_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/vegetable_sack_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -74.18449567205269,
+							"y": 0.6875085750903327,
+							"z": 27.253633282718937
+						},
+						"position": {
+							"x": 0.8286839723587036,
+							"y": 0.04111900180578232,
+							"z": 0.405470997095108
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.944604992866516, "y": 1.0, "z": 1.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9c33d2338ce8",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe9c33d2338ce8": {
+			"parent": "cafe369ebb2b9755",
+			"name": "Parcel_Cart_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_cart_e_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_cart_e_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -170.42812683687595
+						},
+						"position": {
+							"x": 22.454633712768555,
+							"y": -20.884185791015625,
+							"z": -0.2000003308057785
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			}
+		},
+		"cafe370f887f2672": {
+			"parent": "cafe9c33d2338ce8",
+			"name": "CollisionBox",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bCollideHitman": { "type": "bool", "value": false },
+				"m_bEnableExplosionBlocker": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.8717999458312988
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -1.9999999949504854e-6,
+							"y": 0.0,
+							"z": 0.4359009861946106
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9c33d2338ce8"
+				}
+			}
+		},
+		"cafe87c131c2791b": {
+			"parent": "cafe9c33d2338ce8",
+			"name": "Vegetable_Sack_A_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/vegetable_sack_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/vegetable_sack_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 177.0005138311221
+						},
+						"position": {
+							"x": -0.008559999987483025,
+							"y": 0.04960300028324127,
+							"z": 0.756426990032196
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9c33d2338ce8"
+				}
+			}
+		},
+		"cafefdcd80840a8f": {
+			"parent": "cafe9c33d2338ce8",
+			"name": "Vegetable_Sack_A_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/vegetable_sack_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/vegetable_sack_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.4698308260052052
+						},
+						"position": {
+							"x": -0.018750999122858047,
+							"y": -0.06313899904489517,
+							"z": 0.2415519952774048
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9c33d2338ce8"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		}
 	},
 	"propertyOverrides": [
