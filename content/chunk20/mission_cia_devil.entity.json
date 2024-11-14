@@ -13790,6 +13790,54 @@
 					"value": "cd0769a7-ff21-450c-8fcc-91ac5982b036"
 				}
 			}
+		},
+		"cafe369ebb2b9755": {
+			"parent": "feedcaa1e7276ef4",
+			"name": "Vehicles",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe7849340b3ec2": {
+			"parent": "cafe369ebb2b9755",
+			"name": "Avance_Albatros_Food_Delivery_A",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/avance_albatros_food_delivery_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/avance_albatros_food_delivery_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 136.41364
+						},
+						"position": {
+							"x": 18.222765,
+							"y": -19.224047,
+							"z": -0.20000033
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"LeftDoorStartOpen": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
 		}
 	},
 	"propertyOverrides": [
