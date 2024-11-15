@@ -1,0 +1,124 @@
+{
+	"tempHash": "00FDA4A7677BE370",
+	"tbluHash": "00593CD8D0302DD9",
+	"rootEntity": "f51005cf9b898837",
+	"entities": {
+		"b54db66d2f79cb35": {
+			"parent": "f51005cf9b898837",
+			"name": "Head_Caucasian_20s_02",
+			"factory": "002450307D5AEA26",
+			"blueprint": "0018BAB34F6C645E"
+		},
+		"94ffcd4f9547e7a7": {
+			"parent": "f51005cf9b898837",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#d5e3f5"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00CF0096FDCFE48C",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"ad39b84daa2c2c4f": {
+			"parent": "f51005cf9b898837",
+			"name": "Upper_Body",
+			"factory": "00E7208BAEDDB24F",
+			"blueprint": "003C889C79F6A7B1"
+		},
+		"f51005cf9b898837": {
+			"parent": null,
+			"name": "OUTFIT_Bulldog_Worker_MansionStaff_M_Nude_v5",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.0556520223617554,
+							"y": -1.8425170183181765,
+							"z": 0.0
+						}
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ad39b84daa2c2c4f",
+						"94ffcd4f9547e7a7",
+						"d0aa7982707db069",
+						"94acb625521e0a5b",
+						"b54db66d2f79cb35"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"94acb625521e0a5b": {
+			"parent": "f51005cf9b898837",
+			"name": "Hair_Full_MS_Wavy_Combover",
+			"factory": "00BA1DF09A226FCF",
+			"blueprint": "002E7CECEF13603E",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#7a624e"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#7a624e"
+				}
+			}
+		},
+		"d0aa7982707db069": {
+			"parent": "f51005cf9b898837",
+			"name": "Legs_Thigh_Foot",
+			"factory": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "0098B597BC3F7804", "flag": "5F" },
+		{ "resource": "007170873AAF14D2", "flag": "5F" },
+		{ "resource": "00C8529E0CCA9EC1", "flag": "5F" },
+		{ "resource": "00D927084DA11024", "flag": "5F" },
+		{ "resource": "00A545F0FE26C2B3", "flag": "5F" },
+		{ "resource": "00B4CB01BD760AE0", "flag": "5F" },
+		{ "resource": "00ACDB9E525DB9FA", "flag": "5F" },
+		{ "resource": "00F82E259CB555DC", "flag": "5F" },
+		{ "resource": "00AC3105CA41F331", "flag": "5F" },
+		{ "resource": "00C5DEA56B29F493", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0091FBA017372507", "flag": "5F" },
+		{ "resource": "0032B8AC1DCBDA17", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

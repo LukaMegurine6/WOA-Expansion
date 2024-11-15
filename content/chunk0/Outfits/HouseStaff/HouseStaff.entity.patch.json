@@ -1,0 +1,121 @@
+{
+	"tempHash": "0028E716E521FE5F",
+	"tbluHash": "00C311DB42FE3F39",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ce2252b61aeeb2fb",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aVariations",
+						[
+							{
+								"AddItemAfter": [
+									"562a26e9bd859764",
+									"cafe9b057ab26b77"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04c102d93ed974d1",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aVariations",
+						[
+							{
+								"AddItemAfter": [
+									"bf91a36e4c529542",
+									"cafec1987a3f8646"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"58cae86d6a492173",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aVariations",
+						[
+							{
+								"AddItemAfter": [
+									"23d5abd0718ff5bf",
+									"cafefe350b12b6e5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec1987a3f8646",
+				{
+					"parent": "04c102d93ed974d1",
+					"name": "5",
+					"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+					"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+					"properties": {
+						"m_Outfit": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/outfit_bulldog_worker_mansionstaff_m_actor_v5.entitytemplate].pc_entitytemplate",
+								"flag": "9F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9b057ab26b77",
+				{
+					"parent": "ce2252b61aeeb2fb",
+					"name": "Var5",
+					"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+					"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+					"properties": {
+						"m_Outfit": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/outfit_bulldog_worker_mansionstaff_m_heroa_v5.entitytemplate].pc_entitytemplate",
+								"flag": "9F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefe350b12b6e5",
+				{
+					"parent": "58cae86d6a492173",
+					"name": "Var5",
+					"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+					"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+					"properties": {
+						"m_Outfit": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_workers.template?/outfit_bulldog_worker_mansionstaff_m_nude_v5.entitytemplate].pc_entitytemplate",
+								"flag": "9F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

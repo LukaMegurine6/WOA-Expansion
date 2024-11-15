@@ -1,0 +1,352 @@
+{
+	"tempHash": "0076E82A107C84E8",
+	"tbluHash": "00404AEF0BAD251A",
+	"rootEntity": "cd0b26144e89c46a",
+	"entities": {
+		"62f58b5c19daa912": {
+			"parent": "cd0b26144e89c46a",
+			"name": "Socks_Ankle_Cut_Shoe",
+			"factory": "00C50F4D59B78463",
+			"blueprint": "0060BDFBAAFA9324",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#474747"
+				}
+			}
+		},
+		"cd0b26144e89c46a": {
+			"parent": null,
+			"name": "OUTFIT_Bulldog_Worker_MansionStaff_M_Actor_v5",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.0018329620361328,
+							"y": -2.591792106628418,
+							"z": -0.003996000159531832
+						}
+					}
+				},
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0064585D582B0E33",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": { "type": "uint32", "value": 3 },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"6d29249d9fbc673f",
+						"54a723ca668979ff",
+						"db96a3122143d632",
+						"f171f45087a012f2",
+						"ce2ea988caeff077",
+						"baf36c1c4ce13a3b",
+						"62f58b5c19daa912",
+						"86934a8fc67cb57d",
+						"0f2c30d632534ca2"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"6d29249d9fbc673f": {
+			"parent": "cd0b26144e89c46a",
+			"name": "Head_Caucasian_20s_02",
+			"factory": "002450307D5AEA26",
+			"blueprint": "0018BAB34F6C645E"
+		},
+		"db96a3122143d632": {
+			"parent": "cd0b26144e89c46a",
+			"name": "WaistCoat_Lapels",
+			"factory": "005678A14A9DFB3E",
+			"blueprint": "00D2191C053AA595",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003FD2A4F586DDB2",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"0f2c30d632534ca2": {
+			"parent": "cd0b26144e89c46a",
+			"name": "Hair_Full_MS_Wavy_Combover",
+			"factory": "00BA1DF09A226FCF",
+			"blueprint": "002E7CECEF13603E",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#7a624e"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#7a624e"
+				}
+			}
+		},
+		"f171f45087a012f2": {
+			"parent": "cd0b26144e89c46a",
+			"name": "Shoes_Derby_PlainToe_SquareTip",
+			"factory": "0002AF51C3F2ECC9",
+			"blueprint": "00C8130EBB5A0F37",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#383838"
+				}
+			}
+		},
+		"ce2ea988caeff077": {
+			"parent": "cd0b26144e89c46a",
+			"name": "Shirt_Dress_BtnUp_Tkd_Cut_WaistCoat",
+			"factory": "0059A392F698A84F",
+			"blueprint": "005AE816CDF0C176",
+			"properties": {
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.03999999910593033
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				}
+			}
+		},
+		"714d76245be79b44": {
+			"parent": "cd0b26144e89c46a",
+			"name": "Attacher_Head",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Head" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cd0b26144e89c46a"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cd0b26144e89c46a"
+				}
+			}
+		},
+		"86934a8fc67cb57d": {
+			"parent": "cd0b26144e89c46a",
+			"name": "Gloves_Rubber_Medical",
+			"factory": "00E8A1383E199041",
+			"blueprint": "009398722444190C",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0072A1599EF3308E",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0057B99716D7380D",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.8399999737739563
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.5799999833106995
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.3100000023841858
+				}
+			}
+		},
+		"baf36c1c4ce13a3b": {
+			"parent": "cd0b26144e89c46a",
+			"name": "Bowtie_Butterfly",
+			"factory": "00FFE50F3DA74B3D",
+			"blueprint": "0027E428FDE4CE02",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#363636"
+				}
+			}
+		},
+		"54a723ca668979ff": {
+			"parent": "cd0b26144e89c46a",
+			"name": "Pants_Dress_Dbl_Pleat",
+			"factory": "001CC85F9989A527",
+			"blueprint": "00CD4FA88CC5018A",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A5CA47BDEE4D43",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafea8e909e73eb0": {
+			"parent": "714d76245be79b44",
+			"name": "glasses_aviator_fullframe_bridge_slvr",
+			"factory": "00379F0995149DAA",
+			"blueprint": "00BD730C0722F7C4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.0,
+							"y": 89.37783648720279,
+							"z": 90.0
+						},
+						"position": {
+							"x": 0.06707999855279922,
+							"y": 0.0058200000785291195,
+							"z": -0.0005569999921135604
+						}
+					}
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"m_fLODOffset": {
+					"type": "float32",
+					"value": 0.05999999865889549
+				},
+				"ConstantVector1D_09_Value": {
+					"type": "float32",
+					"value": 0.1599999964237213
+				},
+				"Diffuse_Tint_Value": {
+					"type": "SColorRGB",
+					"value": "#4f5e32"
+				},
+				"ConstantVector1D_05_Value_1": {
+					"type": "float32",
+					"value": 0.6499999761581421
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D4CBFA6A915B62",
+						"flag": "5F"
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.059249997138977 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "714d76245be79b44",
+					"postInit": true
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "00ACDB9E525DB9FA", "flag": "5F" },
+		{ "resource": "00F82E259CB555DC", "flag": "5F" },
+		{ "resource": "00AC3105CA41F331", "flag": "5F" },
+		{ "resource": "00C5DEA56B29F493", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0091FBA017372507", "flag": "5F" },
+		{ "resource": "0032B8AC1DCBDA17", "flag": "5F" },
+		{ "resource": "00219C193B4D426B", "flag": "5F" },
+		{ "resource": "004B420901477A20", "flag": "5F" },
+		{ "resource": "0045F839B337D2B6", "flag": "5F" },
+		{ "resource": "00188997D678EF0B", "flag": "5F" },
+		{ "resource": "006F835120511247", "flag": "5F" },
+		{ "resource": "006A9072F2C78523", "flag": "5F" },
+		{ "resource": "005A3A86E39FBFB7", "flag": "5F" },
+		{ "resource": "006258232B3126D5", "flag": "5F" },
+		{ "resource": "00A3ACF34B95F72D", "flag": "5F" },
+		{ "resource": "00D90E15E9F9C79E", "flag": "5F" },
+		{ "resource": "0068B98471C04EFB", "flag": "5F" },
+		{ "resource": "0029918770C99F1A", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/mansionstaff_01/textures/male_mansionstaff_01_shirtwaistcoat_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/mansionstaff_01/textures/male_mansionstaff_01_shirtwaistcoat_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/mansionstaff_01/textures/male_mansionstaff_01_shirtwaistcoat_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/male_reg_agent47_paris_fly_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/male_reg_agent47_paris_fly_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/male_reg_agent47_paris_fly_01.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00E9A04D026C5F56", "flag": "5F" },
+		{ "resource": "00C197DBB1B74FF6", "flag": "5F" },
+		{ "resource": "007E2F6DB1068A8D", "flag": "5F" },
+		{ "resource": "00AAD107E192CFAE", "flag": "5F" },
+		{ "resource": "0063B05E0712FBB3", "flag": "5F" },
+		{ "resource": "0075F98DD09DA4D1", "flag": "5F" },
+		{ "resource": "00C292DD6F6AF4DB", "flag": "5F" },
+		{ "resource": "007CAD7BA34D0988", "flag": "5F" },
+		{ "resource": "001A0B743B388FBA", "flag": "5F" },
+		{ "resource": "00B4CB01BD760AE0", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

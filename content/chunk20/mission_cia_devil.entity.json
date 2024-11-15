@@ -14390,7 +14390,7 @@
 					"type": "ZGuid",
 					"value": "705881f7-0c65-49f9-80bd-16229fdbe1c2"
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 1 },
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
