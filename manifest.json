@@ -459,9 +459,27 @@
 			"UI_CONTRACT_USB_SAVALAS_DESC": "Помимо основных двух целей, вам необходимо раздобыть ключ доступа Афины, который она обычно носит с собой. Клиенту необходимы эти данные, Сорок Седьмой",
 			"UI_CHALLENGES_BENKO_GIFT_STABBED_NAME": "Взгляни-ка поближе",
 			"UI_CHALLENGES_BENKO_GIFT_STABBED_DESC": "• Устранить Томаса Кросса банковской наградой.",
-			"UI_SAVALASBODYGUARD_SUIT": "Униформа особого подразделения"
-
-
+			"UI_SAVALASBODYGUARD_SUIT": "Униформа особого подразделения",
+			"firearms_hero_pistol_ica19_blacklillyv3_name": "ICA19 Black Lily V3",
+            "UI_CHALLENGES_KIWI_47_LASTBULLET_NAME": "Последняя пуля поставила точку в этой истории",
+            "UI_CHALLENGES_KIWI_47_LASTBULLET_DESC": "• Устраните Энтони Мартинеза Младшего с помощью пистолета.",
+            "ui_firearms_hero_revolver_44magnum_name": "Striker .44 Магнум",
+            "ui_firearms_hero_revolver_44magnum_desc": "Револьвер производства США, созданный под патрон .44 Магнум. Низкая скорость стрельбы, но высокий урон.",
+            "firearms_hero_taser_name": "Ручной шокер МКА",
+            "firearms_hero_taser_desc": "Портативный шокер широко распространённый в силовых структурах по всему миру для нелетального обезвреживания целей. Использует картриджи переделанные МКА под летальную мощность, потому перезарядка в полевых условиях невозможна.",
+            "UI_CHALLENGES_COWBOY_44_NAME": "Ковбой.44",
+            "UI_CHALLENGES_COWBOY_44_DESC": "• Устраните Амоса Декстера с помощью его собственного револьвера.",
+            "UI_CHALLENGES_KIWI_CHEF_47_NAME": "Время ужинать!",
+            "UI_CHALLENGES_KIWI_HOUSESTAFF_47_NAME": "К вашим услугам!",
+            "UI_CHALLENGES_KIWI_HOUSESTAFF_47_DESC": "• Замаскируйтесь под обслугу.",
+            "UI_CHALLENGES_KIWI_EXPLOSION_NAME": "Взрывной старт",
+            "UI_CHALLENGES_KIWI_EXPLOSION_DESC": "• Устраните Энтони Мартинеза Младшего с помощью взрыва.",
+            "UI_CHALLENGES_KIWI_ELECTRICAL_NAME": "Напряжённая атмосфера",
+            "UI_CHALLENGES_KIWI_ELECTRICAL_DESC": "• Устраните Энтони Мартинеза Младшего с помощью электричества.",
+            "UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_NAME": "Как и твоего отца",
+            "UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_DESC": "• Устраните Энтони Мартинеза Младшего с помощью удавки.",
+			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_NAME" : "Адская Кухня",
+            "UI_CHALLENGES_KIWI_CHEF_MARTINEZ_DESC" : "• Устраните Энтони Мартинеза Младшего тесаком, будучи в маскировке повара."
 
 		}
 	},
