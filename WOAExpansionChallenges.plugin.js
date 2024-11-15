@@ -3800,6 +3800,48 @@ const featChallenges = [
             "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
         }
     },
+    {
+        "Id": "0596fd16-2417-47af-82dd-922935faaa8e",
+        "Name": "UI_CHALLENGES_KIWI_CHEF_47_NAME",
+        "ImageName": "images/challenges/HB Kiwi/Chef47.jpg",
+        "Description": "UI_CHALLENGES_KIWI_CHEF_47_DESC",
+        "Rewards": {
+            "MasteryXP": 2000
+        },
+        "Drops": [],
+        "IsPlayable": true,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_EXPLORATION",
+        "Icon": "challenge_category_discovery",
+        "LocationId": "LOCATION_PARENT_NEWZEALAND",
+        "ParentLocationId": "LOCATION_PARENT_NEWZEALAND",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+                "Constants": {
+                    "Target": "b3e5fbd9-3043-4828-9dd2-471b92f808ed"
+                },
+                "Scope": "session",
+                "States": {
+                    "Start": {
+                        "Disguise": {
+                            "Condition": {
+                                "$eq": ["$.Target", "$Value"]
+                            },
+                            "Transition": "Success"
+                        }
+                    }
+                }
+        },
+                "Tags": ["story", "easy", "discovery"],
+        "InclusionData": {
+            "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
+        }
+    }
 
     
 ]
