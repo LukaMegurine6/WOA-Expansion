@@ -3841,6 +3841,48 @@ const featChallenges = [
         "InclusionData": {
             "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
         }
+    },
+    {
+        "Id": "4401ff87-81cc-46d0-8f58-6e40ab5ea359",
+        "Name": "UI_CHALLENGES_KIWI_HOUSESTAFF_47_NAME",
+        "ImageName": "images/challenges/HB Kiwi/47HouseStaff.jpg",
+        "Description": "UI_CHALLENGES_KIWI_HOUSESTAFF_47_DESC",
+        "Rewards": {
+            "MasteryXP": 2000
+        },
+        "Drops": [],
+        "IsPlayable": true,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_EXPLORATION",
+        "Icon": "challenge_category_discovery",
+        "LocationId": "LOCATION_PARENT_NEWZEALAND",
+        "ParentLocationId": "LOCATION_PARENT_NEWZEALAND",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+                "Constants": {
+                    "Target": "705881f7-0c65-49f9-80bd-16229fdbe1c2"
+                },
+                "Scope": "session",
+                "States": {
+                    "Start": {
+                        "Disguise": {
+                            "Condition": {
+                                "$eq": ["$.Target", "$Value"]
+                            },
+                            "Transition": "Success"
+                        }
+                    }
+                }
+        },
+                "Tags": ["story", "easy", "discovery"],
+        "InclusionData": {
+            "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
+        }
     }
 
     
