@@ -1,0 +1,22 @@
+{
+	"FIREARMS_HERO_REVOLVER": {
+		"Id": "FIREARMS_HERO_REVOLVER",
+		"Guid": "0f54ff65-5d28-4670-8651-7f3fbc824fcc",
+		"Type": "weapon",
+		"Subtype": "pistol",
+		"RMTPrice": 99,
+		"GamePrice": 99,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "common",
+			"LoadoutSlot": "concealedweapon",
+			"RepositoryId": "96c339bf-43e7-4132-8c3a-dfe8c08572b1"
+		},
+		"Rarity": "common"
+	}
+}

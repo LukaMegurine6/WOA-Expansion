@@ -14582,7 +14582,7 @@
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe53983a3a07f6"]
+					"value": ["cafee50c7b422900"]
 				},
 				"m_sCommonName": {
 					"type": "ZString",
@@ -14676,20 +14676,8 @@
 				}
 			}
 		},
-		"cafe53983a3a07f6": {
-			"parent": "cafe102b33d331e8",
-			"name": "ItemKey_Pistol01 NPC",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "55ed7196-2303-4af6-9fa3-45b691134561"
-				}
-			}
-		},
 		"cafee5903e7b4024": {
-			"parent": "feedfe32810b3b9b",
+			"parent": "feed4355d6f9f8e5",
 			"name": "Dexter_Unique",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -14857,7 +14845,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": { "type": "float32", "value": -1 },
+				"m_fActTimeout": { "type": "float32", "value": 25 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "cafe4f0a688c4696",
@@ -14868,6 +14856,384 @@
 					"value": "fffffffffffffffe",
 					"postInit": true
 				}
+			},
+			"events": { "OnActTimeout": { "Start": ["cafe0d25624ba303"] } }
+		},
+		"cafee50c7b422900": {
+			"parent": "cafe102b33d331e8",
+			"name": "ItemKey__Sawed_ _NPC_ Shotgun",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "6576f6aa-8d77-48f1-a4c7-f57fb5ddcc51"
+				}
+			}
+		},
+		"cafe942a13dc5e68": {
+			"parent": "cafe1fdae3c2e9bd",
+			"name": "MansionStaff01Women",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -96.12347
+						},
+						"position": {
+							"x": 12.810162,
+							"y": -20.038042,
+							"z": 0
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "5f0a54e6-0cd7-43af-b15d-28ffc077a24f"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "180c4da6-d52c-4a28-96cd-4fbecf772611"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed5ebb776f4d6b",
+						"cafe349d040ead6b",
+						"cafe15b3ad5c9fdf"
+					],
+					"postInit": true
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Thérèse Grant"
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_BULLDOG_MANSIONSTAFF_F08"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafeebf0c5c2ee4c": {
+			"parent": "cafe942a13dc5e68",
+			"name": "ActorDeath",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe942a13dc5e68"
+				}
+			},
+			"events": {
+				"OnDead": {
+					"SetFalse": ["cafe1de9493fd1d0", "cafeacbccd16a883"]
+				},
+				"OnPacified": { "SetFalse": ["cafeacbccd16a883"] },
+				"OnAlive": {
+					"SetTrue": ["cafeacbccd16a883", "cafe1de9493fd1d0"]
+				}
+			}
+		},
+		"cafeb2aa133468bc": {
+			"parent": "cafe942a13dc5e68",
+			"name": "Values",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafef89628501e68": {
+			"parent": "cafe942a13dc5e68",
+			"name": "ActorProxy",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe942a13dc5e68"
+				}
+			}
+		},
+		"cafe1de9493fd1d0": {
+			"parent": "cafeb2aa133468bc",
+			"name": "Alive",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafeacbccd16a883": {
+			"parent": "cafeb2aa133468bc",
+			"name": "Conscious",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafeb0f1262a825b": {
+			"parent": "cafe942a13dc5e68",
+			"name": "DramaSituation",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe9d46f6a9539e"]
+				}
+			}
+		},
+		"cafe9d46f6a9539e": {
+			"parent": "cafeb0f1262a825b",
+			"name": "MansionstaffWomen01",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe942a13dc5e68",
+					"postInit": true
+				}
+			}
+		},
+		"cafef017cbf4e8b0": {
+			"parent": "cafeb0f1262a825b",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb0f1262a825b"
+				}
+			},
+			"events": { "OnStart": { "Start": ["cafe51de7365b1dc"] } }
+		},
+		"cafe51de7365b1dc": {
+			"parent": "cafeb0f1262a825b",
+			"name": "Act_FR_Stand_Clean_Window",
+			"factory": "008771C5D539D4AF",
+			"blueprint": "00D2F69D2F2DF2B8",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -96.12347
+						},
+						"position": {
+							"x": 12.810162,
+							"y": -20.038042,
+							"z": 0
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": -1.0 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9d46f6a9539e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"cafe0d25624ba303": {
+			"parent": "cafe8aadd7c283a9",
+			"name": "Act_MR_Stand_Phone_Text",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 86.98589 },
+						"position": {
+							"x": -12.487559,
+							"y": -48.521324,
+							"z": 0
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4f0a688c4696",
+					"postInit": true
+				},
+				"m_bAlignPosition": { "type": "bool", "value": true },
+				"m_AlignRotation": {
+					"type": "ZActBehaviorEntity.ERotationAlignment",
+					"value": "RA_EXACT"
+				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["cafe303f4713b651"] }
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"cafeeb86a04fa1e4": {
+			"parent": "feedcaa1e7276ef4",
+			"name": "ItemKey_Poisonable_VodkaGlass",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "a42a9432-8af3-4702-abc3-17b88a3cb5b7"
+				}
+			}
+		},
+		"cafe303f4713b651": {
+			"parent": "cafe8aadd7c283a9",
+			"name": "Act_MR_Stand_Pouranddrink_100cm_Kiwi",
+			"factory": "00136F33F708D878",
+			"blueprint": "00FF363ED21DE660",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 176.22447 },
+						"position": {
+							"x": -9.303705,
+							"y": -36.414867,
+							"z": 0
+						}
+					}
+				},
+				"m_rRepositoryKeyToFindGlass": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb86a04fa1e4",
+					"postInit": true
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4f0a688c4696",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActDone": { "Start": ["cafe554e9b2b94b7"] },
+				"OnAbort": { "Start": ["cafe554e9b2b94b7"] },
+				"OnBottleFirstShatter": { "SetTrue": ["cafe453221f80c8d"] }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe453221f80c8d": {
+			"parent": "cafe8aadd7c283a9",
+			"name": "Either thing destroyed",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafedfb49cff6609": {
+			"parent": "feedcaa1e7276ef4",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb86a04fa1e4",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe303f4713b651",
+						"externalScene": null,
+						"exposedEntity": "Detach_Point_Vodka_Glas"
+					}
+				}
+			},
+			"events": {
+				"OnItemDestroyed": { "SetTrue": ["cafe453221f80c8d"] },
+				"OnPickup": { "SetTrue": ["cafe453221f80c8d"] }
+			}
+		},
+		"cafe554e9b2b94b7": {
+			"parent": "cafe8aadd7c283a9",
+			"name": "Act_MR_Stand_Smoke_Cigar",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_cigar.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_cigar.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.56782
+						},
+						"position": {
+							"x": 28.264175,
+							"y": -37.85831,
+							"z": 4.4
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 35.0 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4f0a688c4696",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["cafece3c6c145f12"] }
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"cafe5547844011e6": {
+			"parent": "cafe8aadd7c283a9",
+			"name": "Is Anything Destroyed",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe453221f80c8d"
+				}
+			},
+			"events": {
+				"PollTrue": { "Start": ["cafe554e9b2b94b7"] },
+				"PollFalse": { "Start": ["cafe303f4713b651"] }
 			}
 		}
 	},

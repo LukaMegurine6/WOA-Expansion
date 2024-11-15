@@ -1,0 +1,30 @@
+{
+	"tempHash": "0069E1FC622BADCA",
+	"tbluHash": "00A8E219DB80657C",
+	"rootEntity": "1c749ff7bb7c9ff3",
+	"entities": {
+		"1c749ff7bb7c9ff3": {
+			"parent": null,
+			"name": "casing_empty",
+			"factory": "00A7E34FC055B9A6",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_eCCD": { "type": "ECCDUsage", "value": "ECCDUSAGE_AGAINST_STATIC" }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

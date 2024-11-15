@@ -1,0 +1,19 @@
+{
+	"tempHash": "00487E5CE3AB4568",
+	"tbluHash": "0052B12153BFB369",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e70845904bc68c87",
+				{ "AddOutputCopyConnection": ["WeaponStartReload", "WeaponStartReload", "82f46bc982a3314b"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e70845904bc68c87",
+				{ "AddOutputCopyConnection": ["TriggerPressed", "TriggerPressed", "82f46bc982a3314b"] }
+			]
+		}
+	],
+	"patchVersion": 6
+}
