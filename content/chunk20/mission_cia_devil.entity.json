@@ -15795,6 +15795,49 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafe0ca15b68f113": {
+			"parent": "feedd92d26a9418d",
+			"name": "Soundbanks",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe02668592240e": {
+			"parent": "cafe0ca15b68f113",
+			"name": "Convolution_SOUND_BANK",
+			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pBankResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/bulldog_convolution.wwisesoundbank].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"m_BankResourceHQID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/bulldog_convolution_hq.wwisesoundbank].pc_wwisebank",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cafe33c6944dbdd2": {
+			"parent": "cafe0ca15b68f113",
+			"name": "LOCATION_SOUND_BANK",
+			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pBankResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/bulldog.wwisesoundbank].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -15950,6 +15993,14 @@
 		{
 			"ref": "e9941a9ab34ab157",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
+		},
+		{
+			"ref": "da470a9aa27b62ca",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "d74c70246b0eff02",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],
