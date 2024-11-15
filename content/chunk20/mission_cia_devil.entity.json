@@ -14576,7 +14576,7 @@
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "6736fcbbd3e73209",
+						"ref": "1357f3657950d38e",
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},
@@ -14886,8 +14886,8 @@
 							"z": -96.12347
 						},
 						"position": {
-							"x": 12.810162,
-							"y": -20.038042,
+							"x": 12.698514,
+							"y": -19.909718,
 							"z": 0
 						}
 					}
@@ -15030,8 +15030,8 @@
 							"z": -96.12347
 						},
 						"position": {
-							"x": 12.810162,
-							"y": -20.038042,
+							"x": 12.698514,
+							"y": -19.909718,
 							"z": 0
 						}
 					}
@@ -15234,6 +15234,191 @@
 			"events": {
 				"PollTrue": { "Start": ["cafe554e9b2b94b7"] },
 				"PollFalse": { "Start": ["cafe303f4713b651"] }
+			}
+		},
+		"cafe58a824908bff": {
+			"parent": "cafe369ebb2b9755",
+			"name": "Italian_Sportscar_A_00",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_italy_a.template?/italian_sportscar_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_italy_a.template?/italian_sportscar_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 67.41510141954886
+						},
+						"position": {
+							"x": -0.08119535446166992,
+							"y": -0.35533905029296875,
+							"z": -4.842877388000488e-8
+						}
+					}
+				},
+				"VehiclePaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#ffce52"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.7699999809265137
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#787878"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "895c381ddf96d646",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe3e7e64b77923": {
+			"parent": "cafe77e0e11e5479",
+			"name": "CHARSET_Civ_Female_Tourist_Beach1",
+			"factory": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/charset_civ_female_tourist_beach1.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/sapiensa/civilians_tourist_beach.template?/charset_civ_female_tourist_beach1.entitytemplate].pc_entityblueprint"
+		},
+		"cafec7777f5acd10": {
+			"parent": "cafe77e0e11e5479",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe77e0e11e5479"],
+					"postInit": true
+				}
+			}
+		},
+		"cafea441f368e02a": {
+			"parent": "cafe77e0e11e5479",
+			"name": "KeywordEntity_FOLEY_OUTFIT_NAKED",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe77e0e11e5479",
+					"postInit": true
+				}
+			}
+		},
+		"cafe77e0e11e5479": {
+			"parent": "cafe84fb0413b1d3",
+			"name": "Sapienza_Civilian_TouristBeach_F_HPA499",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_bIsFemale": { "type": "bool", "value": true },
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianFemale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe3e7e64b77923"]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BAREFOOT"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "edfe0c66-96b4-47b2-8b2b-82235fcc6757"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f76365f15c816405",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Sapienza_Civilian_TouristBeach_F_HPA499"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Beach Tourist"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_civilian_touristbeach_f_hpa499_name_edfe0c66-96b4-47b2-8b2b-82235fcc6757.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_civilian_touristbeach_f_hpa499_description_edfe0c66-96b4-47b2-8b2b-82235fcc6757.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Fallback"
+				},
+				"m_aAnimationSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		"cafed1cfc8d78b5e": {
+			"parent": "cafe102b33d331e8",
+			"name": "ItemKey_Pistol01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "55ed7196-2303-4af6-9fa3-45b691134561"
+				}
 			}
 		}
 	},
