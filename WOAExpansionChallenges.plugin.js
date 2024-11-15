@@ -3748,7 +3748,7 @@ const featChallenges = [
         }
     },
     {
-        "Id": "9ce10c3b-2e4a-4eec-accc-91d9ddbc7935",
+        "Id": "8d9fe7f2-3ade-43a9-935a-50b884fe0d71",
         "Name": "UI_CHALLENGES_COWBOY_44_NAME",
         "ImageName": "images/challenges/HB Kiwi/Cowboy44.jpg",
         "Description": "UI_CHALLENGES_COWBOY_44_DESC",
@@ -3801,7 +3801,7 @@ const featChallenges = [
         }
     },
     {
-        "Id": "0596fd16-2417-47af-82dd-922935faaa8e",
+        "Id": "69d1ef39-a3ba-4185-80aa-f6cabf23b116",
         "Name": "UI_CHALLENGES_KIWI_CHEF_47_NAME",
         "ImageName": "images/challenges/HB Kiwi/Chef47.jpg",
         "Description": "UI_CHALLENGES_TIGER_OPP_DISGUISE_KITCHEN_CHEFF_DESC",
@@ -3843,7 +3843,7 @@ const featChallenges = [
         }
     },
     {
-        "Id": "4401ff87-81cc-46d0-8f58-6e40ab5ea359",
+        "Id": "ecc703e0-9f7b-4f1f-9c36-a50ebf028965",
         "Name": "UI_CHALLENGES_KIWI_HOUSESTAFF_47_NAME",
         "ImageName": "images/challenges/HB Kiwi/47HouseStaff.jpg",
         "Description": "UI_CHALLENGES_KIWI_HOUSESTAFF_47_DESC",
@@ -3885,7 +3885,6 @@ const featChallenges = [
         }
     }
 
-    
 ]
 
 // Put your assassination challenges here...
@@ -6218,6 +6217,218 @@ const assassinationChallenges = [{
             }
         },
         "Tags": ["story", "easy", "assassination"],
+        "InclusionData": {
+            "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
+        }
+    },
+    {
+        "Id": "cd77d3f6-bcdf-4dce-810f-4b0658910a7a",
+        "Name": "UI_CHALLENGES_KIWI_EXPLOSION_NAME",
+        "ImageName": "images/challenges/HB Kiwi/Explosion.jpg",
+        "Description": "UI_CHALLENGES_KIWI_EXPLOSION_DESC",
+        "Rewards": {
+            "MasteryXP": 2000
+        },
+        "Drops": [],
+        "IsPlayable": true,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+        "Icon": "challenge_category_assassination",
+        "LocationId": "LOCATION_PARENT_NEWZEALAND",
+        "ParentLocationId": "LOCATION_PARENT_NEWZEALAND",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+            "Scope": "hit",
+            "States": {
+                "Start": {
+                    "Kill": {
+                        "Condition": {
+                            "$and": [
+                                {
+                                    "$eq": [
+                                        "$Value.RepositoryId",
+                                        "3f5d9a9d-5a51-437a-a4c5-c2eae28a4eed"
+                                    ]
+                                },
+                                {
+                                    "$eq": [
+                                        "$Value.KillClass",
+                                        "explosion"
+                                    ]
+                                }
+                            ]
+                        },
+                        "Transition": "Success"
+                    }
+                }
+            }
+        },
+        "Tags": ["story", "medium", "assassination"],
+        "InclusionData": {
+            "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
+        }
+    },
+    {
+        "Id": "03e1656f-9ac8-4a2a-88d8-4c8d68b9c18a",
+        "Name": "UI_CHALLENGES_KIWI_ELECTRICAL_NAME",
+        "ImageName": "images/challenges/HB Kiwi/Electrical.jpg",
+        "Description": "UI_CHALLENGES_KIWI_ELECTRICAL_DESC",
+        "Rewards": {
+            "MasteryXP": 2000
+        },
+        "Drops": ["FIREARMS_HERO_PISTOL_TASER"],
+        "IsPlayable": true,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+        "Icon": "challenge_category_assassination",
+        "LocationId": "LOCATION_PARENT_NEWZEALAND",
+        "ParentLocationId": "LOCATION_PARENT_NEWZEALAND",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+            "Scope": "session",
+            "States": {
+                "Start": {
+                    "Kill": {
+                        "Condition": {
+                            "$and": [
+                                {
+                                    "$eq": [
+                                        "$Value.RepositoryId",
+                                        "3f5d9a9d-5a51-437a-a4c5-c2eae28a4eed"
+                                    ]
+                                },
+                                {
+                                    "$eq": [
+                                        "$Value.KillMethodStrict",
+                                        "accident_electric"
+                                    ]
+                                }
+                            ]
+                        },
+                        "Transition": "Success"
+                    }
+                }
+            }
+        },
+        "Tags": ["story", "easy", "assassination"],
+        "InclusionData": {
+            "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
+        }
+    },
+    {
+        "Id": "ce59ab74-4084-41d2-8256-fddc7164c45d",
+        "Name": "UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_NAME",
+        "ImageName": "images/challenges/HB Kiwi/FiberWire.jpg",
+        "Description": "UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_DESC",
+        "Rewards": {
+            "MasteryXP": 2000
+        },
+        "Drops": [],
+        "IsPlayable": true,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+        "Icon": "challenge_category_assassination",
+        "LocationId": "LOCATION_PARENT_NEWZEALAND",
+        "ParentLocationId": "LOCATION_PARENT_NEWZEALAND",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+            "Scope": "session",
+            "States": {
+                "Start": {
+                    "Kill": {
+                        "Condition": {
+                            "$and": [
+                                {
+                                    "$eq": ["$Value.IsTarget", true]
+                                },
+                                {
+                                    "$eq": [
+                                        "$Value.KillItemCategory",
+                                        "fiberwire"
+                                    ]
+                                }
+                            ]
+                        },
+                        "Transition": "Success"
+                    }
+                }
+            }
+        },
+        "Tags": ["story", "normal", "assassination"],
+        "InclusionData": {
+            "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
+        },
+    },
+    {
+        "Id": "722341b2-67c1-4ed3-a823-c70a6637946c",
+        "Name": "UI_CHALLENGES_KIWI_CHEF_MARTINEZ_NAME",
+        "ImageName": "images/challenges/HB Kiwi/DevilKitchen.jpg",
+        "Description": "UI_CHALLENGES_KIWI_CHEF_MARTINEZ_DESC",
+        "Rewards": {
+            "MasteryXP": 4000
+        },
+        "Drops": [],
+        "IsPlayable": true,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+        "Icon": "challenge_category_assassination",
+        "LocationId": "LOCATION_PARENT_NEWZEALAND",
+        "ParentLocationId": "LOCATION_PARENT_NEWZEALAND",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+            "Context": {},
+            "Scope": "session",
+            "States": {
+                "Start": {
+                    "Kill": {
+                        "Condition": {
+                            "$and": [
+                                {
+                                    "$eq": [
+                                        "$Value.RepositoryId",
+                                        "3f5d9a9d-5a51-437a-a4c5-c2eae28a4eed"
+                                    ]
+                                },
+                                {
+                                    "$eq": [
+                                        "$Value.OutfitRepositoryId",
+                                        "b3e5fbd9-3043-4828-9dd2-471b92f808ed"
+                                    ]
+                                },
+                                {
+                                    "$eq": [
+                                        "$Value.KillItemRepositoryId",
+                                        "1bbf0ed5-0515-4599-a4c9-454ce59cff44"
+                                    ]
+                                }
+                            ]
+                        },
+                        "Transition": "Success"
+                    }
+                }
+            }
+        },
+        "Tags": ["story", "hard", "assassination"],
         "InclusionData": {
             "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
         }

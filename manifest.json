@@ -171,7 +171,16 @@
 			"UI_CHALLENGES_COWBOY_44_DESC": "• Kill Amos Dexter with his .44 magnum.",
 			"UI_CHALLENGES_KIWI_CHEF_47_NAME": "Time to eat !",
 			"UI_CHALLENGES_KIWI_HOUSESTAFF_47_NAME": "At your service !",
-			"UI_CHALLENGES_KIWI_HOUSESTAFF_47_DESC": "• Disguise yourself as domestic employee."			 
+			"UI_CHALLENGES_KIWI_HOUSESTAFF_47_DESC": "• Disguise yourself as domestic employee.",
+			"UI_CHALLENGES_KIWI_EXPLOSION_NAME": "Explosive Start",
+			"UI_CHALLENGES_KIWI_EXPLOSION_DESC": "• Eliminate Anthony Martinez Jr. in an explosion.",
+			"UI_CHALLENGES_KIWI_ELECTRICAL_NAME": "An Electric Atmosphere",
+			"UI_CHALLENGES_KIWI_ELECTRICAL_DESC": "• Assassinate Anthony Martinez Jr. by electrocution.",
+			"UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_NAME": "Like your Father",
+			"UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_DESC": "• Assassinate Anthony Martinez Jr. with your fiber wire.",
+			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_NAME" : "The Devil's Kitchen",
+			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_DESC" : "• Assassinate Anthony Martinez Jr. with the cleaver while disguised as the chef."
+			 
 
 
 
@@ -315,7 +324,15 @@
 			"UI_CHALLENGES_COWBOY_44_DESC": "• Abattez Amos Dexter avec son .44 magnum.",
 			"UI_CHALLENGES_KIWI_CHEF_47_NAME": "À table !",
 			"UI_CHALLENGES_KIWI_HOUSESTAFF_47_NAME": "À votre service !",
-			"UI_CHALLENGES_KIWI_HOUSESTAFF_47_DESC": "• Déguisez-vous en employé de maison."
+			"UI_CHALLENGES_KIWI_HOUSESTAFF_47_DESC": "• Déguisez-vous en employé de maison.",
+			"UI_CHALLENGES_KIWI_EXPLOSION_NAME": "Départ explosive",
+			"UI_CHALLENGES_KIWI_EXPLOSION_DESC": "Éliminez Anthony Martinez Jr. dans une explosion",
+			"UI_CHALLENGES_KIWI_ELECTRICAL_NAME": "Une ambiance électrique",
+			"UI_CHALLENGES_KIWI_ELECTRICAL_DESC": "• Assassinez Anthony Martinez Jr. par électrocution.",
+			"UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_NAME": "Comme ton père",
+			"UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_DESC": "• Assassinez Anthony Martinez Jr. avec votre corde à piano ou équivalent.",
+			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_NAME" : "La cuisine du diable",
+			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_DESC" : "• Assassinez Anthony Martinez Jr. avec le couperet déguisé en chef."
 
 		},
 		"russian": {
@@ -905,6 +922,11 @@
 					"runtimeID": "0003E6207F6B392B",
 					"toChunk": 20,
 					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "0035C43AE6D7FAB3",
+					"portFromChunk1": true,
+					"toChunk": 0
 				}
 
 

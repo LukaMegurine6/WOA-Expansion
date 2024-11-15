@@ -13414,7 +13414,7 @@
 		},
 		"cafe636b3d494f8c": {
 			"parent": "cafee46f2ccffaaa",
-			"name": "Flashlight Setup Adonis beach guard 9",
+			"name": "Flashlight Setup KIWI patrol guard",
 			"factory": "0091EBBA15AB2E6E",
 			"blueprint": "00D5C5D79C699C5C",
 			"properties": {
@@ -13429,147 +13429,9 @@
 					]
 				},
 				"On": { "type": "bool", "value": true },
-				"m_rActor": {
+				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "3fde5602436b10cb",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			}
-		},
-		"cafe0ff95b5295fb": {
-			"parent": "cafee46f2ccffaaa",
-			"name": "Flashlight Setup Adonis beach guard 17",
-			"factory": "0091EBBA15AB2E6E",
-			"blueprint": "00D5C5D79C699C5C",
-			"properties": {
-				"m_Boxes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe44321341dc92",
-						"cafe4924ac423378",
-						"cafea23b59235bcf",
-						"cafeb1c80dcc9c04",
-						"cafe40d0f79a36c7"
-					]
-				},
-				"On": { "type": "bool", "value": true },
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "7c58c8526640cbbe",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			}
-		},
-		"cafe4ef09dc3f951": {
-			"parent": "cafee46f2ccffaaa",
-			"name": "Flashlight Setup Adonis beach guard 10",
-			"factory": "0091EBBA15AB2E6E",
-			"blueprint": "00D5C5D79C699C5C",
-			"properties": {
-				"m_Boxes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe44321341dc92",
-						"cafe4924ac423378",
-						"cafea23b59235bcf",
-						"cafeb1c80dcc9c04",
-						"cafe40d0f79a36c7"
-					]
-				},
-				"On": { "type": "bool", "value": true },
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "3955313718396e16",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			}
-		},
-		"cafe6bcc23091a7b": {
-			"parent": "cafee46f2ccffaaa",
-			"name": "Flashlight Setup Adonis beach guard 16",
-			"factory": "0091EBBA15AB2E6E",
-			"blueprint": "00D5C5D79C699C5C",
-			"properties": {
-				"m_Boxes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe44321341dc92",
-						"cafe4924ac423378",
-						"cafea23b59235bcf",
-						"cafeb1c80dcc9c04",
-						"cafe40d0f79a36c7"
-					]
-				},
-				"On": { "type": "bool", "value": true },
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "f11a7ba32e554627",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			}
-		},
-		"cafe89f477bae74b": {
-			"parent": "cafee46f2ccffaaa",
-			"name": "Flashlight Setup Adonis beach guard 15",
-			"factory": "0091EBBA15AB2E6E",
-			"blueprint": "00D5C5D79C699C5C",
-			"properties": {
-				"m_Boxes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe44321341dc92",
-						"cafe4924ac423378",
-						"cafea23b59235bcf",
-						"cafeb1c80dcc9c04",
-						"cafe40d0f79a36c7"
-					]
-				},
-				"On": { "type": "bool", "value": true },
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "ac8db63e1ae2db9f",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
-					},
-					"postInit": true
-				}
-			}
-		},
-		"cafebc7e5f1aca56": {
-			"parent": "cafee46f2ccffaaa",
-			"name": "Flashlight Setup Adonis beach guard 14",
-			"factory": "0091EBBA15AB2E6E",
-			"blueprint": "00D5C5D79C699C5C",
-			"properties": {
-				"m_Boxes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe44321341dc92",
-						"cafe4924ac423378",
-						"cafea23b59235bcf",
-						"cafeb1c80dcc9c04",
-						"cafe40d0f79a36c7"
-					]
-				},
-				"On": { "type": "bool", "value": true },
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "98b9358851830b4a",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
-					},
+					"value": "feed15131a31ac61",
 					"postInit": true
 				}
 			}
@@ -15909,6 +15771,30 @@
 				}
 			},
 			"events": { "OnActTimeout": { "Start": ["cafe903d67399fe0"] } }
+		},
+		"cafee9eb4844b8e0": {
+			"parent": "cafee46f2ccffaaa",
+			"name": "Flashlight Setup KIWI patrol guard 2",
+			"factory": "0091EBBA15AB2E6E",
+			"blueprint": "00D5C5D79C699C5C",
+			"properties": {
+				"m_Boxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe44321341dc92",
+						"cafe4924ac423378",
+						"cafea23b59235bcf",
+						"cafeb1c80dcc9c04",
+						"cafe40d0f79a36c7"
+					]
+				},
+				"On": { "type": "bool", "value": true },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed07be1df41aa8",
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
