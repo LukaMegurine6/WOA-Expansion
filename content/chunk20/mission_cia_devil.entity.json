@@ -15949,6 +15949,24 @@
 		},
 		{
 			"ref": "e9941a9ab34ab157",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
+		},
+		{
+			"ref": "da470a9aa27b62ca",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "d74c70246b0eff02",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "7be6c06a46ee963e",
+>>>>>>> bf9eac784ebfea6ff4964c9f43ae179ce109b62c
+>>>>>>> 5f6cb3b827ba3e390b4676a8132286eb543d32c8
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}
 	],
