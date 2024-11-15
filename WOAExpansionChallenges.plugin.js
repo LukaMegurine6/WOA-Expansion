@@ -3804,7 +3804,7 @@ const featChallenges = [
         "Id": "0596fd16-2417-47af-82dd-922935faaa8e",
         "Name": "UI_CHALLENGES_KIWI_CHEF_47_NAME",
         "ImageName": "images/challenges/HB Kiwi/Chef47.jpg",
-        "Description": "UI_CHALLENGES_KIWI_CHEF_47_DESC",
+        "Description": "UI_CHALLENGES_TIGER_OPP_DISGUISE_KITCHEN_CHEFF_DESC",
         "Rewards": {
             "MasteryXP": 2000
         },

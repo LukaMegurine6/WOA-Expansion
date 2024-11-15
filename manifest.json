@@ -1,5 +1,5 @@
 {
-	"version": "1.6.1",
+	"version": "1.7.0",
 	"id": "MLuka47.Expansion",
 	"name": "WOA Expansion",
 	"description": "Add more missions, Special assignment and Elusives Target.",
@@ -168,7 +168,8 @@
 			"firearms_hero_taser_name": "ICA Handheld Taser",
 			"firearms_hero_taser_desc": "A handheld taser favored by law enforcement around the world to incapacitate and pacify. Uses cartridges customized by ICA to be lethal and cannot be reloaded in the field.",
 			"UI_CHALLENGES_COWBOY_44_NAME": "Cowboy.44",
-			"UI_CHALLENGES_COWBOY_44_DESC": "• Kill Amos Dexter with his .44 magnum."						 
+			"UI_CHALLENGES_COWBOY_44_DESC": "• Kill Amos Dexter with his .44 magnum.",
+			"UI_CHALLENGES_KIWI_CHEF_47_NAME": "Time to eat !"				 
 
 
 
@@ -309,7 +310,8 @@
 			"firearms_hero_taser_name": "Pistolet taser de l'ICA",
 			"firearms_hero_taser_desc": "Pistoler taser utilisé par les forces de l'ordre du monde entier pour neutraliser. Utilise des cartouches personnalisées par l'ICA pour être létales et ne peut être rechargé sur le terrain.",
 			"UI_CHALLENGES_COWBOY_44_NAME": "Cowboy.44",
-			"UI_CHALLENGES_COWBOY_44_DESC": "• Abattez Amos Dexter avec son .44 magnum."
+			"UI_CHALLENGES_COWBOY_44_DESC": "• Abattez Amos Dexter avec son .44 magnum.",
+			"UI_CHALLENGES_KIWI_CHEF_47_NAME": "À table !"
 
 		},
 		"russian": {
