@@ -15795,118 +15795,6 @@
 					"postInit": true
 				}
 			}
-		},
-		"cafe0ca15b68f113": {
-			"parent": "feedd92d26a9418d",
-			"name": "Soundbanks",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"cafed534702cbf22": {
-			"parent": "cafe0ca15b68f113",
-			"name": "MusicCore_S2_Collector",
-			"factory": "[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_collector.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_collector.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"Composition_PlayEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "005853CF1323A907",
-						"flag": "5F"
-					}
-				},
-				"Themes_Allowed": { "type": "bool", "value": true },
-				"IntroCue_Part2_CustomEventStart": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "000A8117FD48BCA7",
-						"flag": "5F"
-					}
-				},
-				"IntroCue_Part1_CustomEventStart": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0002F89CBC1B2D1C",
-						"flag": "5F"
-					}
-				},
-				"Composition_Vol": { "type": "float32", "value": 1.5 },
-				"PlayThemes_AsStingers": { "type": "bool", "value": true },
-				"WhiteDotRuleEnabled": { "type": "bool", "value": true },
-				"Start_As_AmbBio_1": { "type": "bool", "value": true },
-				"Start_As_Silent": { "type": "bool", "value": false },
-				"BodyFoundRule_Enabled": { "type": "bool", "value": true },
-				"TrespassingAlertedLowRule_Enabled": {
-					"type": "bool",
-					"value": true
-				},
-				"StepdownSlow": { "type": "int32", "value": 15000 },
-				"FriskingRule_Enabled": { "type": "bool", "value": false },
-				"m_sDefaultState": {
-					"type": "ZString",
-					"value": "AmbientBiome_01"
-				},
-				"ProceduralMoment_PlayEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"ProceduralMoment_StopEvent": {
-					"type": "ZRuntimeResourceID",
-					"value": null
-				},
-				"StepdownFast": { "type": "int32", "value": 15000 },
-				"RTPC_CT_AMB_MUTE_TransitionTime": {
-					"type": "float32",
-					"value": 3.0
-				},
-				"WeaponEquipRule_Enabled": {
-					"type": "bool",
-					"value": true
-				},
-				"UseS3startCue": { "type": "bool", "value": true }
-			},
-			"events": {
-				"SyncBar": { "SyncToNextBar": [], "OnBar": [] },
-				"SyncBeat": { "SyncBeat": [] }
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
-		"cafe10163f6749be": {
-			"parent": "cafe0ca15b68f113",
-			"name": "bulldog",
-			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
-			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pBankResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/bulldog.wwisesoundbank].pc_wwisebank",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		"cafe3d5182f93368": {
-			"parent": "cafe0ca15b68f113",
-			"name": "bulldog_convolution",
-			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
-			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pBankResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/bulldog_convolution.wwisesoundbank].pc_wwisebank",
-						"flag": "5F"
-					}
-				},
-				"m_BankResourceHQID": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/bulldog_convolution_hq.wwisesoundbank].pc_wwisebank",
-						"flag": "9F"
-					}
-				}
-			}
 		}
 	},
 	"propertyOverrides": [
@@ -16061,6 +15949,10 @@
 		},
 		{
 			"ref": "e9941a9ab34ab157",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
 		},
 		{
@@ -16073,6 +15965,8 @@
 		},
 		{
 			"ref": "7be6c06a46ee963e",
+>>>>>>> bf9eac784ebfea6ff4964c9f43ae179ce109b62c
+>>>>>>> 5f6cb3b827ba3e390b4676a8132286eb543d32c8
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}
 	],
