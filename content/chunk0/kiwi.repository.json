@@ -179,5 +179,15 @@
         "Description": "Unknown",
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
+    },"7d0349bb-53a4-477f-9163-35f978268594": {
+        "ID_": "7d0349bb-53a4-477f-9163-35f978268594",
+        "Image": "images/actors/Kiwi/Ext/Terence Arnarld.jpg",
+        "Name": "Amos Dexter",
+        "Outfit": "55d7468d-04c3-4f11-9545-bb9f4becc359",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
     }
 }

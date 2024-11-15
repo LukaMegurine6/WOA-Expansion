@@ -3746,7 +3746,60 @@ const featChallenges = [
         "InclusionData": {
             "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
         }
-    }
+    },
+    {
+        "Id": "9ce10c3b-2e4a-4eec-accc-91d9ddbc7935",
+        "Name": "UI_CHALLENGES_COWBOY_44_NAME",
+        "ImageName": "images/challenges/HB Kiwi/Cowboy44.jpg",
+        "Description": "UI_CHALLENGES_COWBOY_44_DESC",
+        "Rewards": {
+            "MasteryXP": 4000
+        },
+        "Drops": ["FIREARMS_HERO_REVOLVER"],
+        "IsPlayable": true,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_EXPLORATION",
+        "Icon": "challenge_category_discovery",
+        "LocationId": "LOCATION_PARENT_NEWZEALAND",
+        "ParentLocationId": "LOCATION_PARENT_NEWZEALAND",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+            "Scope": "session",
+            "States": {
+                "Start": {
+                    "Kill": {
+                        "Condition": {
+                            "$and": [
+                                {
+                                    "$eq": [
+                                        "$Value.RepositoryId",
+                                        "7d0349bb-53a4-477f-9163-35f978268594"
+                                    ]
+                                },
+                                {
+                                    "$eq": [
+                                        "$Value.KillItemRepositoryId",
+                                        "96c339bf-43e7-4132-8c3a-dfe8c08572b1"
+                                    ]
+                                }
+                            ]
+                        },
+                        "Transition": "Success"
+                    }
+                    
+                }
+            }
+        },
+        "Tags": ["story", "medium", "discovery"],
+        "InclusionData": {
+            "ContractIds": ["d27ecffd-955a-4727-a5cc-72253ed56500"]
+        }
+    },
 
     
 ]
