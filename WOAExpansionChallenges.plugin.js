@@ -3797,7 +3797,7 @@ const featChallenges = [
         },
         "Tags": ["story", "medium", "discovery"],
         "InclusionData": {
-            "ContractIds": ["d27ecffd-955a-4727-a5cc-72253ed56500"]
+            "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
         }
     },
 
