@@ -2538,8 +2538,8 @@ const contracts = [
                 "Quality": "base",
                 "Bricks": [
                     "assembly:/_pro/Scenes/Bricks/vr_setup.brick",
-                    "assembly:/_pro/scenes/missions/sheep/vr_overrides_sheep_2.brick",
-                    "assembly:/_pro/scenes/missions/sheep/vr_overrides_sheep.brick"
+                    "assembly:/_pro/scenes/missions/sheep/vr_overrides_adonis.brick",
+                    "assembly:/_pro/scenes/missions/sheep/vr_overrides_adonis_2.brick"
                 ]
             }
         ],
