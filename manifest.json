@@ -8,7 +8,7 @@
 	"updateCheck": "https://github.com/LukaMegurine6/WOA-Expansion/releases/download/1.5.0/updates.json",
 	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
-	"loadAfter": ["riisikumi.flashbang"],
+	"loadAfter": ["riisikumi.flashbang","musicalmushr00m.LightingUltimate"],
 	"options": [
 		{
 			"name": "Add WOA Expansion in Campaign",
