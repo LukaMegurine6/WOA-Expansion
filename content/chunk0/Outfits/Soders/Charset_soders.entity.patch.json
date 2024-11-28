@@ -1,0 +1,45 @@
+{
+	"tempHash": "008E965CAD19B362",
+	"tbluHash": "00D26985DC4D2B41",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f1ae9dd46b8f9441",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aVariations",
+						[
+							{
+								"AddItemAfter": [
+									"b7d044ca166fc815",
+									"cafe60a442ca45f6"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe60a442ca45f6",
+				{
+					"parent": "f1ae9dd46b8f9441",
+					"name": "1",
+					"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+					"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+					"properties": {
+						"m_Outfit": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_unique.template?/outfit_erichsoders_actor_v0.entitytemplate].pc_entitytype",
+								"flag": "9F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

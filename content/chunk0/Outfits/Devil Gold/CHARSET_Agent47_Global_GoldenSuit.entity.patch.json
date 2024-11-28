@@ -1,0 +1,67 @@
+{
+	"tempHash": "00CF86FE04A360C2",
+	"tbluHash": "009D0190D70F0731",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"2727b1f7ac7171a3",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aVariations",
+						[
+							{
+								"AddItemAfter": [
+									"a3166b2f238d44d2",
+									"cafef0893b60f7bd"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4644bf387482",
+				{
+					"parent": "ac417efdf447de81",
+					"name": "Var1",
+					"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+					"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedf8afcff8140",
+				{
+					"parent": "a4b3053ba83d493b",
+					"name": "Var1",
+					"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+					"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef0893b60f7bd",
+				{
+					"parent": "2727b1f7ac7171a3",
+					"name": "1",
+					"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+					"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+					"properties": {
+						"m_Outfit": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_goldensuit_heroa_v1.entitytemplate].pc_entitytemplate",
+								"flag": "9F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

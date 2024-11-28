@@ -1,5 +1,5 @@
 {
-	"version": "1.7.4",
+	"version": "1.8.0",
 	"id": "MLuka47.Expansion",
 	"name": "WOA Expansion",
 	"description": "Add more missions, Special assignment and Elusives Target.",
@@ -334,6 +334,7 @@
 			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_NAME" : "La cuisine du diable",
 			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_DESC" : "• Assassinez Anthony Martinez Jr. avec le couperet déguisé en chef."
 
+
 		},
 		"russian": {
 			"UI_CONTRACT_THE_IMPOSTORS_TITLE": "Самозванцы",
@@ -528,6 +529,11 @@
 			"type": "entity",
 			"partition": "hokkaido",
 			"path": "[assembly:/_pro/scenes/missions/hokkaido/tod_bluenight.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "coastaltown",
+			"path": "[assembly:/_pro/scenes/missions/coastaltown/mission_revenge.brick].entitytype"
 		}
 	],
 	"dependencies": [
@@ -940,7 +946,78 @@
 					"runtimeID": "0003E6207F6B392B",
 					"toChunk": 20,
 					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "00264A3DDB035AA0",
+					"toChunk": 0,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "002F5293D4F41A8D",
+					"toChunk": 0,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "007E5A6C2FF6FB03",
+					"toChunk": 0,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "007DFF58517CD91D",
+					"toChunk": 0,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "005853CF1323A907",
+					"toChunk": 20,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "0011B20C7F889679",
+					"toChunk": 20,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "007A91F801C60B15",
+					"toChunk": 20,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "0057DC214FB641E0",
+					"toChunk": 20,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "002731C339AB3FCD",
+					"toChunk": 20,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "0056CAA816789FA0",
+					"toChunk": 20,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "00E56D963ABE0749",
+					"toChunk": 20,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "000A1B02EBFDC8BB",
+					"toChunk": 20,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "000FF78D7412B673",
+					"toChunk": 20,
+					"portFromChunk1": false
+				},
+				{
+					"runtimeID": "0011B7C0ADAEF075",
+					"toChunk": 20,
+					"portFromChunk1": false
 				}
+
 
 				
 			],
