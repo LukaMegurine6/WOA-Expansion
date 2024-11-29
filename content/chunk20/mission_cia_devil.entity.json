@@ -14902,6 +14902,1087 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafe4d19004dc70c": {
+			"parent": "cafec602d1bdfe67",
+			"name": "CoverPlane201",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.5573571165180574,
+							"y": -1.028742689966448,
+							"z": -168.98979667061255
+						},
+						"position": {
+							"x": -0.5244500041007996,
+							"y": -2.518933057785034,
+							"z": 0.03376900032162666
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.0064860582351685
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec602d1bdfe67",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8d4f7216a63b": {
+			"parent": "cafec602d1bdfe67",
+			"name": "CoverPlane204",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.7696826336106759,
+							"y": 1.0111512180230728,
+							"z": -8.691222960729874
+						},
+						"position": {
+							"x": -0.47341400384902954,
+							"y": 2.191314935684204,
+							"z": 0.0524430014193058
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.9821450114250184
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec602d1bdfe67",
+					"postInit": true
+				}
+			}
+		},
+		"cafe37e917d737e6": {
+			"parent": "cafec602d1bdfe67",
+			"name": "CoverPlane195",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.87405672376918,
+							"y": -0.22786593713311615,
+							"z": 89.53876041306556
+						},
+						"position": {
+							"x": 1.041864037513733,
+							"y": -1.776095986366272,
+							"z": 0.06429699808359146
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.2548309564590454
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec602d1bdfe67",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9539436dd076": {
+			"parent": "cafec602d1bdfe67",
+			"name": "CoverPlane200",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.8758250271160657,
+							"y": 0.1727471461283341,
+							"z": -89.89904432688375
+						},
+						"position": {
+							"x": -0.9761639833450316,
+							"y": -0.1686590015888214,
+							"z": 0.033872999250888824
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.9702340364456177
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": false },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec602d1bdfe67",
+					"postInit": true
+				}
+			}
+		},
+		"cafedc683a38fb1e": {
+			"parent": "cafec602d1bdfe67",
+			"name": "CoverPlane198",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.1047555281227864,
+							"y": 1.0851323248687823,
+							"z": 4.287223779695919
+						},
+						"position": {
+							"x": 0.5109410285949707,
+							"y": 2.2280991077423096,
+							"z": 0.07058700174093246
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.0009729862213137
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec602d1bdfe67",
+					"postInit": true
+				}
+			}
+		},
+		"cafec602d1bdfe67": {
+			"parent": "cafe369ebb2b9755",
+			"name": "Avance_Pongo_1800cc_Wagon_A_00_01",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/avance_pongo_1800cc_wagon_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/avance_pongo_1800cc_wagon_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 147.49368083774527
+						},
+						"position": {
+							"x": 76.43368530273438,
+							"y": -24.183591842651367,
+							"z": -1.0621237754821775
+						}
+					}
+				},
+				"VehiclePaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe22e33355654e": {
+			"parent": "cafec602d1bdfe67",
+			"name": "CoverPlane199",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.877468327290955,
+							"y": 0.305846170852501,
+							"z": -89.31047596542997
+						},
+						"position": {
+							"x": -0.9665960073471068,
+							"y": 1.4667860269546509,
+							"z": 0.04030799865722656
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.3007739782333374
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec602d1bdfe67"
+				}
+			}
+		},
+		"cafe82882dd4e310": {
+			"parent": "cafec602d1bdfe67",
+			"name": "CoverPlane202",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.864901999110904,
+							"y": -0.10301789473929963,
+							"z": 87.69493752153014
+						},
+						"position": {
+							"x": 1.0296299457550049,
+							"y": 1.7010910511016846,
+							"z": 0.0791890025138855
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.9799879789352416
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec602d1bdfe67"
+				}
+			}
+		},
+		"cafe74a27bea47c3": {
+			"parent": "cafec602d1bdfe67",
+			"name": "CoverPlane203",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.8764852684702062,
+							"y": -0.279547369313907,
+							"z": 90.30401663183532
+						},
+						"position": {
+							"x": 1.0430760383605957,
+							"y": 0.031394001096487045,
+							"z": 0.0725490003824234
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 2.360261917114258
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": false },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec602d1bdfe67"
+				}
+			}
+		},
+		"cafeb3d83068c783": {
+			"parent": "cafec602d1bdfe67",
+			"name": "CoverPlane196",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.9292880275885932,
+							"y": -0.9904070434686062,
+							"z": 168.8957379606266
+						},
+						"position": {
+							"x": 0.5081830024719238,
+							"y": -2.5092899799346924,
+							"z": 0.05229699984192848
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.0981860160827637
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec602d1bdfe67"
+				}
+			}
+		},
+		"cafee501d8f4f0b3": {
+			"parent": "cafec602d1bdfe67",
+			"name": "CoverPlane197",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.8792976308931144,
+							"y": 0.2784586031821895,
+							"z": -88.1745694538734
+						},
+						"position": {
+							"x": -0.9981279969215392,
+							"y": -1.7883009910583496,
+							"z": 0.027816999703645703
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.2697230577468872
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec602d1bdfe67"
+				}
+			}
+		},
+		"cafefd85b635eab1": {
+			"parent": "cafedb616025d7ca",
+			"name": "CoverPlane198",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.3748244469997334,
+							"y": 0.93774388931959,
+							"z": 7.7934370446456445
+						},
+						"position": {
+							"x": 0.5438969731330872,
+							"y": 2.2952721118927,
+							"z": 0.05517100170254707
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.9160500168800354
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedb616025d7ca",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb756f7424171": {
+			"parent": "cafedb616025d7ca",
+			"name": "CoverPlane199",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.787383528522574,
+							"y": 0.4655907071499143,
+							"z": -97.13063975964856
+						},
+						"position": {
+							"x": -0.9944850206375122,
+							"y": -1.5312659740447998,
+							"z": 0.020932000130414963
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.4545179605484009
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedb616025d7ca",
+					"postInit": true
+				}
+			}
+		},
+		"cafed459ac0f6944": {
+			"parent": "cafedb616025d7ca",
+			"name": "CoverPlane196",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.5681479956720833,
+							"y": -0.7677864844688906,
+							"z": 173.70781393403067
+						},
+						"position": {
+							"x": 0.4504239857196808,
+							"y": -2.327219009399414,
+							"z": 0.033438000828027725
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.945900022983551
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedb616025d7ca",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9f4822a2b865": {
+			"parent": "cafedb616025d7ca",
+			"name": "CoverPlane195",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.825859479496722,
+							"y": -0.14450020154593152,
+							"z": 96.82143707040748
+						},
+						"position": {
+							"x": 0.989196002483368,
+							"y": -1.7009769678115845,
+							"z": 0.04123200103640556
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.1570249795913696
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedb616025d7ca",
+					"postInit": true
+				}
+			}
+		},
+		"cafe7268d2775eae": {
+			"parent": "cafedb616025d7ca",
+			"name": "CoverPlane202",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.8042761415063033,
+							"y": 0.19560805374132736,
+							"z": 84.54738352507516
+						},
+						"position": {
+							"x": 1.0429810285568235,
+							"y": 1.758070945739746,
+							"z": 0.06428000330924988
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.9545530080795288
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedb616025d7ca",
+					"postInit": true
+				}
+			}
+		},
+		"cafec792a797d0f4": {
+			"parent": "cafedb616025d7ca",
+			"name": "CoverPlane200",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.838085825843997,
+							"y": -0.13166570538007874,
+							"z": -88.28327174055889
+						},
+						"position": {
+							"x": -1.0543179512023926,
+							"y": 0.2060610055923462,
+							"z": 0.02449199929833412
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 2.0323519706726074
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": false },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedb616025d7ca",
+					"postInit": true
+				}
+			}
+		},
+		"cafe02b3b8d77b64": {
+			"parent": "cafedb616025d7ca",
+			"name": "CoverPlane197",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.8372173829542766,
+							"y": 0.4430157420476218,
+							"z": -86.49831892691687
+						},
+						"position": {
+							"x": -0.9913430213928224,
+							"y": 1.7534669637680054,
+							"z": 0.026277000084519383
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.065400004386902
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedb616025d7ca",
+					"postInit": true
+				}
+			}
+		},
+		"cafe703709fd2c03": {
+			"parent": "cafedb616025d7ca",
+			"name": "CoverPlane203",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 3.837107404127434,
+							"y": -0.5522252647400203,
+							"z": 90.72329754767544
+						},
+						"position": {
+							"x": 1.0731170177459717,
+							"y": 0.07819599658250809,
+							"z": 0.05430199950933456
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 2.4098169803619385
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": false },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedb616025d7ca",
+					"postInit": true
+				}
+			}
+		},
+		"cafed7e6e8ec7ac4": {
+			"parent": "cafedb616025d7ca",
+			"name": "CoverPlane201",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.4113855596843868,
+							"y": 0.9405533713783718,
+							"z": -3.93824399475488
+						},
+						"position": {
+							"x": -0.43432098627090454,
+							"y": 2.3212649822235107,
+							"z": 0.039041001349687576
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.051589012145996
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedb616025d7ca",
+					"postInit": true
+				}
+			}
+		},
+		"cafebc1a03ddbbed": {
+			"parent": "cafedb616025d7ca",
+			"name": "CoverPlane204",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.3959530592213506,
+							"y": -0.7748911751701889,
+							"z": -171.88230919922907
+						},
+						"position": {
+							"x": -0.4619219899177551,
+							"y": -2.315959930419922,
+							"z": 0.021060999482870105
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.8936129808425903
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafedb616025d7ca",
+					"postInit": true
+				}
+			}
+		},
+		"cafedb616025d7ca": {
+			"parent": "cafe369ebb2b9755",
+			"name": "Vogel_Adler_500lx_A_00_01",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/vogel_adler_500lx_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/vogel_adler_500lx_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -101.00765515981332
+						},
+						"position": {
+							"x": 70.05119323730469,
+							"y": -14.396814346313477,
+							"z": -1.1637526750564575
+						}
+					}
+				},
+				"VehiclePaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#3f3f3f"
+				},
+				"ConstantColorRGB_06_Value": {
+					"type": "SColorRGB",
+					"value": "#d6d4d4"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3ac25f2657314528",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+					},
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
 		}
 	},
 	"propertyOverrides": [
