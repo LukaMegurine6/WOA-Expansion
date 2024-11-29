@@ -6480,6 +6480,10 @@
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
 				},
+				"SleepActLeftSide": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe23366e4b3b81"
+				},
 				"DarkLightVisible": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -6516,92 +6520,7 @@
 			"parent": "feede8da14ac6763",
 			"name": "EventReceiver_bool_",
 			"factory": "[modules:/zeventreceiverentity_bool.class].pc_entitytype",
-			"blueprint": "[modules:/zeventreceiverentity_bool.class].pc_entityblueprint",
-			"events": {
-				"OnTrue": { "MakeInvisible": ["feed9a0e49efa613"] },
-				"OnFalse": { "MakeVisible": ["feed9a0e49efa613"] }
-			}
-		},
-		"feed9a0e49efa613": {
-			"parent": "feede8da14ac6763",
-			"name": "Lamp_Modern_Black_Standing_A",
-			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_modern_black_standing_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_modern_black_standing_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 58.702475444880115
-						},
-						"position": {
-							"x": -0.2074200063943863,
-							"y": -3.9824869632720943,
-							"z": 0.4283699989318848
-						}
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"On": { "type": "bool", "value": true },
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#bfbfbf"
-				},
-				"GlowPower": { "type": "float32", "value": 500 },
-				"DiffuseColor": {
-					"type": "SColorRGB",
-					"value": "#c9985d"
-				},
-				"m_vFarAttenuation": {
-					"type": "SVector2",
-					"value": {
-						"x": 0.20000000298023224,
-						"y": 11.170000076293944
-					}
-				},
-				"m_fLODOffset": { "type": "float32", "value": 0 },
-				"LampLODOffset": { "type": "float32", "value": 500 },
-				"DiffusePower": { "type": "float32", "value": 200 },
-				"m_bCastShadows2": { "type": "bool", "value": true },
-				"m_bCastOmniShadows": { "type": "bool", "value": false },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_fLightFadeDistance": {
-					"type": "float32",
-					"value": 500
-				},
-				"Glow_Intensity": { "type": "float32", "value": 30 },
-				"Glow_Scale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.699999988079071,
-						"y": 0.5,
-						"z": 0.4399999976158142
-					}
-				},
-				"Glow_Transform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 90 },
-						"position": {
-							"x": 0.01140500046312809,
-							"y": 0.4719499945640564,
-							"z": 1.7400000095367432
-						}
-					}
-				},
-				"Glow_Visible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+			"blueprint": "[modules:/zeventreceiverentity_bool.class].pc_entityblueprint"
 		},
 		"feeda23ec3812c08": {
 			"parent": "feedfe32810b3b9b",
@@ -14255,6 +14174,113 @@
 				"PollTrue": { "Start": ["cafe6f3a96a8ee5e"] },
 				"PollFalse": { "Start": ["cafefd0a5d594138"] }
 			}
+		},
+		"cafe23366e4b3b81": {
+			"parent": "feeddfb334a7706e",
+			"name": "Act_FR_Lie_Bed_090cm_DeepSleep",
+			"factory": "00CB14A51223240D",
+			"blueprint": "0076E3A785082C24",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_ePerceptionSensitivity": {
+					"type": "EActorPerceptionSensitivity",
+					"value": "APS_AMBIENT_DEAFBLIND"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2c2fc7ca4f0e",
+					"postInit": true
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbedbcd61108e",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9eefde332733": {
+			"parent": "feeddfb334a7706e",
+			"name": "TimerConditional",
+			"factory": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2c2fc7ca4f0e"
+				},
+				"m_nInterval": { "type": "int32", "value": 35000 },
+				"m_bResetWhenStopped": { "type": "bool", "value": true }
+			},
+			"events": { "TimeOut": { "Start": ["cafe23366e4b3b81"] } }
+		},
+		"cafed77f3e3e8e1c": {
+			"parent": "feeddfb334a7706e",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe217fe33a7cec", "cafeedd61aecfe78"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe217fe33a7cec": {
+			"parent": "feeddfb334a7706e",
+			"name": "ActStateCondition",
+			"factory": "[modules:/zactbehaviorstatecondition.class].pc_entitytype",
+			"blueprint": "[modules:/zactbehaviorstatecondition.class].pc_entityblueprint",
+			"properties": {
+				"m_bIsEntering": { "type": "bool", "value": false },
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_rActBehavior": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2c2fc7ca4f0e",
+					"postInit": true
+				}
+			}
+		},
+		"cafeedd61aecfe78": {
+			"parent": "feeddfb334a7706e",
+			"name": "ActStateCondition 2",
+			"factory": "[modules:/zactbehaviorstatecondition.class].pc_entitytype",
+			"blueprint": "[modules:/zactbehaviorstatecondition.class].pc_entityblueprint",
+			"properties": {
+				"m_bIsEntering": { "type": "bool", "value": true },
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_rActBehavior": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe23366e4b3b81"
+				}
+			}
+		},
+		"cafeac45f2d61c9b": {
+			"parent": "feeddfb334a7706e",
+			"name": "Restart act when paused",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "feed2c2fc7ca4f0e",
+						"externalScene": null,
+						"exposedEntity": "Paused"
+					}
+				}
+			},
+			"events": { "OnTrue": { "Start": ["feed2c2fc7ca4f0e"] } }
 		}
 	},
 	"propertyOverrides": [
@@ -14285,6 +14311,20 @@
 					}
 				},
 				"Start_As_Silent": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "3c768df1be0e44da",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "d12fc231-020b-4673-a7b8-3789ed9fee93"
+				}
 			}
 		}
 	],
