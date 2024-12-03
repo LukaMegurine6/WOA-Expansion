@@ -14852,7 +14852,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": ["feed7800af5eb8f2"],
+					"Start": ["cafe7d6cbb03983a"],
 					"SetFalse": ["cafedf9e1e6fd7f6"]
 				}
 			}
@@ -15684,7 +15684,7 @@
 					"postInit": true
 				}
 			},
-			"events": { "OnActTimeout": { "Start": ["cafe7d6cbb03983a"] } }
+			"events": { "OnActTimeout": { "Start": ["cafeab3dd944b045"] } }
 		},
 		"cafe5e3edefff134": {
 			"parent": "feedcaa1e7276ef4",
@@ -15715,9 +15715,9 @@
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 88.01739 },
 						"position": {
-							"x": -9.961375,
+							"x": -10.961375,
 							"y": -29.788118,
-							"z": 0.0
+							"z": 1
 						}
 					}
 				},
@@ -15733,7 +15733,7 @@
 			}
 		},
 		"cafe7d6cbb03983a": {
-			"parent": "cafe5eac4a0b1645",
+			"parent": "cafec7613497add2",
 			"name": "Act_MR_Stand_Eat_100cm",
 			"factory": "[assembly:/_pro/design/actor/acts/mr_iteminteraction.template?/act_mr_stand_eat_100cm.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/acts/mr_iteminteraction.template?/act_mr_stand_eat_100cm.entitytemplate].pc_entityblueprint",
@@ -15752,7 +15752,7 @@
 				"m_fActTimeout": { "type": "float32", "value": 16 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe94334ad2b082",
+					"value": "cafeb2f3dcc47420",
 					"postInit": true
 				},
 				"m_rSetPiece": {
@@ -15770,13 +15770,13 @@
 					"postInit": true
 				}
 			},
-			"events": { "OnActTimeout": { "Start": ["cafe52e2814af230"] } }
+			"events": { "OnActTimeout": { "Start": ["feed7800af5eb8f2"] } }
 		},
-		"cafe52e2814af230": {
+		"cafeab3dd944b045": {
 			"parent": "cafe5eac4a0b1645",
-			"name": "Act_MR_Stand_Phone_Pace",
-			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_pace.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_pace.entitytemplate].pc_entityblueprint",
+			"name": "Act_MR_Stand_Phone_Text_Pace",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -15793,12 +15793,12 @@
 						}
 					}
 				},
+				"m_fActTimeout": { "type": "float32", "value": 20 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe94334ad2b082"
+					"value": "cafe94334ad2b082",
+					"postInit": true
 				},
-				"m_fActTimeout": { "type": "float32", "value": 40.0 },
-				"m_bValueGenericDialog": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
