@@ -5035,7 +5035,8 @@
 					"value": [
 						"feed5ebb776f4d6b",
 						"feed447472116afe",
-						"cafe6acbc83bd0a0"
+						"cafe6acbc83bd0a0",
+						"cafe7cb9dd8a9075"
 					],
 					"postInit": true
 				},
@@ -6305,7 +6306,7 @@
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed5ebb776f4d6b", "feed447472116afe"],
+					"value": ["feed5ebb776f4d6b", "cafe349d040ead6b"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -7279,11 +7280,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 88.38927 },
+						"rotation": { "x": 0, "y": 0, "z": 21.795 },
 						"position": {
-							"x": 9.868913,
-							"y": -31.91511,
-							"z": 0.012470958
+							"x": -11.35671,
+							"y": -40.724483,
+							"z": 0.0
 						}
 					}
 				},
@@ -7305,7 +7306,7 @@
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed5ebb776f4d6b", "feed447472116afe"],
+					"value": ["feed5ebb776f4d6b", "cafe349d040ead6b"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -7394,7 +7395,7 @@
 					"value": "cafe72342ff9da9c"
 				}
 			},
-			"events": { "OnStart": { "Start": ["cafe1df550b4e50e"] } }
+			"events": { "OnStart": { "Start": ["cafe588baa30e45a"] } }
 		},
 		"cafe8f40364eef25": {
 			"parent": "cafe72342ff9da9c",
@@ -7420,11 +7421,7 @@
 						}
 					}
 				},
-				"m_eApproachAlignment": {
-					"type": "ZActBehaviorEntity.EApproachAlignment",
-					"value": "AA_LOOSE"
-				},
-				"m_fActTimeout": { "type": "float32", "value": -1 },
+				"m_fActTimeout": { "type": "float32", "value": 35.0 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "cafe3ca193792d8e",
@@ -7435,7 +7432,8 @@
 					"value": "fffffffffffffffe",
 					"postInit": true
 				}
-			}
+			},
+			"events": { "OnStart": { "Start": ["cafe588baa30e45a"] } }
 		},
 		"cafe1e1e0d0f15a9": {
 			"parent": "feedac70d3b92ee1",
@@ -9685,7 +9683,8 @@
 						"cafe15b3ad5c9fdf",
 						"cafe7cb9dd8a9075",
 						"cafe6acbc83bd0a0",
-						"cafebe61c50bb7a1"
+						"cafebe61c50bb7a1",
+						"feed9f7eb04d0ad0"
 					],
 					"postInit": true
 				},
@@ -9697,7 +9696,8 @@
 						"cafe349d040ead6b",
 						"cafe15b3ad5c9fdf",
 						"cafe6acbc83bd0a0",
-						"cafebe61c50bb7a1"
+						"cafebe61c50bb7a1",
+						"feed9f7eb04d0ad0"
 					],
 					"postInit": true
 				}
@@ -15565,7 +15565,7 @@
 						"position": {
 							"x": 0.20421218872070312,
 							"y": -1.0080137252807615,
-							"z": -4.842877388000488e-8
+							"z": 0.0
 						}
 					}
 				},
@@ -15676,7 +15676,8 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed7b3516f02f6f"]
+					"value": ["feed7b3516f02f6f"],
+					"postInit": true
 				}
 			}
 		},
@@ -15685,6 +15686,90 @@
 			"name": "Prof_Trapped_Guard_EliteGuard",
 			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_eliteguard.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_eliteguard.entitytemplate].pc_entityblueprint"
+		},
+		"cafe5cbfcb9c1a70": {
+			"parent": "feed7b3516f02f6f",
+			"name": "Prof_Sheep_Guard_Bodyguard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_guard_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_guard_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed7b3516f02f6f"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe588baa30e45a": {
+			"parent": "cafe72342ff9da9c",
+			"name": "Act_MR_Guard_Stand_ArmsCrossed",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 21.795 },
+						"position": {
+							"x": -11.35671,
+							"y": -40.724483,
+							"z": 0.0
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 25.0 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
+				"m_AlignRotation": {
+					"type": "ZActBehaviorEntity.ERotationAlignment",
+					"value": "RA_EXACT"
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe3ca193792d8e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": { "OnStart": { "Start": ["cafeeba2e21378da"] } }
+		},
+		"cafeeba2e21378da": {
+			"parent": "cafe72342ff9da9c",
+			"name": "Act_MR_Guard_Stand_ArmsBack_03",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 137.93475 },
+						"position": {
+							"x": -0.8936047,
+							"y": -39.783394,
+							"z": 0.0
+						}
+					}
+				},
+				"m_MovementType": {
+					"type": "ZActBehaviorEntity.EMovementType",
+					"value": "MT_WALK"
+				},
+				"m_fActTimeout": { "type": "float32", "value": 30.0 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe3ca193792d8e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": { "OnActTimeout": { "Start": ["cafe1df550b4e50e"] } }
 		}
 	},
 	"propertyOverrides": [
