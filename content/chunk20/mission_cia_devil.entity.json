@@ -612,7 +612,7 @@
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint"
 		},
 		"feed374c5e11bfdf": {
-			"parent": "feed15131a31ac61",
+			"parent": "cafe84fb0413b1d3",
 			"name": "Trapped_Guard_Commando_M",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -2896,19 +2896,6 @@
 			"name": "Prof_Sheep_Unique_Alma",
 			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_alma.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_alma.entitytemplate].pc_entityblueprint"
-		},
-		"feedcdce060077a6": {
-			"parent": "feed374c5e11bfdf",
-			"name": "Prof_Sheep_BodyGuard_Adonis",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_bodyguard_adonis.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_bodyguard_adonis.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed374c5e11bfdf"],
-					"postInit": true
-				}
-			}
 		},
 		"feed5b995dca2928": {
 			"parent": "feed9748e3f0c46a",
@@ -8541,7 +8528,7 @@
 		},
 		"cafef878da1f49e1": {
 			"parent": "cafe546be39083bd",
-			"name": "Gary Busey is dead proxy",
+			"name": "Anthony is dead proxy",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -9205,7 +9192,8 @@
 					"value": [
 						"feed447472116afe",
 						"cafe349d040ead6b",
-						"cafef27f4ea36d09"
+						"cafe7cb9dd8a9075",
+						"cafe6acbc83bd0a0"
 					],
 					"postInit": true
 				},
@@ -9214,7 +9202,8 @@
 					"value": [
 						"feed447472116afe",
 						"cafe349d040ead6b",
-						"cafef27f4ea36d09"
+						"cafe7cb9dd8a9075",
+						"cafe6acbc83bd0a0"
 					],
 					"postInit": true
 				}
@@ -9401,7 +9390,11 @@
 				},
 				"m_aDisguisesFriskExempt": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed447472116afe", "cafef27f4ea36d09"]
+					"value": [
+						"feed447472116afe",
+						"cafe7cb9dd8a9075",
+						"cafe6acbc83bd0a0"
+					]
 				},
 				"m_bFrisk": { "type": "bool", "value": true },
 				"m_aReFriskZones": {
@@ -9415,7 +9408,8 @@
 						"feed447472116afe",
 						"cafe15b3ad5c9fdf",
 						"cafe349d040ead6b",
-						"cafef27f4ea36d09"
+						"cafe7cb9dd8a9075",
+						"cafe6acbc83bd0a0"
 					],
 					"postInit": true
 				},
@@ -10087,7 +10081,8 @@
 						"feed447472116afe",
 						"cafe349d040ead6b",
 						"cafe15b3ad5c9fdf",
-						"cafef27f4ea36d09"
+						"cafe7cb9dd8a9075",
+						"cafe6acbc83bd0a0"
 					],
 					"postInit": true
 				},
@@ -10097,7 +10092,8 @@
 						"feed447472116afe",
 						"cafe349d040ead6b",
 						"cafe15b3ad5c9fdf",
-						"cafef27f4ea36d09"
+						"cafe7cb9dd8a9075",
+						"cafe6acbc83bd0a0"
 					],
 					"postInit": true
 				}
@@ -10535,7 +10531,8 @@
 						"cafe349d040ead6b",
 						"cafe15b3ad5c9fdf",
 						"feed9f7eb04d0ad0",
-						"cafef27f4ea36d09"
+						"cafe7cb9dd8a9075",
+						"cafe6acbc83bd0a0"
 					],
 					"postInit": true
 				},
@@ -10547,7 +10544,7 @@
 						"cafe349d040ead6b",
 						"cafe15b3ad5c9fdf",
 						"feed9f7eb04d0ad0",
-						"cafef27f4ea36d09"
+						"cafe6acbc83bd0a0"
 					],
 					"postInit": true
 				}
@@ -13274,25 +13271,6 @@
 					"value": "eAVV_INGRAM"
 				}
 			}
-		},
-		"cafe39c05f386bfa": {
-			"parent": "feedfb334a93c822",
-			"name": "Prof_Greenland_GenericSecurity",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_genericsecurity.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_genericsecurity.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedfb334a93c822"],
-					"postInit": true
-				}
-			}
-		},
-		"cafef27f4ea36d09": {
-			"parent": "feedfae615c38981",
-			"name": "Prof_Greenland_GenericSecurity",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_genericsecurity.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_genericsecurity.entitytemplate].pc_entityblueprint"
 		},
 		"cafeb37bfa077b20": {
 			"parent": "cafe84fb0413b1d3",
@@ -16489,6 +16467,10 @@
 						}
 					}
 				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -16498,6 +16480,44 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafea2f6bb91706a": {
+			"parent": "feedfb334a93c822",
+			"name": "prof_trapped_guard_commandoleader",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_commandoleader.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_commandoleader.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feedfb334a93c822"],
+					"postInit": true
+				}
+			}
+		},
+		"cafea965ee3b5c7b": {
+			"parent": "feed374c5e11bfdf",
+			"name": "Prof_Trapped_Guard_Commando",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_commando.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_commando.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed374c5e11bfdf"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe7cb9dd8a9075": {
+			"parent": "feedfae615c38981",
+			"name": "Prof_Trapped_Guard_Commando",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_commando.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_commando.entitytemplate].pc_entityblueprint"
+		},
+		"cafe6acbc83bd0a0": {
+			"parent": "feedfae615c38981",
+			"name": "Prof_Trapped_Guard_CommandoLeader",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_commandoleader.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_commandoleader.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [
