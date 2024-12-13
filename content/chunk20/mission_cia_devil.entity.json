@@ -14948,7 +14948,7 @@
 				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
-					"value": "eAVV_ET_LAMBIC"
+					"value": "eAVV_MENDOLA"
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -15162,7 +15162,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_ET_LAMBIC"]
+					"value": ["eAVV_MENDOLA"]
 				},
 				"m_eOutfitType": {
 					"type": "EOutfitType",
@@ -15706,6 +15706,25 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["feed7b3516f02f6f"],
 					"postInit": true
+				}
+			}
+		},
+		"cafe4d1fd69c62a8": {
+			"parent": "cafeb9249811f594",
+			"name": "MENDOLA",
+			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
+			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
+			"properties": {
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/sounddefinitions/mendola.sdefs].pc_sdefs",
+						"flag": "5F"
+					}
+				},
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_MENDOLA"
 				}
 			}
 		}
