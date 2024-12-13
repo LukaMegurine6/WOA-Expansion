@@ -7280,10 +7280,10 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 21.795 },
+						"rotation": { "x": 0, "y": 0, "z": 137.93475 },
 						"position": {
-							"x": -11.35671,
-							"y": -40.724483,
+							"x": -0.8936047,
+							"y": -39.783394,
 							"z": 0.0
 						}
 					}
@@ -7395,7 +7395,7 @@
 					"value": "cafe72342ff9da9c"
 				}
 			},
-			"events": { "OnStart": { "Start": ["cafe588baa30e45a"] } }
+			"events": { "OnStart": { "Start": ["cafe1df550b4e50e"] } }
 		},
 		"cafe8f40364eef25": {
 			"parent": "cafe72342ff9da9c",
@@ -7421,7 +7421,11 @@
 						}
 					}
 				},
-				"m_fActTimeout": { "type": "float32", "value": 35.0 },
+				"m_eApproachAlignment": {
+					"type": "ZActBehaviorEntity.EApproachAlignment",
+					"value": "AA_LOOSE"
+				},
+				"m_fActTimeout": { "type": "float32", "value": -1 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "cafe3ca193792d8e",
@@ -7432,8 +7436,7 @@
 					"value": "fffffffffffffffe",
 					"postInit": true
 				}
-			},
-			"events": { "OnStart": { "Start": ["cafe588baa30e45a"] } }
+			}
 		},
 		"cafe1e1e0d0f15a9": {
 			"parent": "feedac70d3b92ee1",
@@ -14943,6 +14946,10 @@
 					],
 					"postInit": true
 				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_ET_LAMBIC"
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -15132,12 +15139,9 @@
 				},
 				"m_sCommonName": {
 					"type": "ZString",
-					"value": "Trapped_Guard_Bodyguard_M"
+					"value": "Luka_Assassin"
 				},
-				"m_sTitle": {
-					"type": "ZString",
-					"value": "Constant Bodyguard"
-				},
+				"m_sTitle": { "type": "ZString", "value": "The Assassin" },
 				"m_eOutfitAICategory": {
 					"type": "EOutfitAICategory",
 					"value": "OAC_Bodyguard"
@@ -15158,7 +15162,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_BDYGRD04", "eAVV_BDYGRD05"]
+					"value": ["eAVV_ET_LAMBIC"]
 				},
 				"m_eOutfitType": {
 					"type": "EOutfitType",
@@ -15560,11 +15564,11 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": -5.012391226340291
+							"z": -9.262850150137028
 						},
 						"position": {
-							"x": 0.20421218872070312,
-							"y": -1.0080137252807615,
+							"x": 0.2551097869873047,
+							"y": -1.01271653175354,
 							"z": 0.0
 						}
 					}
@@ -15591,7 +15595,12 @@
 				"m_bApplyPromptDescriptionText": {
 					"type": "bool",
 					"value": true
-				}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bForceVisible": { "type": "bool", "value": false }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -15618,7 +15627,7 @@
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
+					"value": "ROOM_STATIC"
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -15699,77 +15708,6 @@
 					"postInit": true
 				}
 			}
-		},
-		"cafe588baa30e45a": {
-			"parent": "cafe72342ff9da9c",
-			"name": "Act_MR_Guard_Stand_ArmsCrossed",
-			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 21.795 },
-						"position": {
-							"x": -11.35671,
-							"y": -40.724483,
-							"z": 0.0
-						}
-					}
-				},
-				"m_fActTimeout": { "type": "float32", "value": 25.0 },
-				"m_bAlignPosition": { "type": "bool", "value": true },
-				"m_AlignRotation": {
-					"type": "ZActBehaviorEntity.ERotationAlignment",
-					"value": "RA_EXACT"
-				},
-				"m_pActor": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe3ca193792d8e",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"events": { "OnStart": { "Start": ["cafeeba2e21378da"] } }
-		},
-		"cafeeba2e21378da": {
-			"parent": "cafe72342ff9da9c",
-			"name": "Act_MR_Guard_Stand_ArmsBack_03",
-			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 137.93475 },
-						"position": {
-							"x": -0.8936047,
-							"y": -39.783394,
-							"z": 0.0
-						}
-					}
-				},
-				"m_MovementType": {
-					"type": "ZActBehaviorEntity.EMovementType",
-					"value": "MT_WALK"
-				},
-				"m_fActTimeout": { "type": "float32", "value": 30.0 },
-				"m_pActor": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe3ca193792d8e",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"events": { "OnActTimeout": { "Start": ["cafe1df550b4e50e"] } }
 		}
 	},
 	"propertyOverrides": [
