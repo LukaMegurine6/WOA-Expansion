@@ -16364,12 +16364,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 113.85453945165558
+							"z": -79.32376793829286
 						},
 						"position": {
-							"x": 25.361480712890625,
-							"y": -110.96179962158205,
-							"z": 1.1671299934387207
+							"x": 156.41073608398438,
+							"y": -114.97736358642578,
+							"z": -0.7394714951515198
 						}
 					}
 				},
@@ -16706,12 +16706,12 @@
 						"rotation": {
 							"x": -0.0,
 							"y": 0.0,
-							"z": 178.7741204461609
+							"z": -11.04268195372886
 						},
 						"position": {
-							"x": -29.965179443359375,
-							"y": -52.128021240234375,
-							"z": 3.648988962173462
+							"x": 109.1426239013672,
+							"y": -85.65242004394531,
+							"z": -2.0140511989593506
 						}
 					}
 				},
@@ -17167,11 +17167,8 @@
 				},
 				"UseS3startCue": { "type": "bool", "value": true },
 				"ExitPoint_VolumeBoxes": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "6823a974f8a13cce",
-						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-					},
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe06c33a3c4153"],
 					"postInit": true
 				}
 			},
@@ -17190,6 +17187,42 @@
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["cafe2c60580034b6"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe06c33a3c4153": {
+			"parent": "cafe741106463e5b",
+			"name": "Boat",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 62.37710189819336,
+						"y": 91.4363021850586,
+						"z": 7.37306022644043
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.92387722598636
+						},
+						"position": {
+							"x": 221.25379943847656,
+							"y": -138.8657989501953,
+							"z": -4.533649921417236
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
 					"postInit": true
 				}
 			}
