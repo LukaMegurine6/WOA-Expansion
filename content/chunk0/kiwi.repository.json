@@ -89,32 +89,32 @@
         "Description": "Unknown",
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
-    },"075a7a54-933c-4433-a1c0-57345b1ffa5e": {
-        "ID_": "075a7a54-933c-4433-a1c0-57345b1ffa5e",
-        "Image": "images/actors/Kiwi/Ext/Jensen Peng.jpg",
-        "Name": "Jensen Peng",
-        "Outfit": "e77b5340-41d3-448a-84d3-a4f7f6426634",
-        "OutfitVariationIndex": 2.0,
+    },"17ac761a-7075-44e6-81c4-890fd1cfb895": {
+        "ID_": "17ac761a-7075-44e6-81c4-890fd1cfb895",
+        "Image": "images/actors/Kiwi/Main/HermioneGraffer.jpg",
+        "Name": "Hermione Graffer",
+        "Outfit": "59d52e11-75a0-4185-8632-20009afdc6bb",
+        "OutfitVariationIndex": 0.0,
         "CharacterSetIndex": 0.0,
         "Description": "Unknown",
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
-    },"13ef06eb-92d9-490a-8508-0ac5d94de987": {
-        "ID_": "13ef06eb-92d9-490a-8508-0ac5d94de987",
-        "Image": "images/actors/Kiwi/Ext/Kane O'Brien.jpg",
-        "Name": "Kane O'Brien",
+    },"f33a507d-e7af-409f-b114-936a57522e90": {
+        "ID_": "f33a507d-e7af-409f-b114-936a57522e90",
+        "Image": "images/actors/Kiwi/Main/FlorianElkash.jpg",
+        "Name": "Florian Elkash",
         "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
-        "OutfitVariationIndex": 3.0,
+        "OutfitVariationIndex": 4.0,
         "CharacterSetIndex": 0.0,
         "Description": "Unknown",
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
-    },"44d082c3-81a7-408e-a57e-6826f750a100": {
-        "ID_": "44d082c3-81a7-408e-a57e-6826f750a100",
-        "Image": "images/actors/Kiwi/Ext/Liberty Ross.jpg",
-        "Name": "Liberty Ross",
+    },"cf46d921-7460-4132-9368-488cf50da758": {
+        "ID_": "cf46d921-7460-4132-9368-488cf50da758",
+        "Image": "images/actors/Kiwi/Main/NolanGrace.jpg",
+        "Name": "Nolan Grace",
         "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
-        "OutfitVariationIndex": 1.0,
+        "OutfitVariationIndex": 0.0,
         "CharacterSetIndex": 0.0,
         "Description": "Unknown",
         "Description_LOC": "actor_description",

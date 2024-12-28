@@ -3590,13 +3590,13 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Robert Erford"
+					"value": "Nolan Grace"
 				},
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "40bd1a54-a8d3-418b-84ee-859a69310c6c"
+					"value": "cf46d921-7460-4132-9368-488cf50da758"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -5282,7 +5282,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "5d06df48-9408-433d-b6b7-2baee2d099b9"
+					"value": "17ac761a-7075-44e6-81c4-890fd1cfb895"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -6290,7 +6290,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "6a241fdf-ebd5-4739-b7d4-ea4b6c23b853"
+					"value": "f33a507d-e7af-409f-b114-936a57522e90"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
