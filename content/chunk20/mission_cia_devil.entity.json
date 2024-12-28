@@ -2740,7 +2740,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "44d082c3-81a7-408e-a57e-6826f750a100"
+					"value": "5e99259d-43e1-4390-8124-3857aeb4e100"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -4612,7 +4612,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "85568cd4-a486-4ef0-ba97-819956492ac8"
+					"value": "f1adac29-6fd3-4718-949c-0f6dbab777b7"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -5017,7 +5017,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "06e3cbd5-6f4a-4745-94ae-f0313522f9fb"
+					"value": "538839a9-c784-4986-ae59-bc8797352256"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -7122,7 +7122,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "6a241fdf-ebd5-4739-b7d4-ea4b6c23b853"
+					"value": "e804a224-b7ff-4040-b1f0-4b6637527e6f"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -7131,7 +7131,7 @@
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Hugo Vandberg"
+					"value": "Stefan Vandberg"
 				},
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
 				"m_bWeaponUnholstered": { "type": "bool", "value": false },
@@ -8666,7 +8666,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "6a241fdf-ebd5-4739-b7d4-ea4b6c23b853"
+					"value": "053287d9-4dd6-4da2-9941-fa00c9ea0300"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -8675,7 +8675,7 @@
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Florian Elkash"
+					"value": "Benedict Holland"
 				},
 				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_bWeaponUnholstered": { "type": "bool", "value": false },
@@ -11186,7 +11186,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "7d0349bb-53a4-477f-9163-35f978268594"
+					"value": "646ea291-140e-45d9-b4e3-47a4609008b9"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -11195,7 +11195,7 @@
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Anthony Jr.Martinez"
+					"value": "Amos Dexter"
 				},
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
