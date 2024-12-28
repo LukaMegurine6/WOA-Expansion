@@ -2427,7 +2427,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "db1fd81e-e145-4e78-8713-4a1c9ab6b762"
+					"value": "143d6c97-4e88-48c9-86e8-adf73a32d719"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -8850,7 +8850,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "45ce89bb-0689-4b63-9f5e-5db1723904bf"
+					"value": "1bbdb12f-e874-458e-8f5a-b37ece7667f4"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -9812,7 +9812,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "45ce89bb-0689-4b63-9f5e-5db1723904bf"
+					"value": "0ee6b2e8-b0ea-4aa1-b5f1-804ce71fca93"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -9826,7 +9826,7 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Nicolas Rivière"
+					"value": "Paul Bacuse"
 				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
@@ -10551,7 +10551,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "45ce89bb-0689-4b63-9f5e-5db1723904bf"
+					"value": "0bcefe11-d7d7-4dae-b433-3a55cd02ee7e"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -10565,7 +10565,7 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Jane Paris"
+					"value": "Maria Cane"
 				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
@@ -10870,7 +10870,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "3ee296e6-6870-4496-b354-e14df7d4c21a"
+					"value": "34583ea0-d61f-470e-9397-6a519c62cce2"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -10889,7 +10889,7 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Nicolas Rivière"
+					"value": "Sir Arthur Ericsson"
 				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
@@ -12672,7 +12672,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "45ce89bb-0689-4b63-9f5e-5db1723904bf"
+					"value": "66d18e3f-c6be-4738-8921-d3bd6219a3b5"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -14895,7 +14895,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "ba4bb15d-11f1-47ba-b50b-b5974b673607"
+					"value": "727db504-191e-4f64-a1ec-892173f3a533"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",

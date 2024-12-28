@@ -9,72 +9,72 @@
         "Description": "Unknown",
         "Description_LOC": "UI_MARTINEZJR_BIO",
         "Tile": "images/actors/default_target.png"
-    },"db1fd81e-e145-4e78-8713-4a1c9ab6b762": {
-        "ID_": "db1fd81e-e145-4e78-8713-4a1c9ab6b762",
-        "Image": "images/actors/Kiwi/Ext/Dimitri Belikof.jpg",
-        "Name": "Dimitri Belikof",
+    },"0bcefe11-d7d7-4dae-b433-3a55cd02ee7e": {
+        "ID_": "0bcefe11-d7d7-4dae-b433-3a55cd02ee7e",
+        "Image": "images/actors/Kiwi/Main/MariaCane.jpg",
+        "Name": "Maria Cane",
+        "Outfit": "1499ddb8-c1f1-4c43-ad08-6edec06be1be",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"66d18e3f-c6be-4738-8921-d3bd6219a3b5": {
+        "ID_": "66d18e3f-c6be-4738-8921-d3bd6219a3b5",
+        "Image": "images/actors/Kiwi/Main/EdmondPlaintel.jpg",
+        "Name": "Edmond Plaintel",
+        "Outfit": "705881f7-0c65-49f9-80bd-16229fdbe1c2",
+        "OutfitVariationIndex": 2.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },   "1bbdb12f-e874-458e-8f5a-b37ece7667f4": {
+        "ID_": "1bbdb12f-e874-458e-8f5a-b37ece7667f4",
+        "Image": "images/actors/Kiwi/Main/SimonDelaw.jpg",
+        "Name": "Simon Delaw",
+        "Outfit": "705881f7-0c65-49f9-80bd-16229fdbe1c2",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"0ee6b2e8-b0ea-4aa1-b5f1-804ce71fca93": {
+        "ID_": "0ee6b2e8-b0ea-4aa1-b5f1-804ce71fca93",
+        "Image": "images/actors/Kiwi/Main/PaulBacuse.jpg",
+        "Name": "Paul Bacuse",
+        "Outfit": "b3e5fbd9-3043-4828-9dd2-471b92f808ed",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"34583ea0-d61f-470e-9397-6a519c62cce2": {
+        "ID_": "34583ea0-d61f-470e-9397-6a519c62cce2",
+        "Image": "images/actors/Kiwi/Main/SirArthurEricsson.jpg",
+        "Name": "Sir Arthur Ericsson",
+        "Outfit": "705881f7-0c65-49f9-80bd-16229fdbe1c2",
+        "OutfitVariationIndex": 5.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"143d6c97-4e88-48c9-86e8-adf73a32d719": {
+        "ID_": "143d6c97-4e88-48c9-86e8-adf73a32d719",
+        "Image": "images/actors/Kiwi/Main/ThomasVayne.jpg",
+        "Name": "Thomas Vayne",
         "Outfit": "48c124de-3ebf-4c25-8cf4-63c93631f871",
         "OutfitVariationIndex": 0.0,
         "CharacterSetIndex": 0.0,
         "Description": "Unknown",
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
-    },"e72659bc-cd97-4c61-8878-486bfe4b6d5d": {
-        "ID_": "e72659bc-cd97-4c61-8878-486bfe4b6d5d",
-        "Image": "images/actors/Kiwi/Ext/Dewey Thompson.jpg",
-        "Name": "Dewey Thompson",
-        "Outfit": "dc2e18d2-77a8-49b9-826b-29bcab18c7b2",
+    },"727db504-191e-4f64-a1ec-892173f3a533": {
+        "ID_": "727db504-191e-4f64-a1ec-892173f3a533",
+        "Image": "images/actors/Kiwi/Main/HugoMangold.jpg",
+        "Name": "Hugo Mangold",
+        "Outfit": "ebd87f73-5968-468f-9ba0-cec741cdffcd",
         "OutfitVariationIndex": 2.0,
-        "CharacterSetIndex": 0.0,
-        "Description": "Unknown",
-        "Description_LOC": "actor_description",
-        "Tile": "images/actors/default_target.png"
-    },   "40bd1a54-a8d3-418b-84ee-859a69310c6c": {
-        "ID_": "40bd1a54-a8d3-418b-84ee-859a69310c6c",
-        "Image": "images/actors/Kiwi/Ext/Robert Erford.jpg",
-        "Name": "Robert Erford",
-        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
-        "OutfitVariationIndex": 3.0,
-        "CharacterSetIndex": 0.0,
-        "Description": "Unknown",
-        "Description_LOC": "actor_description",
-        "Tile": "images/actors/default_target.png"
-    },"ba4bb15d-11f1-47ba-b50b-b5974b673607": {
-        "ID_": "ba4bb15d-11f1-47ba-b50b-b5974b673607",
-        "Image": "images/actors/Kiwi/Ext/Eric Dalian.jpg",
-        "Name": "Eric Dalian",
-        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
-        "OutfitVariationIndex": 1.0,
-        "CharacterSetIndex": 0.0,
-        "Description": "Unknown",
-        "Description_LOC": "actor_description",
-        "Tile": "images/actors/default_target.png"
-    },"85568cd4-a486-4ef0-ba97-819956492ac8": {
-        "ID_": "85568cd4-a486-4ef0-ba97-819956492ac8",
-        "Image": "images/actors/Kiwi/Ext/Xian Feng.jpg",
-        "Name": "Xian Feng",
-        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
-        "OutfitVariationIndex": 1.0,
-        "CharacterSetIndex": 0.0,
-        "Description": "Unknown",
-        "Description_LOC": "actor_description",
-        "Tile": "images/actors/default_target.png"
-    },"6a241fdf-ebd5-4739-b7d4-ea4b6c23b853": {
-        "ID_": "6a241fdf-ebd5-4739-b7d4-ea4b6c23b853",
-        "Image": "images/actors/Kiwi/Ext/Parker Hatzi.jpg",
-        "Name": "Parker Hatzi",
-        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
-        "OutfitVariationIndex": 0.0,
-        "CharacterSetIndex": 0.0,
-        "Description": "Unknown",
-        "Description_LOC": "actor_description",
-        "Tile": "images/actors/default_target.png"
-    },"5d06df48-9408-433d-b6b7-2baee2d099b9": {
-        "ID_": "5d06df48-9408-433d-b6b7-2baee2d099b9",
-        "Image": "images/actors/Kiwi/Ext/Hermione Graffer.jpg",
-        "Name": "Hermione Graffer",
-        "Outfit": "59d52e11-75a0-4185-8632-20009afdc6bb",
-        "OutfitVariationIndex": 0.0,
         "CharacterSetIndex": 0.0,
         "Description": "Unknown",
         "Description_LOC": "actor_description",
