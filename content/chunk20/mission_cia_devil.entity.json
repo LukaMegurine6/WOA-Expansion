@@ -347,7 +347,7 @@
 		},
 		"feed15131a31ac61": {
 			"parent": "feedac70d3b92ee1",
-			"name": "CHAR_Trapped_Guard_Commando_M_Patrol1",
+			"name": "CHAR_Trapped_Guard_Commando_Mastodonte",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
 			"properties": {
