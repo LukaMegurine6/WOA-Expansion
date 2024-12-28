@@ -189,5 +189,41 @@
         "Description": "Unknown",
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
-    }
+    },"b3e5fbd9-3043-4828-9dd2-471b92f808ed": {
+        "ID_": "b3e5fbd9-3043-4828-9dd2-471b92f808ed",
+        "Description": "UI_CHEFKIWISUIT",
+        "HeroDisguiseAvailable": true,
+        "Image": "images/Destinations/Hawke's Bay/Chef.jpg",
+        "Name": "UI_CHEFKIWISUIT"
+    },"48c124de-3ebf-4c25-8cf4-63c93631f871": {
+        "ID_": "48c124de-3ebf-4c25-8cf4-63c93631f871",
+        "Description": "UI_LEADERKIWI",
+        "HeroDisguiseAvailable": true,
+        "Image": "images/Destinations/Hawke's Bay/Leader.jpg",
+        "Name": "UI_LEADERKIWI"
+    },"8b5e0fed-e15e-4939-9ed0-539f94e1ec14": {
+        "ID_": "8b5e0fed-e15e-4939-9ed0-539f94e1ec14",
+        "Description": "UI_MASTODONTESUIT",
+        "HeroDisguiseAvailable": true,
+        "Image": "images/Destinations/Hawke's Bay/Mastodonte.jpg",
+        "Name": "UI_MASTODONTESUIT"
+    },"705881f7-0c65-49f9-80bd-16229fdbe1c2": {
+        "ID_": "705881f7-0c65-49f9-80bd-16229fdbe1c2",
+        "Description": "UI_HOUSESTAFFKIWI",
+        "HeroDisguiseAvailable": true,
+        "Image": "images/Destinations/Hawke's Bay/HouseStaff.jpg",
+        "Name": "UI_HOUSESTAFFKIWI"
+    },"944027a1-b90a-4d59-95d8-32811f8da2b6": {
+        "ID_": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "Description": "UI_ELITEGUARDKIWI",
+        "HeroDisguiseAvailable": true,
+        "Image": "images/Destinations/Hawke's Bay/EliteGuard.jpg",
+        "Name": "UI_ELITEGUARDKIWI"
+    },"4d6cf12a-22d8-4f9b-99fb-00d478abe000": {
+        "ID_": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "Description": "UI_BODYGUARDKIWI",
+        "HeroDisguiseAvailable": true,
+        "Image": "images/Destinations/Hawke's Bay/Bodyguard.jpg",
+        "Name": "UI_BODYGUARDKIWI"
+    }      
 }

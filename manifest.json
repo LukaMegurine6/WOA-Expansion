@@ -179,7 +179,14 @@
 			"UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_NAME": "Like your Father",
 			"UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_DESC": "• Assassinate Anthony Martinez Jr. with your fiber wire.",
 			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_NAME" : "The Devil's Kitchen",
-			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_DESC" : "• Assassinate Anthony Martinez Jr. with the cleaver while disguised as the chef."
+			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_DESC" : "• Assassinate Anthony Martinez Jr. with the cleaver while disguised as the chef.",
+			"UI_CHEFKIWISUIT" : "Chef's outfit",
+			"UI_MASTODONTESUIT" : "Commando outfit",
+			"UI_BODYGUARDKIWI": "Bodyguard outfit",
+			"UI_LEADERKIWI": "Commando leader's outfit",
+			"UI_HOUSESTAFFKIWI": "Household staff uniforms",
+			"UI_ELITEGUARDKIWI": "Outdoor guard outfit"
+
 			 
 
 
@@ -326,13 +333,19 @@
 			"UI_CHALLENGES_KIWI_HOUSESTAFF_47_NAME": "À votre service !",
 			"UI_CHALLENGES_KIWI_HOUSESTAFF_47_DESC": "• Déguisez-vous en employé de maison.",
 			"UI_CHALLENGES_KIWI_EXPLOSION_NAME": "Départ explosive",
-			"UI_CHALLENGES_KIWI_EXPLOSION_DESC": "• Éliminez Anthony Martinez Jr. dans une explosion",
+			"UI_CHALLENGES_KIWI_EXPLOSION_DESC": "• Éliminez Anthony Martinez Jr. dans une explosion.",
 			"UI_CHALLENGES_KIWI_ELECTRICAL_NAME": "Une ambiance électrique",
 			"UI_CHALLENGES_KIWI_ELECTRICAL_DESC": "• Assassinez Anthony Martinez Jr. par électrocution.",
 			"UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_NAME": "Comme ton père",
 			"UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_DESC": "• Assassinez Anthony Martinez Jr. avec votre corde à piano ou équivalent.",
 			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_NAME" : "La cuisine du diable",
-			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_DESC" : "• Assassinez Anthony Martinez Jr. avec le couperet déguisé en chef."
+			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_DESC" : "• Assassinez Anthony Martinez Jr. avec le couperet déguisé en chef.",
+			"UI_CHEFKIWISUIT" : "Tenue de Chef",
+			"UI_MASTODONTESUIT" : "Uniforme de Commando",
+			"UI_BODYGUARDKIWI": "Tenue de Garde du Corps",
+			"UI_LEADERKIWI": "Uniforme du Leader des Commandos",
+			"UI_HOUSESTAFFKIWI": "Tenue du personnel de maison",
+			"UI_ELITEGUARDKIWI": "Tenue de garde d'extérieur"
 
 
 		},
