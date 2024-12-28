@@ -2072,7 +2072,7 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed5ebb776f4d6b"],
+					"value": ["feed5ebb776f4d6b", "cafe5cbfcb9c1a70"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -15847,7 +15847,11 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed5ebb776f4d6b", "cafebe61c50bb7a1"],
+					"value": [
+						"feed5ebb776f4d6b",
+						"cafebe61c50bb7a1",
+						"cafe5cbfcb9c1a70"
+					],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -15996,7 +16000,11 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed5ebb776f4d6b", "cafebe61c50bb7a1"],
+					"value": [
+						"feed5ebb776f4d6b",
+						"cafebe61c50bb7a1",
+						"cafe5cbfcb9c1a70"
+					],
 					"postInit": true
 				},
 				"m_eidParent": {

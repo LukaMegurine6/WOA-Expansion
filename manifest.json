@@ -24,8 +24,8 @@
 			"peacockPlugins": ["WOAExpansionChallenges.plugin.js"]
 		},
 		{
-			"name": "Add Contract creation for H2 Special Assignment",
-			"tooltip": "Add Contract creation for H2 Special Assignment",
+			"name": "Add Contract creation for H2 Special Assignment and more",
+			"tooltip": "Add Contract creation for H2 Special Assignment and more",
 			"type": "checkbox",
 			"peacockPlugins": ["FinalContractCreation.plugin.js"]
 		}
