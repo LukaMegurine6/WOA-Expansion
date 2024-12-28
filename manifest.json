@@ -506,6 +506,11 @@
 		{
 			"type": "entity",
 			"partition": "sheep",
+			"path": "[assembly:/_pro/scenes/missions/sheep/contract_cia_devil.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "sheep",
 			"path": "[assembly:/_pro/scenes/missions/sheep/tod_twilight.brick].entitytype"
 		},
 		{

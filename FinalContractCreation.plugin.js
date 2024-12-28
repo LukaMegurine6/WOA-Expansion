@@ -149,7 +149,7 @@ const contracts = [
         "Data": {
             "Objectives": [],
             "Bricks": [
-                "assembly:/_pro/scenes/missions/sheep/mission_cia_devil.brick",
+                "assembly:/_pro/scenes/missions/sheep/contract_cia_devil.brick",
                 "assembly:/_pro/scenes/missions/sheep/tod_twilight.brick"
             ],
             "GameChangers": [
