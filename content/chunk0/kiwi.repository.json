@@ -79,12 +79,12 @@
         "Description": "Unknown",
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
-    },"99e5a669-6523-4830-833f-66632ad4fcc0": {
-        "ID_": "99e5a669-6523-4830-833f-66632ad4fcc0",
-        "Image": "images/actors/Kiwi/Ext/Jackson Jenkins.jpg",
-        "Name": "Jackson Jenkins",
-        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
-        "OutfitVariationIndex": 1.0,
+    },"848b68e7-f4ab-4311-a94d-d24f2604f656": {
+        "ID_": "848b68e7-f4ab-4311-a94d-d24f2604f656",
+        "Image": "images/actors/Kiwi/Main/ThereseGrant.jpg",
+        "Name": "Thérèse Grant",
+        "Outfit": "180c4da6-d52c-4a28-96cd-4fbecf772611",
+        "OutfitVariationIndex": 0.0,
         "CharacterSetIndex": 0.0,
         "Description": "Unknown",
         "Description_LOC": "actor_description",
