@@ -494,12 +494,12 @@
             "UI_CHALLENGES_KIWI_47_ASSASINATION_FIBERWIRE_DESC": "• Устраните Энтони Мартинеза Младшего с помощью удавки.",
 			"UI_CHALLENGES_KIWI_CHEF_MARTINEZ_NAME" : "Адская Кухня",
             "UI_CHALLENGES_KIWI_CHEF_MARTINEZ_DESC" : "• Устраните Энтони Мартинеза Младшего тесаком, будучи в маскировке повара.",
-			"UI_CHEFKIWISUIT" : "Chef's outfit",
-			"UI_MASTODONTESUIT" : "Commando outfit",
-			"UI_BODYGUARDKIWI": "Bodyguard outfit",
-			"UI_LEADERKIWI": "Commando leader's outfit",
-			"UI_HOUSESTAFFKIWI": "Household staff uniforms",
-			"UI_ELITEGUARDKIWI": "Outdoor guard outfit"
+			"UI_CHEFKIWISUIT" : "Униформа Шеф-повара",
+			"UI_MASTODONTESUIT" : "Экипировка Боевика",
+			"UI_BODYGUARDKIWI": "Одежда Телохранителя",
+			"UI_LEADERKIWI": "Экипировка Лидера Боевиков",
+			"UI_HOUSESTAFFKIWI": "Одежда Прислуги по дому",
+			"UI_ELITEGUARDKIWI": "Экипировка наружной охраны"
 
 		}
 	},
