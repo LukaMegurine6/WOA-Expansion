@@ -186,7 +186,8 @@
 			"UI_BODYGUARDKIWI": "Bodyguard outfit",
 			"UI_LEADERKIWI": "Commando leader's outfit",
 			"UI_HOUSESTAFFKIWI": "Household staff uniforms",
-			"UI_ELITEGUARDKIWI": "Outdoor guard outfit"
+			"UI_ELITEGUARDKIWI": "Outdoor guard outfit",
+			"UI_PEACOCK_FUJI": "The Outcasts"
 
 			 
 
@@ -346,7 +347,8 @@
 			"UI_BODYGUARDKIWI": "Tenue de Garde du Corps",
 			"UI_LEADERKIWI": "Uniforme du Leader des Commandos",
 			"UI_HOUSESTAFFKIWI": "Tenue du personnel de maison",
-			"UI_ELITEGUARDKIWI": "Tenue de garde d'extérieur"
+			"UI_ELITEGUARDKIWI": "Tenue de garde d'extérieur",
+			"UI_PEACOCK_FUJI": "Les Parias"
 
 
 		},
@@ -500,7 +502,8 @@
 			"UI_BODYGUARDKIWI": "Одежда Телохранителя",
 			"UI_LEADERKIWI": "Экипировка Лидера Боевиков",
 			"UI_HOUSESTAFFKIWI": "Одежда Прислуги по дому",
-			"UI_ELITEGUARDKIWI": "Экипировка наружной охраны"
+			"UI_ELITEGUARDKIWI": "Экипировка наружной охраны",
+			"UI_PEACOCK_FUJI": "The Outcasts"
 
 		}
 	},

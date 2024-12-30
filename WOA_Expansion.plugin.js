@@ -1,5 +1,6 @@
 const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
-const { orderedETs } = require("@peacockproject/core/contracts/elusiveTargets") 
+const { orderedETs } = require("@peacockproject/core/contracts/elusiveTargets")
+const { orderedETAs } = require("@peacockproject/core/contracts/elusiveTargetArcades") 
 
 const contracts = [
     {
@@ -2714,6 +2715,45 @@ const contracts = [
             "Release": "2.00.x"
         },
         "UserData": {}
+    },
+    {
+        "Data": {
+            "EnableSaving": false,
+            "Objectives": [],
+            "Bricks": [],
+            "VR": [
+                {
+                    "Quality": "base",
+                    "Bricks": ["assembly:/_pro/Scenes/Bricks/vr_setup.brick"]
+                }
+            ],
+            "GameChangers": [],
+            "GameChangerReferences": []
+        },
+        "Metadata": {
+            "Id": "d3d7c6a9-60af-4649-8a18-11b436602ce0",
+            "IsPublished": true,
+            "CreationTimestamp": "2021-01-12T12:24:16.194497Z",
+            "CreatorUserId": "fadb923c-e6bb-4283-a537-eb4d1150262e",
+            "TileImage": "images/Arcades/Fuji.jpg",
+            "Title": "UI_PEACOCK_FUJI",
+            "Description": "UI_CONTRACT_MOUTAINS_GROUP_DESC",
+            "CodeName_Hint": "[PEACOCK] Arcade Fuji - Group",
+            "Location": "LOCATION_GREEDY_RACCOON",
+            "ScenePath": "assembly:/_pro/scenes/missions/Greedy/mission_raccoon/scene_raccoon_basic.entity",
+            "Type": "arcade",
+            "Entitlements": ["H2_LEGACY_EXPANSION"],
+            "GroupDefinition": {
+                "Type": "arcade",
+                "Order": [
+                    "d27ecffd-895a-4727-a5cc-72253ed56500",
+                    "d27ecffd-895a-4727-a7bb-62153ed56575",
+                    "a47bdffd-895a-4727-a5cc-72253ed56500"
+                ]
+            },
+            "LastUpdate": "2023-02-24T10:14:36.1236307Z"
+        },
+        "UserData": {}
     }
     
 ]
@@ -2726,6 +2766,7 @@ module.exports = function MissionPlugin(controller) {
     orderedETs.push("d27ecffd-895a-4727-a5cc-72253ed56500")
     orderedETs.push("d27ecffd-895a-4727-a7bb-62153ed56575")
     orderedETs.push("a47bdffd-895a-4727-a5cc-72253ed56500")
+    orderedETAs.push("d3d7c6a9-60af-4649-8a18-11b436602ce0")
     
     log(LogLevel.INFO, "[WOA Expansion] Welcome to the world of assassination, new contents now available !")
 }
