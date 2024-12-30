@@ -279,6 +279,96 @@
         "Description": "Unknown",
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
+    },"66f31087-98c5-492f-b575-87aef5bf2c25": {
+        "ID_": "66f31087-98c5-492f-b575-87aef5bf2c25",
+        "Image": "images/actors/Kiwi/Main/XavierQuinn.jpg",
+        "Name": "Xavier Quinn",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"6a636d34-e763-4985-bfa8-3996eae36689": {
+        "ID_": "6a636d34-e763-4985-bfa8-3996eae36689",
+        "Image": "images/actors/Kiwi/Main/CharlesMitchell.jpg",
+        "Name": "Charles Mitchell",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 2.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"cf5e6911-bb7c-43b9-9498-8b3d45114b11": {
+        "ID_": "cf5e6911-bb7c-43b9-9498-8b3d45114b11",
+        "Image": "images/actors/Kiwi/Main/MichelLanguedoc.jpg",
+        "Name": "Michel Languedoc",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"e900e4bb-5bbb-4ed4-a6eb-5f5a6eca9479": {
+        "ID_": "e900e4bb-5bbb-4ed4-a6eb-5f5a6eca9479",
+        "Image": "images/actors/Kiwi/Main/MichaelMerr.jpg",
+        "Name": "Michael Merr",
+        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"ed7dd1c0-735a-4226-90b8-765184edea70": {
+        "ID_": "ed7dd1c0-735a-4226-90b8-765184edea70",
+        "Image": "images/actors/Kiwi/Main/FredericLonson.jpg",
+        "Name": "Frédéric Lonson",
+        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"5ce462d6-5fe5-4773-ab8e-b7ef9f0cbc9f": {
+        "ID_": "5ce462d6-5fe5-4773-ab8e-b7ef9f0cbc9f",
+        "Image": "images/actors/Kiwi/Main/DavidSharma.jpg",
+        "Name": "David Sharma",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 2.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"331a2e1c-042f-442d-90f7-e919347515cf": {
+        "ID_": "331a2e1c-042f-442d-90f7-e919347515cf",
+        "Image": "images/actors/Kiwi/Main/ShedricPanday.jpg",
+        "Name": "Shedric Panday",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 2.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"565fc409-bdf1-480b-adad-438e73032c16": {
+        "ID_": "565fc409-bdf1-480b-adad-438e73032c16",
+        "Image": "images/actors/Kiwi/Main/LaurentRiviere.jpg",
+        "Name": "Laurent Rivière",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"21b4f60c-365d-4c69-8bc3-5fd03d126c94": {
+        "ID_": "21b4f60c-365d-4c69-8bc3-5fd03d126c94",
+        "Image": "images/actors/Kiwi/Main/KaneOBrien.jpg",
+        "Name": "Kane O'Brien",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
+        "OutfitVariationIndex": 3.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
     },"b3e5fbd9-3043-4828-9dd2-471b92f808ed": {
         "ID_": "b3e5fbd9-3043-4828-9dd2-471b92f808ed",
         "Description": "UI_CHEFKIWISUIT",

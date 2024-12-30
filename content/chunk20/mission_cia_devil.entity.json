@@ -2485,7 +2485,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "4a2e0057-1bb0-4aab-b8db-a2e9ac574f91"
+					"value": "6a636d34-e763-4985-bfa8-3996eae36689"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -2653,7 +2653,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "13ef06eb-92d9-490a-8508-0ac5d94de987"
+					"value": "21b4f60c-365d-4c69-8bc3-5fd03d126c94"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -2912,7 +2912,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "b2cb7911-b9cc-4888-8302-c3c83239f2a8"
+					"value": "cf5e6911-bb7c-43b9-9498-8b3d45114b11"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -2921,7 +2921,7 @@
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Xavier Quinn"
+					"value": "Michel Languedoc"
 				},
 				"m_bWeaponUnholstered": { "type": "bool", "value": false },
 				"m_nWeaponIndex": { "type": "int32", "value": 1 },
@@ -5413,7 +5413,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "ba4bb15d-11f1-47ba-b50b-b5974b673607"
+					"value": "331a2e1c-042f-442d-90f7-e919347515cf"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -6509,7 +6509,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "ba4bb15d-11f1-47ba-b50b-b5974b673607"
+					"value": "565fc409-bdf1-480b-adad-438e73032c16"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -12492,7 +12492,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "36d9407d-e5dc-4090-bc57-e0d8c67337a6"
+					"value": "66f31087-98c5-492f-b575-87aef5bf2c25"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -13813,7 +13813,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "ba4bb15d-11f1-47ba-b50b-b5974b673607"
+					"value": "5ce462d6-5fe5-4773-ab8e-b7ef9f0cbc9f"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -15042,7 +15042,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "a6bdd5ba-dfd7-4a99-b791-ed3b8638e6bd"
+					"value": "ed7dd1c0-735a-4226-90b8-765184edea70"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -15053,7 +15053,7 @@
 				"m_nWeaponIndex": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Terence Arnarld"
+					"value": "Frédéric Lonson"
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -15195,7 +15195,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "a6bdd5ba-dfd7-4a99-b791-ed3b8638e6bd"
+					"value": "e900e4bb-5bbb-4ed4-a6eb-5f5a6eca9479"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -15206,7 +15206,7 @@
 				"m_nWeaponIndex": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Terence Arnarld"
+					"value": "Michael Merr"
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
