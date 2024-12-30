@@ -364,13 +364,13 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "9a442a7b-3f8f-4109-9611-fc716b381ae1"
+					"value": "bfc05054-4701-4ef1-8f4e-6f3e58a2beaf"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
 					"value": "8b5e0fed-e15e-4939-9ed0-539f94e1ec14"
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 1 },
 				"m_nWeaponIndex": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
@@ -867,7 +867,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "a6bdd5ba-dfd7-4a99-b791-ed3b8638e6bd"
+					"value": "19988663-14f7-4747-bb75-a8e9db5d1514"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -878,7 +878,7 @@
 				"m_nWeaponIndex": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Terence Arnarld"
+					"value": "Alexandre Alpied"
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -1154,7 +1154,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "075a7a54-933c-4433-a1c0-57345b1ffa5e"
+					"value": "70589031-944d-4851-b199-759748332a36"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -1164,7 +1164,7 @@
 				"m_nWeaponIndex": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Jensen Peng"
+					"value": "Terence Arnarld"
 				},
 				"m_bWeaponUnholstered": { "type": "bool", "value": true },
 				"m_aEnforcedOutfits": {
@@ -1234,118 +1234,6 @@
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["feedbfa6ba2cab69"]
-				}
-			}
-		},
-		"feed9748e3f0c46a": {
-			"parent": "feed6f25b620a274",
-			"name": "Trapped_Guard_Commando_M",
-			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
-			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
-			"properties": {
-				"m_DamageMultipliers": {
-					"type": "SBodyPartDamageMultipliers",
-					"value": {
-						"m_fHeadDamageMultiplier": 1,
-						"m_fFaceDamageMultiplier": 1,
-						"m_fArmDamageMultiplier": 1,
-						"m_fLArmDamageScalar": 0,
-						"m_fRArmDamageScalar": 0,
-						"m_fHandDamageMultiplier": 0.5,
-						"m_fLHandDamageScalar": 0,
-						"m_fRHandDamageScalar": 0,
-						"m_fLegDamageMultiplier": 0.6000000238418579,
-						"m_fLLegDamageScalar": 0,
-						"m_fRLegDamageScalar": 0,
-						"m_fTorsoDamageMultiplier": 1,
-						"m_bApplyLeftRightScalars": false
-					}
-				},
-				"m_bHeroDisguiseAvailable": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bWeaponsAllowed": { "type": "bool", "value": true },
-				"m_eSoundFootwearType": {
-					"type": "EHM5SoundFootwearType",
-					"value": "EFWT_BOOTS"
-				},
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "8b5e0fed-e15e-4939-9ed0-539f94e1ec14"
-				},
-				"m_pParentOutfit": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "1357f3657950d38e",
-						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-					}
-				},
-				"m_sCommonName": {
-					"type": "ZString",
-					"value": "Trapped_Guard_Commando_M"
-				},
-				"m_sTitle": { "type": "ZString", "value": "Commando" },
-				"m_eOutfitAICategory": {
-					"type": "EOutfitAICategory",
-					"value": "OAC_Bodyguard"
-				},
-				"m_rNameTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_trapped.sweetmenutext?/outfits_trapped_guard_commando_m_name_e77b5340-41d3-448a-84d3-a4f7f6426634.sweetline].pc_sweetline",
-						"flag": "5F"
-					}
-				},
-				"m_rDescriptionTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_trapped.sweetmenutext?/outfits_trapped_guard_commando_m_description_e77b5340-41d3-448a-84d3-a4f7f6426634.sweetline].pc_sweetline",
-						"flag": "5F"
-					}
-				},
-				"m_eActorCCClass": {
-					"type": "EActorCCPreset",
-					"value": "ACCP_GuardMaleElite"
-				},
-				"m_rDefaultVoiceVariations": {
-					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_BDYGRD04",
-						"eAVV_BDYGRD05",
-						"eAVV_BDYGRD06",
-						"eAVV_BDYGRD07"
-					]
-				},
-				"m_fHitPoints": { "type": "float32", "value": 400 },
-				"m_eOutfitType": {
-					"type": "EOutfitType",
-					"value": "eOT_Guard"
-				},
-				"m_bAllowRadioAct": { "type": "bool", "value": true },
-				"m_aCharSets": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed9c4b2c61ef9f"],
-					"postInit": true
-				},
-				"m_AvailableWeaponKeys": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed51da277bc85c",
-						"feed74c0d703e682",
-						"feed618857504be3"
-					],
-					"postInit": true
-				},
-				"m_AvailableGrenadeKeys": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed284f08a23897"],
-					"postInit": true
-				},
-				"m_aWeaponsAllowedExceptionKeywords": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed8b9a1826d201"],
-					"postInit": true
 				}
 			}
 		},
@@ -1501,131 +1389,6 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
 			"properties": { "m_bValue": { "type": "bool", "value": true } }
 		},
-		"feed2112d1b165cb": {
-			"parent": "feed9748e3f0c46a",
-			"name": "Keyword_Prof_Class_Default",
-			"factory": "007A51A2AFEC0D1A",
-			"blueprint": "00B0282A41C1CF2E",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed9748e3f0c46a"],
-					"postInit": true
-				}
-			}
-		},
-		"feed51da277bc85c": {
-			"parent": "feed9748e3f0c46a",
-			"name": "DONT_USE_ON_LEVEL_ItemKey__Pistol_ ICA 19 Wolverine",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "c716ebb8-cc0e-4e60-9335-844a0d7e645d"
-				}
-			}
-		},
-		"feed2a093839c9e5": {
-			"parent": "feed9748e3f0c46a",
-			"name": "Keyword_Prof_Base_Class_Guard",
-			"factory": "0030AC24DE5D309E",
-			"blueprint": "00F8CA15FFDEE082",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed9748e3f0c46a"]
-				}
-			}
-		},
-		"feed5085d51902e8": {
-			"parent": "feed9748e3f0c46a",
-			"name": "Keyword_Prof_Class_Guard_Heavy",
-			"factory": "00364659808ED13C",
-			"blueprint": "003A7D4D8810414B",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed9748e3f0c46a"]
-				}
-			}
-		},
-		"feedb32a7e1cb9f3": {
-			"parent": "feed9748e3f0c46a",
-			"name": "Keyword_FOLEY_VR_OUTFIT_CLOTHGLOVES",
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rHolder": {
-					"type": "SEntityTemplateReference",
-					"value": "feed9748e3f0c46a"
-				}
-			}
-		},
-		"feed74c0d703e682": {
-			"parent": "feed9748e3f0c46a",
-			"name": "ItemKey_ICA Tactical Shotgun _Wolverine_NPC",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "4e92b3c5-3358-44aa-8a87-f7f349f46f44"
-				}
-			}
-		},
-		"feed284f08a23897": {
-			"parent": "feed9748e3f0c46a",
-			"name": "ItemKey__Grenade_ Flash",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca"
-				}
-			}
-		},
-		"feed45665c4330fd": {
-			"parent": "feed9748e3f0c46a",
-			"name": "KeywordEntity_FOLEY_OUTFIT_ARMYVEST",
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rHolder": {
-					"type": "SEntityTemplateReference",
-					"value": "feed9748e3f0c46a"
-				},
-				"m_sKeyword": {
-					"type": "ZString",
-					"value": "FOLEY_OUTFIT_ARMYVEST"
-				}
-			}
-		},
-		"feed618857504be3": {
-			"parent": "feed9748e3f0c46a",
-			"name": "ItemKey__S3_ _SMG_ RAPTOR ICA Standard Wolverine",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "a494c3c8-9a41-4398-9542-559e6a5dc1cb"
-				}
-			}
-		},
-		"feed9c4b2c61ef9f": {
-			"parent": "feed9748e3f0c46a",
-			"name": "CHARSET_Wolverine_Guard_ProvidenceCommander_M",
-			"factory": "[assembly:/_pro/characters/templates/wolverine/char_wolverine_guards.template?/charset_wolverine_guard_providencecommander_m.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/wolverine/char_wolverine_guards.template?/charset_wolverine_guard_providencecommander_m.entitytemplate].pc_entityblueprint"
-		},
-		"feed8b9a1826d201": {
-			"parent": "feed9748e3f0c46a",
-			"name": "Keyword_ITEM_SNIPER_RIFLE",
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
-		},
 		"feed0a135a46f12e": {
 			"parent": "feedac70d3b92ee1",
 			"name": "CHAR_Trapped_Guard_Elite_NearHouse",
@@ -1645,7 +1408,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "99e5a669-6523-4830-833f-66632ad4fcc0"
+					"value": "fff88818-5d24-4131-88d7-8d16e450e8a0"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -1830,7 +1593,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "e72659bc-cd97-4c61-8878-486bfe4b6d5d"
+					"value": "e48d0dbb-c775-4a87-b7e5-d14d40ae92c5"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -1845,7 +1608,11 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed5ebb776f4d6b", "cafe5cbfcb9c1a70"],
+					"value": [
+						"feed5ebb776f4d6b",
+						"cafe5cbfcb9c1a70",
+						"cafebe61c50bb7a1"
+					],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2096,32 +1863,6 @@
 			"name": "Prof_Sheep_Unique_Alma",
 			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_alma.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_alma.entitytemplate].pc_entityblueprint"
-		},
-		"feed5b995dca2928": {
-			"parent": "feed9748e3f0c46a",
-			"name": "Prof_Sheep_BodyGuard_Adonis",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_bodyguard_adonis.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_bodyguard_adonis.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed9748e3f0c46a"],
-					"postInit": true
-				}
-			}
-		},
-		"feedfbf53dba8551": {
-			"parent": "feed9748e3f0c46a",
-			"name": "Prof_Sheep",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed9748e3f0c46a"],
-					"postInit": true
-				}
-			}
 		},
 		"feed1ed23d557663": {
 			"parent": "feed374c5e11bfdf",
@@ -3606,7 +3347,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "a7930fae-37ac-45f1-977f-4e9ef8d37434"
+					"value": "96e982de-9ef9-4524-a548-f5623d07063d"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -5496,7 +5237,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "2edb861e-b009-4c7b-83bd-86fe25c11377"
+					"value": "a9470685-5d6a-4203-afff-4e14884651fa"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -5681,7 +5422,7 @@
 				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Eric Dalian"
+					"value": "Shedric Pandey"
 				},
 				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_bWeaponUnholstered": { "type": "bool", "value": false },
@@ -6406,7 +6147,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "99e5a669-6523-4830-833f-66632ad4fcc0"
+					"value": "fb8ccbb8-a329-4dda-8ecf-3154d096083e"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -6553,7 +6294,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": { "type": "float32", "value": 25 },
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_AlignRotation": {
 					"type": "ZActBehaviorEntity.ERotationAlignment",
@@ -6777,7 +6518,7 @@
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Eric Dalian"
+					"value": "Laurent Rivière"
 				},
 				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_bWeaponUnholstered": { "type": "bool", "value": false },
@@ -6935,18 +6676,18 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "e72659bc-cd97-4c61-8878-486bfe4b6d5d"
+					"value": "11ef4a8b-31e5-48c9-976d-65e42d1f4a57"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
 					"value": "944027a1-b90a-4d59-95d8-32811f8da2b6"
 				},
-				"m_nOutfitVariation": { "type": "int32", "value": 2 },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_nWeaponIndex": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Dewey Thompson"
+					"value": "Nicolas Delacre"
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -11631,7 +11372,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "5f0a54e6-0cd7-43af-b15d-28ffc077a24f"
+					"value": "52496575-8df3-4762-8719-be7f0d49b212"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -14081,7 +13822,7 @@
 				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Eric Dalian"
+					"value": "David Sharma"
 				},
 				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_bWeaponUnholstered": { "type": "bool", "value": false },
@@ -15936,7 +15677,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": { "type": "float32", "value": 15.0 },
+				"m_fActTimeout": { "type": "float32", "value": 25.0 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "feedbf14be3bfb5f",

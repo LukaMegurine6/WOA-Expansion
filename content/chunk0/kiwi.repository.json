@@ -179,11 +179,101 @@
         "Description": "Unknown",
         "Description_LOC": "actor_description",
         "Tile": "images/actors/default_target.png"
-    },"7d0349bb-53a4-477f-9163-35f978268594": {
-        "ID_": "7d0349bb-53a4-477f-9163-35f978268594",
-        "Image": "images/actors/Kiwi/Ext/Terence Arnarld.jpg",
-        "Name": "Amos Dexter",
-        "Outfit": "55d7468d-04c3-4f11-9545-bb9f4becc359",
+    },"70589031-944d-4851-b199-759748332a36": {
+        "ID_": "70589031-944d-4851-b199-759748332a36",
+        "Image": "images/actors/Kiwi/Main/TerenceArnarld.jpg",
+        "Name": "Terence Arnarld",
+        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"19988663-14f7-4747-bb75-a8e9db5d1514": {
+        "ID_": "19988663-14f7-4747-bb75-a8e9db5d1514",
+        "Image": "images/actors/Kiwi/Main/AlexanderAlpied.jpg",
+        "Name": "Alexander Alpied",
+        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"11ef4a8b-31e5-48c9-976d-65e42d1f4a57": {
+        "ID_": "11ef4a8b-31e5-48c9-976d-65e42d1f4a57",
+        "Image": "images/actors/Kiwi/Main/NicolasDelacre.jpg",
+        "Name": "Nicolas Delacre",
+        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"bfc05054-4701-4ef1-8f4e-6f3e58a2beaf": {
+        "ID_": "bfc05054-4701-4ef1-8f4e-6f3e58a2beaf",
+        "Image": "images/actors/Kiwi/Main/MarshallGarcia.jpg",
+        "Name": "Marshall Garcia",
+        "Outfit": "8b5e0fed-e15e-4939-9ed0-539f94e1ec14",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"e48d0dbb-c775-4a87-b7e5-d14d40ae92c5": {
+        "ID_": "e48d0dbb-c775-4a87-b7e5-d14d40ae92c5",
+        "Image": "images/actors/Kiwi/Main/DeweyThompson.jpg",
+        "Name": "Dewey Thompson",
+        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "OutfitVariationIndex": 2.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"96e982de-9ef9-4524-a548-f5623d07063d": {
+        "ID_": "96e982de-9ef9-4524-a548-f5623d07063d",
+        "Image": "images/actors/Kiwi/Main/AlanPine.jpg",
+        "Name": "Alan Pine",
+        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "OutfitVariationIndex": 3.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"52496575-8df3-4762-8719-be7f0d49b212": {
+        "ID_": "52496575-8df3-4762-8719-be7f0d49b212",
+        "Image": "images/actors/Kiwi/Main/CarolineDexter.jpg",
+        "Name": "Caroline Dexter",
+        "Outfit": "8f643f51-be47-4e19-b9f6-da5806c00e27",
+        "OutfitVariationIndex": 0.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"fff88818-5d24-4131-88d7-8d16e450e8a0": {
+        "ID_": "fff88818-5d24-4131-88d7-8d16e450e8a0",
+        "Image": "images/actors/Kiwi/Main/JacksonJenkins.jpg",
+        "Name": "Jackson Jenkins",
+        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "OutfitVariationIndex": 1.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"fb8ccbb8-a329-4dda-8ecf-3154d096083e": {
+        "ID_": "fb8ccbb8-a329-4dda-8ecf-3154d096083e",
+        "Image": "images/actors/Kiwi/Main/JohnKerian.jpg",
+        "Name": "John Kerian",
+        "Outfit": "944027a1-b90a-4d59-95d8-32811f8da2b6",
+        "OutfitVariationIndex": 4.0,
+        "CharacterSetIndex": 0.0,
+        "Description": "Unknown",
+        "Description_LOC": "actor_description",
+        "Tile": "images/actors/default_target.png"
+    },"a9470685-5d6a-4203-afff-4e14884651fa": {
+        "ID_": "a9470685-5d6a-4203-afff-4e14884651fa",
+        "Image": "images/actors/Kiwi/Main/RickRedan.jpg",
+        "Name": "Rick Redan",
+        "Outfit": "4d6cf12a-22d8-4f9b-99fb-00d478abe000",
         "OutfitVariationIndex": 0.0,
         "CharacterSetIndex": 0.0,
         "Description": "Unknown",
