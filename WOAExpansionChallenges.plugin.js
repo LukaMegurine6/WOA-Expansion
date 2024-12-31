@@ -25,7 +25,7 @@ const featChallenges = [
         "HideProgression": false,
         "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_ARCADE",
         "Icon": "arcademode",
-        "LocationId": "LOCATION_PARENT_ROCKY",
+        "LocationId": "LOCATION_ROCKY_DUGONG",
         "ParentLocationId": "LOCATION_PARENT_ROCKY",
         "Type": "contract",
         "DifficultyLevels": [],
