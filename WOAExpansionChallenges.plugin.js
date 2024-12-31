@@ -6476,8 +6476,8 @@ const assassinationChallenges = [{
             "ContractIds": ["c47ecffd-895a-4847-b847-62153ed56575"]
         }
     }
-
 ]
+
 
 module.exports = function ElusivesChallenges(controller) {
     if (Math.abs(PEACOCKVER) < 6600) {
@@ -6515,6 +6515,8 @@ module.exports = function ElusivesChallenges(controller) {
             "h3"
         )
     }
+
+    
 
 
     log(LogLevel.INFO, "[WOA Expansion] Challenge for WOA Expansion is loaded... (Plugin Started)")
