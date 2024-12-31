@@ -187,7 +187,8 @@
 			"UI_LEADERKIWI": "Commando leader's outfit",
 			"UI_HOUSESTAFFKIWI": "Household staff uniforms",
 			"UI_ELITEGUARDKIWI": "Outdoor guard outfit",
-			"UI_PEACOCK_FUJI": "The Outcasts"
+			"UI_PEACOCK_FUJI": "The Outcasts",
+			"UI_PEACOCK_FUJI1": "The Outcasts-Level 1"
 
 			 
 
@@ -557,6 +558,16 @@
 			"type": "entity",
 			"partition": "hokkaido",
 			"path": "[assembly:/_pro/scenes/missions/hokkaido/tod_bluenight.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "greedy",
+			"path": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/primeminister_et.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "greedy",
+			"path": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/raccoon_midday.brick].entitytype"
 		}
 	],
 	"dependencies": [

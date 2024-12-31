@@ -2202,29 +2202,25 @@ const contracts = [
             {
                 "Difficulty": "easy",
                 "Bricks": [
-                    "assembly:/_pro/scenes/missions/Greedy/mission_raccoon/difficulty_easy_raccoon.brick",
-                    "assembly:/_pro/scenes/missions/greedy/mission_raccoon/primeminister_et.brick",
-                    "assembly:/_pro/scenes/missions/greedy/mission_raccoon/raccoon_midday.brick"
+                    "assembly:/_pro/scenes/missions/Greedy/mission_raccoon/difficulty_easy_raccoon.brick"
                 ]
             },
             {
                 "Difficulty": "normal",
-                "Bricks": [
-                    "assembly:/_pro/scenes/missions/greedy/mission_raccoon/primeminister_et.brick",
-                    "assembly:/_pro/scenes/missions/greedy/mission_raccoon/raccoon_midday.brick"
-                ]
+                "Bricks": []
             },
             {
                 "Difficulty": "hard",
                 "Bricks": [
-                    "assembly:/_pro/scenes/missions/Greedy/mission_raccoon/difficulty_hard_raccoon.brick",
-                    "assembly:/_pro/scenes/missions/greedy/mission_raccoon/primeminister_et.brick",
-                    "assembly:/_pro/scenes/missions/greedy/mission_raccoon/raccoon_midday.brick"
+                    "assembly:/_pro/scenes/missions/Greedy/mission_raccoon/difficulty_hard_raccoon.brick"
                 ]
             }
         ],
             "GameChangers": [],
-            "Bricks": []
+            "Bricks": [
+                "assembly:/_pro/scenes/missions/greedy/mission_raccoon/primeminister_et.brick",
+                "assembly:/_pro/scenes/missions/greedy/mission_raccoon/raccoon_midday.brick"
+            ]
         },
         "Metadata": {
             "Title": "UI_CONTRACT_SAKURA_TITLE",
@@ -2742,11 +2738,11 @@ const contracts = [
             "Location": "LOCATION_GREEDY_RACCOON",
             "ScenePath": "assembly:/_pro/scenes/missions/Greedy/mission_raccoon/scene_raccoon_basic.entity",
             "Type": "arcade",
-            "Entitlements": ["H2_LEGACY_EXPANSION"],
+            "Entitlements": ["LOCATION_GOLDEN"],
             "GroupDefinition": {
                 "Type": "arcade",
                 "Order": [
-                    "d27ecffd-895a-4727-a5cc-72253ed56500",
+                    "72684cce-45e5-4ff4-966b-6b06467588cc",
                     "d27ecffd-895a-4727-a7bb-62153ed56575",
                     "a47bdffd-895a-4727-a5cc-72253ed56500"
                 ]
@@ -2754,8 +2750,66 @@ const contracts = [
             "LastUpdate": "2023-02-24T10:14:36.1236307Z"
         },
         "UserData": {}
+    },
+    {
+        "Data": {
+            "EnableSaving": false,
+            "Objectives": [
+                {
+                    "Id": "331ea4f9-f631-4ad7-b445-a5bd6dd08ea7",
+                    "Primary": true,
+                    "IsHidden": true,
+                    "SuccessEvent": {
+                        "EventName": "Kill",
+                        "EventValues": {
+                            "RepositoryId": "ceacf6ef-d2b9-47d2-908c-a99f267893b8"
+                        }
+                    }
+                }
+            ],
+            "Bricks": [
+                "assembly:/_pro/scenes/missions/greedy/mission_raccoon/primeminister_et.brick",
+                "assembly:/_pro/scenes/missions/greedy/mission_raccoon/raccoon_midday.brick"
+            ],
+            "Stashpoints": [],
+            "VR": [
+                {
+                    "Quality": "base",
+                    "Bricks": [
+                        "assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+                        "assembly:/_pro/scenes/missions/Greedy/mission_raccoon/vr_overrides_raccoon.brick",
+                        "assembly:/_pro/scenes/missions/greedy/mission_raccoon/vr_overrides_ps4perf.brick"
+                    ]
+                },
+                {
+                    "Quality": "better",
+                    "Bricks": [
+                        "assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+                        "assembly:/_pro/scenes/missions/Greedy/mission_raccoon/vr_overrides_raccoon.brick"
+                    ]
+                }
+            ],
+            "GameChangers": ["b43f84f7-6c26-4adf-b74a-6d598f03cbe3"]
+        },
+        "Metadata": {
+            "Id": "72684cce-45e5-4ff4-966b-6b06467588cc",
+            "Title": "UI_PEACOCK_FUJI1",
+            "Description": "UI_CONTRACT_SAKURA_DESC",
+            "ScenePath": "assembly:/_pro/scenes/missions/Greedy/mission_raccoon/scene_raccoon_basic.entity",
+            "Location": "LOCATION_GREEDY_RACCOON",
+            "TileImage": "images/PrimeMinister.jpg",
+            "CodeName_Hint": "Arcade Fuji Sakura",
+            "CreatorUserId": "fadb923c-e6bb-4283-a537-eb4d1150262e",
+            "Type": "arcade",
+            "Entitlements": ["H2_LEGACY_EXPANSION"],
+            "InGroup": "d3d7c6a9-60af-4649-8a18-11b436602ce0",
+            "GroupObjectiveDisplayOrder": [
+                { "Id": "b43f84f7-6c26-4adf-b74a-6d598f03cbe3", "IsNew": true },
+                { "Id": "331ea4f9-f631-4ad7-b445-a5bd6dd08ea7" }
+            ]
+        },
+        "UserData": {}
     }
-    
 ]
 module.exports = function MissionPlugin(controller) {
     contracts.forEach((contract) => {
