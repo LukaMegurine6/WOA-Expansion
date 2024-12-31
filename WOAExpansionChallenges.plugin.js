@@ -11,49 +11,7 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
 
 // Feat challenges here...
 const featChallenges = [
-    {
-        "Id": "9f432d27-d88d-41af-8f40-e03184dea085",
-        "Name": "UI_PEACOCK_KASTURI_COMPLETED_NAME",
-        "ImageName": "images/Arcades/Fuji.jpg",
-        "Description": "UI_PEACOCK_KASTURI_COMPLETED_DESC",
-        "Rewards": {
-            "MasteryXP": 4000
-        },
-        "Drops": [],
-        "IsPlayable": false,
-        "IsLocked": false,
-        "HideProgression": false,
-        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_ARCADE",
-        "Icon": "arcademode",
-        "LocationId": "LOCATION_PARENT_ROCKY",
-        "ParentLocationId": "LOCATION_PARENT_ROCKY",
-        "Type": "contract",
-        "DifficultyLevels": [],
-        "OrderIndex": 10000,
-        "XpModifier": {},
-        "RuntimeType": "Hit",
-        "Definition": {
-            "Context": {},
-            "Scope": "session",
-            "States": {
-                "Start": {
-                    "ContractEnd": {
-                        "Condition": {
-                            "$eq": [
-                                "$ContractId",
-                                "a47bdffd-895a-4727-a5cc-72253ed56500"
-                            ]
-                        },
-                        "Transition": "Success"
-                    }
-                }
-            }
-        },
-        "Tags": ["arcade", "hard"],
-        "InclusionData": {
-            "ContractIds": ["d3d7c6a9-60af-4649-8a18-11b436602ce0"]
-        }
-    },
+    
     {
         "Id": "7107ff08-2d82-4abd-83e5-57d0e1b919bb",
         "Name": "UI_CHALLENGES_DEMARA_47_SILENT_ASSASSIN_SUIT_DIFFICULTY_EASY_NAME",
@@ -6479,7 +6437,54 @@ const assassinationChallenges = [{
 
 ]
 
+// Feat challenges here...
+const arcadeChallenges = [
 
+    {
+        "Id": "9f432d27-d88d-41af-8f40-e03184dea085",
+        "Name": "UI_PEACOCK_KASTURI_COMPLETED_NAME",
+        "ImageName": "images/Arcades/Fuji.jpg",
+        "Description": "UI_PEACOCK_KASTURI_COMPLETED_DESC",
+        "Rewards": {
+            "MasteryXP": 4000
+        },
+        "Drops": [],
+        "IsPlayable": false,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_ARCADE",
+        "Icon": "arcademode",
+        "LocationId": "LOCATION_PARENT_ROCKY",
+        "ParentLocationId": "LOCATION_PARENT_ROCKY",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+            "Context": {},
+            "Scope": "session",
+            "States": {
+                "Start": {
+                    "ContractEnd": {
+                        "Condition": {
+                            "$eq": [
+                                "$ContractId",
+                                "a47bdffd-895a-4727-a5cc-72253ed56500"
+                            ]
+                        },
+                        "Transition": "Success"
+                    }
+                }
+            }
+        },
+        "Tags": ["arcade", "hard"],
+        "InclusionData": {
+            "ContractIds": ["d3d7c6a9-60af-4649-8a18-11b436602ce0"]
+        }
+    }
+
+]
 
 module.exports = function ElusivesChallenges(controller) {
     if (Math.abs(PEACOCKVER) < 6600) {
