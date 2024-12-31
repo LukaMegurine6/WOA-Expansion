@@ -190,7 +190,10 @@
 			"UI_PEACOCK_FUJI": "The Outcasts",
 			"UI_PEACOCK_FUJI1": "The Outcasts - Level 1",
 			"UI_PEACOCK_FUJI2": "The Outcasts - Level 2",
-			"UI_PEACOCK_FUJI3": "The Outcasts - Level 3"
+			"UI_PEACOCK_FUJI3": "The Outcasts - Level 3",
+			"UI_PEACOCK_FUJI_COMPLETED_NAME": "Eliminate the Outcasts",
+			"UI_PEACOCK_FUJI_COMPLETED_DESC": "• Eliminate all Elusive Targets that are part oh the Outcasts."
+
 
 			 
 
@@ -354,7 +357,9 @@
 			"UI_PEACOCK_FUJI": "Les Parias",
 			"UI_PEACOCK_FUJI1": "Les Parias - Niveau 1",
 			"UI_PEACOCK_FUJI2": "Les Parias - Niveau 2",
-			"UI_PEACOCK_FUJI3": "Les Parias - Niveau 3"
+			"UI_PEACOCK_FUJI3": "Les Parias - Niveau 3",
+			"UI_PEACOCK_FUJI_COMPLETED_NAME": "Éliminez les Parias.",
+			"UI_PEACOCK_FUJI_COMPLETED_DESC": "• Éliminez toutes les Cibles fugitives qui font partie des Parias."
 
 
 		},
@@ -512,7 +517,9 @@
 			"UI_PEACOCK_FUJI": "Изгои",
 			"UI_PEACOCK_FUJI1": "Изгои - Уровень 1",
 			"UI_PEACOCK_FUJI2": "Изгои - Уровень 2",
-			"UI_PEACOCK_FUJI3": "Изгои - Уровень 3"
+			"UI_PEACOCK_FUJI3": "Изгои - Уровень 3",
+			"UI_PEACOCK_FUJI_COMPLETED_NAME": "Eliminate the Outcasts",
+			"UI_PEACOCK_FUJI_COMPLETED_DESC": "• Eliminate all Elusive Targets that are part oh the Outcasts."
 
 		}
 	},

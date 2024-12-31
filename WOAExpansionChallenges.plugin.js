@@ -13,9 +13,9 @@ const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
 const featChallenges = [
     {
         "Id": "9f432d27-d88d-41af-8f40-e03184dea085",
-        "Name": "UI_PEACOCK_KASTURI_COMPLETED_NAME",
+        "Name": "UI_PEACOCK_FUJI_COMPLETED_NAME",
         "ImageName": "images/Arcades/Fuji.jpg",
-        "Description": "UI_PEACOCK_KASTURI_COMPLETED_DESC",
+        "Description": "UI_PEACOCK_FUJI_COMPLETED_DESC",
         "Rewards": {
             "MasteryXP": 4000
         },
