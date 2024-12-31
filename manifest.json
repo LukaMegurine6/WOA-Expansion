@@ -583,6 +583,16 @@
 			"type": "entity",
 			"partition": "greedy",
 			"path": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/raccoon_midday.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "opulent",
+			"path": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/ET_Journalist.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "opulent",
+			"path": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/tod_night.brick].entitytype"
 		}
 	],
 	"dependencies": [

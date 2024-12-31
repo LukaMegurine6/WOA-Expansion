@@ -41,7 +41,7 @@ const featChallenges = [
                         "Condition": {
                             "$eq": [
                                 "$ContractId",
-                                "a47bdffd-895a-4727-a5cc-72253ed56500"
+                                "78244298-35f3-4f72-b5b0-b5c43c8182a2"
                             ]
                         },
                         "Transition": "Success"
