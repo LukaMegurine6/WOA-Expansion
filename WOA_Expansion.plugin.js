@@ -2738,8 +2738,8 @@ const contracts = [
                 "Type": "arcade",
                 "Order": [
                     "72684cce-45e5-4ff4-966b-6b06467588cc",
-                    "d27ecffd-895a-4727-a7bb-62153ed56575",
-                    "a47bdffd-895a-4727-a5cc-72253ed56500"
+                    "dd6f4592-af22-4ec4-8c21-956e1595f4b1",
+                    "78244298-35f3-4f72-b5b0-b5c43c8182a2"
                 ]
             },
             "LastUpdate": "2023-02-24T10:14:36.1236307Z"
