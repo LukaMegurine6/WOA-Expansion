@@ -1,0 +1,22 @@
+{
+	"FIREARMS_HERO_PISTOL01_STEALTH_BASE": {
+		"Id": "FIREARMS_HERO_PISTOL01_STEALTH_BASE",
+		"Guid": "24d4c943-f172-4216-90a0-5e95e8412af9",
+		"Type": "weapon",
+		"Subtype": "pistol",
+		"RMTPrice": 99,
+		"GamePrice": 99,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 4,
+			"Rarity": "rare",
+			"LoadoutSlot": "concealedweapon",
+			"RepositoryId": "f276fcc6-84a1-43c9-8d88-e7dd83a1ce58"
+		},
+		"Rarity": "rare"
+	}
+}

@@ -19,7 +19,7 @@ const featChallenges = [
         "Rewards": {
             "MasteryXP": 4000
         },
-        "Drops": [],
+        "Drops": ["FIREARMS_HERO_PISTOL01_STEALTH_BASE"],
         "IsPlayable": false,
         "IsLocked": false,
         "HideProgression": false,
