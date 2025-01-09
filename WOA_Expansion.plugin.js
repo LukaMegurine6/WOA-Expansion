@@ -388,7 +388,7 @@ const contracts = [
             "GameVersion": "8.10.0.0",
             "ServerVersion": "8.10.0.0",
             "CodeName_Hint": "Demara",
-            "Type": "mission",
+            "Type": "flashback",
             "Subtype": "flashback",
             "Id": "d27ecffd-955a-4907-a5cc-72253ed56500",
             "PublicId": "194707810076",
@@ -607,7 +607,7 @@ const contracts = [
             "GameVersion": "8.10.0.0",
             "ServerVersion": "8.10.0.0",
             "CodeName_Hint": "Damanhur",
-            "Type": "mission",
+            "Type": "flashback",
             "Subtype": "flashback",
             "Id": "e07f9e22-53c1-4f28-9f2c-a4dff358180c",
             "PublicId": "137904207541",
@@ -867,7 +867,7 @@ const contracts = [
             "GameVersion": "8.10.0.0",
             "ServerVersion": "8.10.0.0",
             "CodeName_Hint": "Skhirat",
-            "Type": "mission",
+            "Type": "flashback",
             "Subtype": "flashback",
             "Id": "f8273d68-09fb-414e-b112-148560201f01",
             "PublicId": "162538875448",
@@ -1089,7 +1089,7 @@ const contracts = [
                         "ContextListeners": {
                             "CardsRemaining": {
                                 "type": "objective-counter",
-                                "header": "$loc UI_CONTRACT_STEAL_CARDS_TITLE",
+                                "header": "UI_CONTRACT_STEAL_CARDS_TITLE",
                                 "deactivate": 0
                             },
                             "ForceUpdateCounters": {
@@ -1229,7 +1229,7 @@ const contracts = [
             "GameVersion": "8.10.0.0",
             "ServerVersion": "8.10.0.0",
             "CodeName_Hint": "SnakeBite",
-            "Type": "mission",
+            "Type": "flashback",
             "Subtype": "flashback",
             "Id": "3526n108-6e12-4db7-afcd-d38fe24370e5",
             "PublicId": "154151630514",
@@ -1446,7 +1446,7 @@ const contracts = [
             "GameVersion": "8.10.0.0",
             "ServerVersion": "8.10.0.0",
             "CodeName_Hint": "Ponzi",
-            "Type": "mission",
+            "Type": "flashback",
             "Subtype": "flashback",
             "Id": "a49302e2-249e-4c17-a7f7-12a47d4cd485",
             "PublicId": "137955302114",
@@ -1912,7 +1912,7 @@ const contracts = [
             "GameVersion": "8.10.0.0",
             "ServerVersion": "8.10.0.0",
             "CodeName_Hint": "Asahi",
-            "Type": "mission",
+            "Type": "flashback",
             "Subtype": "flashback",
             "Id": "47asfedb-422e-480e-ab62-84db0e26bda8",
             "PublicId": "126187192293",
@@ -2422,7 +2422,9 @@ const contracts = [
                 {
                     "Id": "0c5eb0aa-6b87-4006-a80a-074612c9e782",
                     "Type": "statemachine",
+                    "UpdateActivationWhileCompleted": true,
                     "Category": "primary",
+                    "ForceShowOnLoadingScreen": true,
                     "Image": "images/Bust.jpg",
                     "BriefingName": "$loc UI_CONTRACT_STEAL_BUST",
                     "BriefingText": "$loc UI_CONTRACT_STEAL_BUST_DESC",
@@ -2939,7 +2941,6 @@ module.exports = function MissionPlugin(controller) {
         controller.addMission(contract)
         controller.missionsInLocations[contract.Metadata.Location].push(contract.Metadata.Id)
     })
-    orderedETs.push("g47sbccd-895a-4727-a5cc-72253ed56500")
     orderedETs.push("d27ecffd-895a-4727-a5cc-72253ed56500")
     orderedETs.push("d27ecffd-895a-4727-a7bb-62153ed56575")
     orderedETs.push("a47bdffd-895a-4727-a5cc-72253ed56500")
