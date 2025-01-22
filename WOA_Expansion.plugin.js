@@ -2434,7 +2434,7 @@ const contracts = [
                     "ForceShowOnLoadingScreen": true,
                     "HUDTemplate": {
                         "display": "$loc UI_CONTRACT_STEAL_BUST",
-                        "iconType": 16
+                        "iconType": 17
                     },
                     "Type": "statemachine",
                     "Scope": "hit",
