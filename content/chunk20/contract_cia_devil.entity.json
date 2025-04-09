@@ -15741,6 +15741,23 @@
 					"value": "d12fc231-020b-4673-a7b8-3789ed9fee93"
 				}
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9da53b5c89ab160f",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_NavpowerResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/sheep/scene_kiwi.navp].pc_navp",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	],
 	"overrideDeletes": [
