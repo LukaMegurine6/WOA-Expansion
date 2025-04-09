@@ -4634,173 +4634,6 @@
 			},
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
-		"cafed2136e1792e6": {
-			"parent": "feedfe32810b3b9b",
-			"name": "CHAR_Trapped_Guard_Bodyguard_SitSofa",
-			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 137.93475 },
-						"position": {
-							"x": -0.8936047,
-							"y": -39.783394,
-							"z": 0.0
-						}
-					}
-				},
-				"RepositoryId": {
-					"type": "ZGuid",
-					"value": "565fc409-bdf1-480b-adad-438e73032c16"
-				},
-				"m_OutfitRepositoryID": {
-					"type": "ZGuid",
-					"value": "4d6cf12a-22d8-4f9b-99fb-00d478abe000"
-				},
-				"m_nOutfitVariation": { "type": "int32", "value": 0 },
-				"m_sActorName": {
-					"type": "ZString",
-					"value": "Laurent Rivière"
-				},
-				"m_nWeaponIndex": { "type": "int32", "value": 1 },
-				"m_bWeaponUnholstered": { "type": "bool", "value": false },
-				"m_nOutfitCharset": { "type": "int32", "value": 0 },
-				"m_aEnforcedOutfits": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed5ebb776f4d6b", "cafe349d040ead6b"],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"subsets": {
-				"AudioEmitters": ["fffffffffffffffe"],
-				"Replicable": ["fffffffffffffffe"]
-			}
-		},
-		"cafe6c7d046d5b29": {
-			"parent": "cafed2136e1792e6",
-			"name": "ActorDeath",
-			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
-			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
-			"properties": {},
-			"events": {
-				"OnDead": { "SetFalse": [] },
-				"OnPacified": { "SetFalse": [] },
-				"OnAlive": { "SetTrue": [] }
-			}
-		},
-		"cafe6d2d6fbaba34": {
-			"parent": "cafed2136e1792e6",
-			"name": "Values",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"cafe02e3226502af": {
-			"parent": "cafed2136e1792e6",
-			"name": "ActorProxy",
-			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
-			"properties": {}
-		},
-		"cafe72342ff9da9c": {
-			"parent": "cafed2136e1792e6",
-			"name": "DramaSituation",
-			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aRoles": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe3ca193792d8e"]
-				}
-			}
-		},
-		"cafefae7b5f19c72": {
-			"parent": "cafe6d2d6fbaba34",
-			"name": "Alive",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": { "m_bValue": { "type": "bool", "value": true } }
-		},
-		"cafe355933eb77bf": {
-			"parent": "cafe6d2d6fbaba34",
-			"name": "Conscious",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": { "m_bValue": { "type": "bool", "value": true } }
-		},
-		"cafe3ca193792d8e": {
-			"parent": "cafe72342ff9da9c",
-			"name": "GuardSit",
-			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rActorProvider": {
-					"type": "SEntityTemplateReference",
-					"value": "cafed2136e1792e6",
-					"postInit": true
-				}
-			}
-		},
-		"cafe65788883b123": {
-			"parent": "cafe72342ff9da9c",
-			"name": "DramaSituationProxy",
-			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rOriginalDrama": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe72342ff9da9c"
-				}
-			},
-			"events": { "OnStart": { "Start": ["cafe1df550b4e50e"] } }
-		},
-		"cafe8f40364eef25": {
-			"parent": "cafe72342ff9da9c",
-			"name": "ValueBool",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
-			"properties": { "m_bValue": { "type": "bool", "value": true } }
-		},
-		"cafe1df550b4e50e": {
-			"parent": "cafe72342ff9da9c",
-			"name": "Act_MR_Sit_ChairBasic_LeanForward",
-			"factory": "00EAD06F5DFE0246",
-			"blueprint": "00FFADF7143CF5AC",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 88.38927 },
-						"position": {
-							"x": 9.868913,
-							"y": -31.91511,
-							"z": 0.012470958
-						}
-					}
-				},
-				"m_eApproachAlignment": {
-					"type": "ZActBehaviorEntity.EApproachAlignment",
-					"value": "AA_LOOSE"
-				},
-				"m_fActTimeout": { "type": "float32", "value": -1 },
-				"m_pActor": {
-					"type": "SEntityTemplateReference",
-					"value": "cafe3ca193792d8e",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			}
-		},
 		"cafe1e1e0d0f15a9": {
 			"parent": "feedac70d3b92ee1",
 			"name": "CHAR_Trapped_Guard_Elite_StayBegin",
@@ -15658,6 +15491,244 @@
 					"SetFalse": ["cafee8ed642a36fc"]
 				}
 			}
+		},
+		"cafeab336af84ee2": {
+			"parent": "feedfe32810b3b9b",
+			"name": "CHAR_Trapped_Guard_Bodyguard_Roamer2",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 137.93475 },
+						"position": {
+							"x": -0.8936047,
+							"y": -39.783394,
+							"z": 0.0
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "565fc409-bdf1-480b-adad-438e73032c16"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "4d6cf12a-22d8-4f9b-99fb-00d478abe000"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Laurent Rivière"
+				},
+				"m_nWeaponIndex": { "type": "int32", "value": 1 },
+				"m_bWeaponUnholstered": { "type": "bool", "value": false },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed5ebb776f4d6b", "cafe349d040ead6b"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe851541c7afee": {
+			"parent": "cafeab336af84ee2",
+			"name": "ActorDeath",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {},
+			"events": {
+				"OnDead": { "SetFalse": [] },
+				"OnPacified": { "SetFalse": [] },
+				"OnAlive": { "SetTrue": [] }
+			}
+		},
+		"cafe67ed56e3a724": {
+			"parent": "cafeab336af84ee2",
+			"name": "Values",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe3d4277892069": {
+			"parent": "cafeab336af84ee2",
+			"name": "ActorProxy",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {}
+		},
+		"cafe99e017f3c30e": {
+			"parent": "cafeab336af84ee2",
+			"name": "DramaSituation",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe2f7bab530721"]
+				}
+			}
+		},
+		"cafeaa061abe1c41": {
+			"parent": "cafe67ed56e3a724",
+			"name": "Alive",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe0c14f1746679": {
+			"parent": "cafe67ed56e3a724",
+			"name": "Conscious",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe2f7bab530721": {
+			"parent": "cafe99e017f3c30e",
+			"name": "GuardRoamer2",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeab336af84ee2",
+					"postInit": true
+				}
+			}
+		},
+		"cafe3f3a648210d9": {
+			"parent": "cafe99e017f3c30e",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe99e017f3c30e"
+				}
+			},
+			"events": { "OnStart": { "Start": ["cafe68b2d1f2e6e0"] } }
+		},
+		"cafe7e15628fff94": {
+			"parent": "cafe99e017f3c30e",
+			"name": "ValueBool",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"cafe68b2d1f2e6e0": {
+			"parent": "cafe99e017f3c30e",
+			"name": "Act_MR_Guard_Stand_ArmsCrossed",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -22.12127 },
+						"position": {
+							"x": 1.0324149,
+							"y": -41.978405,
+							"z": -0.17999999
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 25 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
+				"m_AlignRotation": {
+					"type": "ZActBehaviorEntity.ERotationAlignment",
+					"value": "RA_EXACT"
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2f7bab530721",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": { "OnActTimeout": { "Start": ["cafe08906f5110c7"] } }
+		},
+		"cafe08906f5110c7": {
+			"parent": "cafe99e017f3c30e",
+			"name": "Act_MR_Stand_ArmsInSide",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armsinside.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armsinside.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -147.79082
+						},
+						"position": {
+							"x": -8.65444,
+							"y": -64.55731,
+							"z": -0.33927009
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 30.0 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2f7bab530721",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": { "OnActTimeout": { "Start": ["cafe2ecb28c180dc"] } }
+		},
+		"cafe2ecb28c180dc": {
+			"parent": "cafe99e017f3c30e",
+			"name": "Act_MR_Stand_Phone_Text_Pace",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 59.90257 },
+						"position": {
+							"x": 7.287352,
+							"y": -29.0067,
+							"z": 0.0
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2f7bab530721",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["cafe68b2d1f2e6e0"] }
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		}
 	},
 	"propertyOverrides": [
