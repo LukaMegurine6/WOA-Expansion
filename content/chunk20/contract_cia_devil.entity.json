@@ -15758,6 +15758,23 @@
 					}
 				}
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "6ec40854c61e20c8",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pGrid": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/sheep/scene_kiwi.airg].pc_airg",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	],
 	"overrideDeletes": [
