@@ -2939,7 +2939,7 @@ const contracts = [
 module.exports = function MissionPlugin(controller) {
     contracts.forEach((contract) => {
         controller.addMission(contract)
-        controller.missionsInLocations[contract.Metadata.Location].push(contract.Metadata.Id)
+        controller.missionsInLocation.h3[contract.Metadata.Location].push(contract.Metadata.Id)
     })
     orderedETs.push("d27ecffd-895a-4727-a5cc-72253ed56500")
     orderedETs.push("d27ecffd-895a-4727-a7bb-62153ed56575")

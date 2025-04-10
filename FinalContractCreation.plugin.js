@@ -190,7 +190,7 @@ const contracts = [
 module.exports = function MissionPlugin(controller) {
     contracts.forEach((contract) => {
         controller.addMission(contract)
-        controller.missionsInLocations[contract.Metadata.Location].push(contract.Metadata.Id)
+        controller.missionsInLocation.h3[contract.Metadata.Location].push(contract.Metadata.Id)
     })
 
     log(LogLevel.INFO, "[FinalCreateContract] Plugin is loaded and contracts should be on mission screen!")
