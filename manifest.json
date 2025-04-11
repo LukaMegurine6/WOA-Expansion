@@ -4,7 +4,10 @@
 	"name": "WOA Expansion",
 	"description": "Add more missions, Special assignment and Elusives Target.",
 	"authors": ["MLuka47"],
-	"peacockPlugins": ["WOA_Expansion.plugin.js"],
+	"peacockPlugins": ["WOA_Expansion.plugin.js",
+					   "WOA_ElusiveTarget.plugin.js",
+					   "WOA_ElusiveTargetArcade.plugin.js"
+	],
 	"updateCheck": "https://github.com/LukaMegurine6/WOA-Expansion/releases/download/1.5.0/updates.json",
 	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
@@ -192,7 +195,9 @@
 			"UI_PEACOCK_FUJI2": "The Outcasts - Level 2",
 			"UI_PEACOCK_FUJI3": "The Outcasts - Level 3",
 			"UI_PEACOCK_FUJI_COMPLETED_NAME": "Eliminate the Outcasts",
-			"UI_PEACOCK_FUJI_COMPLETED_DESC": "• Eliminate all Elusive Targets that are part oh the Outcasts."
+			"UI_PEACOCK_FUJI_COMPLETED_DESC": "• Eliminate all Elusive Targets that are part oh the Outcasts.",
+			"UI_CHALLENGES_ET_URALOWL_TARGETDOWN_NAME" : "The Analyst",
+			"UI_CHALLENGES_ET_URALOWL_TARGETDOWN_DESC" : "• Assassinate The Analyst."
 
 
 			 
@@ -359,7 +364,9 @@
 			"UI_PEACOCK_FUJI2": "Les Parias - Niveau 2",
 			"UI_PEACOCK_FUJI3": "Les Parias - Niveau 3",
 			"UI_PEACOCK_FUJI_COMPLETED_NAME": "Éliminez les Parias.",
-			"UI_PEACOCK_FUJI_COMPLETED_DESC": "• Éliminez toutes les Cibles fugitives qui font partie des Parias."
+			"UI_PEACOCK_FUJI_COMPLETED_DESC": "• Éliminez toutes les Cibles fugitives qui font partie des Parias.",
+			"UI_CHALLENGES_ET_URALOWL_TARGETDOWN_NAME" : "L'Analyste",
+			"UI_CHALLENGES_ET_URALOWL_TARGETDOWN_DESC" : "• Assassinez L'Analyste."
 
 
 		},
@@ -573,6 +580,11 @@
 			"type": "entity",
 			"partition": "hokkaido",
 			"path": "[assembly:/_pro/scenes/missions/hokkaido/tod_bluenight.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "hokkaido",
+			"path": "[assembly:/_pro/scenes/missions/hokkaido/et_ural_owl.brick].entitytype"
 		},
 		{
 			"type": "entity",
