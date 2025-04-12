@@ -6492,7 +6492,7 @@ const targetChallenges = [
     {
         "Id": "c1526426-c015-48d1-a775-c8453b710727",
         "Name": "UI_CHALLENGES_ET_SAKURA_TARGETDOWN_NAME",
-        "ImageName": "images/challenges/elusive_target/et_tequila_targetdown.jpg",
+        "ImageName": "images/SatoruShimaka.jpg",
         "Description": "UI_CHALLENGES_ET_SAKURA_TARGETDOWN_DESC",
         "Rewards": {
             "MasteryXP": 2000
@@ -6530,6 +6530,94 @@ const targetChallenges = [
         "Tags": ["story", "medium", "elusive"],
         "InclusionData": {
             "ContractIds": ["d27ecffd-895a-4727-a5cc-72253ed56500"]
+        }
+                
+    },
+    {
+        "Id": "3c6a0c27-7073-4cdf-a1b4-e68f71bcfc1c",
+        "Name": "UI_CHALLENGES_ET_TIME_TARGETDOWN_NAME",
+        "ImageName": "images/RubyRed.jpg",
+        "Description": "UI_CHALLENGES_ET_TIME_TARGETDOWN_DESC",
+        "Rewards": {
+            "MasteryXP": 2000
+        },
+        "Drops": [],
+        "IsPlayable": false,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_ELUSIVE",
+        "Icon": "elusive",
+        "LocationId": "LOCATION_OPULENT_STINGRAY",
+        "ParentLocationId": "LOCATION_PARENT_OPULENT",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+            "Context": {},
+            "Scope": "session",
+            "States": {
+                "Start": {
+                    "Kill": {
+                        "Condition": {
+                            "$eq": [
+                                "$Value.RepositoryId",
+                                "b2f85b96-13cf-456d-a2f4-2c96f6831ad4"
+                            ]
+                        },
+                        "Transition": "Success"
+                    }
+                }
+            }
+        },
+        "Tags": ["story", "medium", "elusive"],
+        "InclusionData": {
+            "ContractIds": ["d27ecffd-895a-4727-a7bb-62153ed56575"]
+        }
+                
+    },
+    {
+        "Id": "8d68248c-f0e3-402e-b7ad-efa22e4c0b4f",
+        "Name": "UI_CHALLENGES_ET_SHARK_TARGETDOWN_NAME",
+        "ImageName": "images/EmanuelKnepp.jpg",
+        "Description": "UI_CHALLENGES_ET_SHARK_TARGETDOWN_DESC",
+        "Rewards": {
+            "MasteryXP": 2000
+        },
+        "Drops": [],
+        "IsPlayable": false,
+        "IsLocked": false,
+        "HideProgression": false,
+        "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_ELUSIVE",
+        "Icon": "elusive",
+        "LocationId": "LOCATION_ROCKY_DUGONG",
+        "ParentLocationId": "LOCATION_PARENT_ROCKY",
+        "Type": "contract",
+        "DifficultyLevels": [],
+        "OrderIndex": 10000,
+        "XpModifier": {},
+        "RuntimeType": "Hit",
+        "Definition": {
+            "Context": {},
+            "Scope": "session",
+            "States": {
+                "Start": {
+                    "Kill": {
+                        "Condition": {
+                            "$eq": [
+                                "$Value.RepositoryId",
+                                "9cbc5232-e58d-4fcb-8ab7-5982dbd3f800"
+                            ]
+                        },
+                        "Transition": "Success"
+                    }
+                }
+            }
+        },
+        "Tags": ["story", "medium", "elusive"],
+        "InclusionData": {
+            "ContractIds": ["a47bdffd-895a-4727-a5cc-72253ed56500"]
         }
                 
     },
@@ -6647,6 +6735,8 @@ module.exports = function ElusivesChallenges(controller) {
     controller.challengeService.registerGroup(arcadeChallenges, "LOCATION_PARENT_ELEGANT", "h3")
     controller.challengeService.registerGroup(elusiveChallenges, "LOCATION_PARENT_HOKKAIDO", "h3")
     controller.challengeService.registerGroup(targetChallenges, "LOCATION_PARENT_GREEDY", "h3")
+    controller.challengeService.registerGroup(targetChallenges, "LOCATION_PARENT_ROCKY", "h3")
+    controller.challengeService.registerGroup(targetChallenges, "LOCATION_PARENT_OPULENT", "h3")
 
     
 

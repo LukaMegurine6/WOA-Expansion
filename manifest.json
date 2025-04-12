@@ -197,7 +197,13 @@
 			"UI_PEACOCK_FUJI_COMPLETED_NAME": "Eliminate the Outcasts",
 			"UI_PEACOCK_FUJI_COMPLETED_DESC": "• Eliminate all Elusive Targets that are part oh the Outcasts.",
 			"UI_CHALLENGES_ET_URALOWL_TARGETDOWN_NAME" : "The Analyst",
-			"UI_CHALLENGES_ET_URALOWL_TARGETDOWN_DESC" : "• Assassinate The Analyst."
+			"UI_CHALLENGES_ET_URALOWL_TARGETDOWN_DESC" : "• Assassinate The Analyst.",
+			"UI_CHALLENGES_ET_SAKURA_TARGETDOWN_NAME" : "The Prime Minister",
+			"UI_CHALLENGES_ET_SAKURA_TARGETDOWN_DESC" : "• Assassinate The Prime Minister.",
+			"UI_CHALLENGES_ET_TIME_TARGETDOWN_NAME" : "The Journalist",
+			"UI_CHALLENGES_ET_TIME_TARGETDOWN_DESC": "• Assassinate The Journalist.",
+			"UI_CHALLENGES_ET_SHARK_TARGETDOWN_NAME": "The Informant",
+			"UI_CHALLENGES_ET_SHARK_TARGETDOWN_DESC": "• Assassinate The Informant."
 
 
 			 
@@ -366,7 +372,14 @@
 			"UI_PEACOCK_FUJI_COMPLETED_NAME": "Éliminez les Parias.",
 			"UI_PEACOCK_FUJI_COMPLETED_DESC": "• Éliminez toutes les Cibles fugitives qui font partie des Parias.",
 			"UI_CHALLENGES_ET_URALOWL_TARGETDOWN_NAME" : "L'Analyste",
-			"UI_CHALLENGES_ET_URALOWL_TARGETDOWN_DESC" : "• Assassinez L'Analyste."
+			"UI_CHALLENGES_ET_URALOWL_TARGETDOWN_DESC" : "• Assassinez L'Analyste.",
+			"UI_CHALLENGES_ET_SAKURA_TARGETDOWN_NAME" : "Le Premier Ministre",
+			"UI_CHALLENGES_ET_SAKURA_TARGETDOWN_DESC" : "• Assassinez Le Premier Ministre.",
+			"UI_CHALLENGES_ET_TIME_TARGETDOWN_NAME" : "La Journaliste",
+			"UI_CHALLENGES_ET_TIME_TARGETDOWN_DESC": "• Assassinez La Journaliste.",
+			"UI_CHALLENGES_ET_SHARK_TARGETDOWN_NAME": "L'Informateur",
+			"UI_CHALLENGES_ET_SHARK_TARGETDOWN_DESC": "• Assassinez L'Informateur."
+
 
 
 		},
