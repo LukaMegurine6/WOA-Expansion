@@ -1190,6 +1190,12 @@
 					"toChunk": 20,
 					"portFromChunk1": false,
 					"comments": "Camera for setpiece"
+				},
+				{
+					"runtimeID": "00998EDB3A746038",
+					"toChunk": 20,
+					"portFromChunk1": false,
+					"comments": "Aircon setpiece"
 				}
 
 				

@@ -15729,6 +15729,89 @@
 				"OnActTimeout": { "Start": ["cafe68b2d1f2e6e0"] }
 			},
 			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"cafe56dfb9de80ae": {
+			"parent": "feedd92d26a9418d",
+			"name": "Distractions",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe629262c33091": {
+			"parent": "cafe56dfb9de80ae",
+			"name": "VolumeBox 1",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.11981526086556
+						},
+						"position": {
+							"x": -8.21399974822998,
+							"y": -15.236000061035156,
+							"z": 0.0
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 7.541619777679443,
+						"y": 9.258299827575684,
+						"z": 3.342479944229126
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe22270a2f6c9e": {
+			"parent": "cafe56dfb9de80ae",
+			"name": "SetPiece_Distraction_AirCon_WallMounted_01",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_distractions.template?/setpiece_distraction_aircon_wallmounted_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_distractions.template?/setpiece_distraction_aircon_wallmounted_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 87.4934123456122
+						},
+						"position": {
+							"x": -15.091020584106444,
+							"y": -8.957002639770508,
+							"z": 1.149999976158142
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"NPCDispatchKeyword": {
+					"type": "SEntityTemplateReference",
+					"value": "feed447472116afe"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_Boxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe629262c33091"],
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		}
 	},
 	"propertyOverrides": [
