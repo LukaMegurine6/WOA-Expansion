@@ -16117,6 +16117,14 @@
 		{
 			"ref": "0cced5685d23a852",
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
+		},
+		{
+			"ref": "fd3b1729ae2afa1b",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "5f4a98a9c9e2b983",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],
