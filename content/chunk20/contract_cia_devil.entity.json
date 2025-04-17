@@ -11,7 +11,7 @@
 		},
 		"feedd92d26a9418d": {
 			"parent": "fffffffffffffffe",
-			"name": "Contract_CIA_Devil",
+			"name": "Contract_Kiwi",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
@@ -15812,6 +15812,200 @@
 				}
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe5ea58523a366": {
+			"parent": "feedd92d26a9418d",
+			"name": "Camera",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafeba19aaadf8f4": {
+			"parent": "cafe5ea58523a366",
+			"name": "Camera Kiwi 1 broken",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafeb007332994ed": {
+			"parent": "cafe5ea58523a366",
+			"name": "ValueBool_Proxy",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bFireOnLevelStart": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": false },
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeba19aaadf8f4"
+				}
+			}
+		},
+		"cafed27a0181efde": {
+			"parent": "cafe5ea58523a366",
+			"name": "SetPiece_Surveillance_Camera_Kiwi_01",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 177.54664277908464
+						},
+						"position": {
+							"x": -4.557276248931885,
+							"y": -15.817708015441896,
+							"z": 7.400000095367432
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"DiffusePower": { "type": "float32", "value": 1000.0 },
+				"Rotating": { "type": "bool", "value": true },
+				"m_fFrequency": {
+					"type": "float32",
+					"value": 0.029999999329447743
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 15.0, "y": 21.0 }
+				},
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -20.99999739494624,
+							"y": 0.0,
+							"z": 35.00000179913001
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"DetectionDistance": { "type": "float32", "value": 15.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"HMRecorded": { "SetTrue": ["cafe347026fe25f9"] },
+				"OnBroken": { "SetTrue": ["cafeb007332994ed"] }
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe347026fe25f9": {
+			"parent": "cafe5ea58523a366",
+			"name": "Recorded Kiwi Cam 1",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafe6329aa0956c8": {
+			"parent": "cafe5ea58523a366",
+			"name": "Camera Kiwi 2 broken",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafe191a38f7b093": {
+			"parent": "cafe5ea58523a366",
+			"name": "ValueBool_Proxy 2",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bFireOnLevelStart": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": false },
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6329aa0956c8"
+				}
+			}
+		},
+		"cafeec5baba6de40": {
+			"parent": "cafe5ea58523a366",
+			"name": "SetPiece_Surveillance_Camera_Kiwi_02",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 2.1511316885622622
+						},
+						"position": {
+							"x": 1.9212021827697752,
+							"y": -36.38668441772461,
+							"z": 7.399999618530273
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"DiffusePower": { "type": "float32", "value": 1000.0 },
+				"Rotating": { "type": "bool", "value": true },
+				"m_fFrequency": {
+					"type": "float32",
+					"value": 0.029999999329447743
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 15.0, "y": 21.0 }
+				},
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -20.99999739494624,
+							"y": 0.0,
+							"z": 35.00000179913001
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"DetectionDistance": { "type": "float32", "value": 15.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"HMRecorded": { "SetTrue": ["cafe5b254a00bd81"] },
+				"OnBroken": { "SetTrue": ["cafe191a38f7b093"] }
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafe5b254a00bd81": {
+			"parent": "cafe5ea58523a366",
+			"name": "Recorded Kiwi Cam 2",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [
@@ -15916,16 +16110,98 @@
 		{
 			"entities": [
 				{
-					"ref": "6ec40854c61e20c8",
+					"ref": "fe5f482c19d765c2",
 					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 				}
 			],
 			"properties": {
-				"m_pGrid": {
-					"type": "ZRuntimeResourceID",
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "df52fd7a7e79ea3c",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "130446702a000c7f",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "974cc5812f5e8458",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "61e02bc37245dcc1",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						"cafe347026fe25f9",
+						"cafe5b254a00bd81"
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "e59af8da12f1156d",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aSecurityDevices": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "5a137a6a20003a87",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "69f81559fa1dad16",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "b1abc3caba9eac21",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						"cafed27a0181efde",
+						"cafeec5baba6de40"
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "b3f0adb8638dd2ed",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/elusive_adonis.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aCameras": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "69f81559fa1dad16",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "b1abc3caba9eac21",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "5a137a6a20003a87",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						"cafed27a0181efde",
+						"cafeec5baba6de40"
+					]
+				},
+				"m_rEnabled": {
+					"type": "SEntityTemplateReference",
 					"value": {
-						"resource": "[assembly:/_pro/scenes/missions/sheep/scene_kiwi.airg].pc_airg",
-						"flag": "5F"
+						"ref": "e59af8da12f1156d",
+						"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype",
+						"exposedEntity": "IsWorking"
 					}
 				}
 			}
